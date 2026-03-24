@@ -153,10 +153,10 @@ const AboutPage = ()=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "sticky top-0",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$other$2d$hero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                    descriptionHeader: "Broad Vision. Exceptional Learning. Lasting Impact",
+                    descriptionHeader: "Broad Vision. Exceptional Business. Lasting Impact",
                     title: "About",
-                    description: "Our mission, both then and now, is to provide quality education while upholding the highest standards of integrity, professionalism, and student success.",
-                    backgroundImage: "/2025 Conference/bg-image.jpg",
+                    description: "Our mission, both then and now, is to equip small and medium-sized business owners with the knowledge, skills, and confidence to compete on a global scale.",
+                    backgroundImage: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283510/bg-image_vwbemw.jpg",
                     titleId: "hero-title",
                     descriptionId: "hero-description"
                 }, void 0, false, {

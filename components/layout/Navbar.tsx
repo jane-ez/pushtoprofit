@@ -46,12 +46,12 @@ export default function Navbar() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-16">
-          <div className="flex items-center justify-between h-20 lg:h-24">
+          <div className="flex items-center justify-between h-24 lg:h-24">
             {/* Logo */}
-            <div className="flex-shrink-0 h-full">
-              <a href="/" className="group flex items-center space-x-3 h-full">
+            <div className="shrink-0 h-full">
+              <a href="/" className="group flex items-center space-x-3 w-50 h-full">
                 <div className="relative h-full">
-                  {<div className="absolute -inset-2 bg-gradient-to-r from-lime-700/20 to-lime-400/20 blur-lg rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>}
+                  {<div className="absolute -inset-2 bg-linear-to-r from-amber-700/20 to-amber-400/20 blur-lg rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>}
                   <img
                     src="/logo-trans.png"
                     alt="logo"
@@ -61,14 +61,14 @@ export default function Navbar() {
                 {/* <div className="flex flex-col">
                   <span
                     className={`text-xl lg:text-2xl font-light tracking-tight transition-colors duration-500 ${
-                      isScrolled ? "text-blue-400" : "text-white"
+                      isScrolled ? "text-amber-400" : "text-white"
                     }`}
                   >
                     Push to Profit
                   </span>
                   <span
                     className={`text-lg font-light tracking-wider transition-colors duration-500 ${
-                      isScrolled ? "text-blue-400" : "text-white/80"
+                      isScrolled ? "text-amber-400" : "text-white/80"
                     }`}
                   >
                     School
@@ -85,12 +85,12 @@ export default function Navbar() {
                   href={item.href}
                   className={`relative group text-base font-light tracking-wide transition-colors duration-500 ${
                     isScrolled
-                      ? "text-gray-700 hover:text-blue-800"
+                      ? "text-gray-700 hover:text-amber-800"
                       : "text-white/90 hover:text-white"
                   }`}
                 >
                   {item.name}
-                  <div className="absolute -bottom-2 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-800 to-blue-500 group-hover:w-full transition-all duration-500"></div>
+                  <div className="absolute -bottom-2 left-0 w-0 h-0.5 bg-linear-to-r from-amber-400 to-amber-500 group-hover:w-full transition-all duration-500"></div>
                 </a>
               ))}
             </div>
@@ -99,7 +99,7 @@ export default function Navbar() {
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className={`lg:hidden relative p-3 rounded-lg transition-all duration-500 ${
-                isScrolled ? "text-blue-800" : "text-white "
+                isScrolled ? "text-amber-800" : "text-white "
               }`}
             >
               <div className="flex flex-col space-y-1.5 w-6">
@@ -108,19 +108,19 @@ export default function Navbar() {
                     isMenuOpen
                       ? "rotate-45 translate-y-2"
                       : "rotate-0 translate-y-0"
-                  } ${isScrolled ? "bg-blue-800" : "bg-white"}`}
+                  } ${isScrolled ? "bg-amber-800" : "bg-white"}`}
                 ></div>
                 <div
                   className={`h-0.5 w-full rounded-full transition-all duration-500 ${
                     isMenuOpen ? "opacity-0" : "opacity-100"
-                  } ${isScrolled ? "bg-blue-800" : "bg-white"}`}
+                  } ${isScrolled ? "bg-amber-800" : "bg-white"}`}
                 ></div>
                 <div
                   className={`h-0.5 w-full rounded-full transition-all duration-500 ${
                     isMenuOpen
                       ? "-rotate-45 -translate-y-2"
                       : "rotate-0 translate-y-0"
-                  } ${isScrolled ? "bg-blue-800" : "bg-white"}`}
+                  } ${isScrolled ? "bg-amber-800" : "bg-white"}`}
                 ></div>
               </div>
             </button>
@@ -135,7 +135,7 @@ export default function Navbar() {
         }`}
       >
         {/* Background with subtle gradient */}
-        <div className="absolute inset-0 bg-blue-900/80 backdrop-blur-xl" />
+        <div className="absolute inset-0 bg-amber-900/80 backdrop-blur-xl" />
 
         {/* Floating geometric elements */}
         <div className="absolute inset-0 overflow-hidden opacity-10">
@@ -176,7 +176,7 @@ export default function Navbar() {
                       className="group block py-3 border-b border-white/10 hover:border-white/30 transition-all duration-500"
                     >
                       <div className="flex items-center justify-between">
-                        <span className="text-xl font-light text-white group-hover:text-blue-200 transition-colors duration-500">
+                        <span className="text-xl font-light text-white group-hover:text-amber-200 transition-colors duration-500">
                           {item.name}
                         </span>
                         <div className="w-6 h-6 rounded-full border border-white/30 group-hover:border-white group-hover:bg-white/10 transition-all duration-500 flex items-center justify-center opacity-0 group-hover:opacity-100 transform translate-x-4 group-hover:translate-x-0">

@@ -83,7 +83,7 @@ const ContactPage = () => {
             }}
           >
             <div
-              className="w-16 h-16 border border-blue-400/30 transform-gpu"
+              className="w-16 h-16 border border-amber-400/30 transform-gpu"
               style={{
                 clipPath:
                   i % 2 === 0
@@ -100,7 +100,7 @@ const ContactPage = () => {
         {[...Array(20)].map((_, i) => (
           <div
             key={i}
-            className="absolute w-1 h-1 bg-gradient-to-r from-blue-400 to-teal-300 rounded-full"
+            className="absolute w-1 h-1 bg-gradient-to-r from-amber-400 to-teal-300 rounded-full"
             style={{
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
@@ -126,27 +126,27 @@ const ContactPage = () => {
             <div className="text-center space-y-8">
               {/* Decorative accent */}
               <div className="flex items-center justify-center space-x-4">
-                <div className="w-12 h-px bg-gradient-to-r from-blue-800 to-blue-700"></div>
-                <span className="text-sm font-medium text-blue-700 tracking-[0.15em] uppercase">
+                <div className="w-12 h-px bg-gradient-to-r from-amber-800 to-amber-700"></div>
+                <span className="text-sm font-medium text-amber-700 tracking-[0.15em] uppercase">
                   Get In Touch
                 </span>
-                <div className="w-12 h-px bg-gradient-to-r from-blue-700 to-blue-800"></div>
+                <div className="w-12 h-px bg-gradient-to-r from-amber-700 to-amber-800"></div>
               </div>
 
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-thin leading-[0.9] tracking-tight">
-                <span className="inline-block bg-gradient-to-r from-blue-800 via-blue-700 to-blue-800 bg-clip-text text-transparent">
+                <span className="inline-block bg-gradient-to-r from-amber-800 via-amber-700 to-amber-800 bg-clip-text text-transparent">
                   Contact Us
                 </span>
               </h1>
 
               <p className="text-lg md:text-xl text-gray-900 font-light leading-relaxed max-w-3xl mx-auto">
-                At Early Grip High School, we&apos;re committed to providing
+                At Push To Profit, we&apos;re committed to providing
                 quality education and nurturing young minds. Get in touch with
                 us for admissions, inquiries, or to learn more about our
                 programs.
               </p>
 
-              <div className="w-32 h-0.5 bg-gradient-to-r from-blue-700 via-blue-800 to-blue-700 mx-auto" />
+              <div className="w-32 h-0.5 bg-gradient-to-r from-amber-700 via-amber-800 to-amber-700 mx-auto" />
             </div>
           </div>
         </div>
@@ -161,18 +161,18 @@ const ContactPage = () => {
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <div className="w-8 h-8 relative">
-                    <div className="absolute top-1/2 left-0 w-full h-px bg-gradient-to-r from-blue-800 to-blue-700 transform -translate-y-1/2"></div>
-                    <div className="absolute left-1/2 top-0 w-px h-full bg-gradient-to-b from-blue-800 to-blue-700 transform -translate-x-1/2"></div>
-                    <div className="absolute top-1/2 left-1/2 w-2 h-2 bg-blue-800 rounded-full transform -translate-x-1/2 -translate-y-1/2"></div>
+                    <div className="absolute top-1/2 left-0 w-full h-px bg-gradient-to-r from-amber-800 to-amber-700 transform -translate-y-1/2"></div>
+                    <div className="absolute left-1/2 top-0 w-px h-full bg-gradient-to-b from-amber-800 to-amber-700 transform -translate-x-1/2"></div>
+                    <div className="absolute top-1/2 left-1/2 w-2 h-2 bg-amber-800 rounded-full transform -translate-x-1/2 -translate-y-1/2"></div>
                   </div>
                   <h2 className="text-3xl md:text-4xl font-light text-gray-900 tracking-tight">
                     Send Us A Message
                   </h2>
                 </div>
 
-                <div className="bg-blue-50/30 backdrop-blur-sm rounded-sm p-6 border border-blue-100/50">
+                <div className="bg-amber-50/30 backdrop-blur-sm rounded-sm p-6 border border-amber-100/50">
                   <h3 className="text-xl font-medium text-gray-900 mb-4">
-                    Early Grip High School Inquiry Form
+                    Push To Profit Inquiry Form
                   </h3>
                   <p className="text-gray-700 font-light leading-relaxed">
                     We&apos;re here to help with any questions about admissions,
@@ -186,7 +186,7 @@ const ContactPage = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <label className="text-sm font-medium text-gray-900 flex items-center space-x-2">
-                      <User className="w-4 h-4 text-blue-800" />
+                      <User className="w-4 h-4 text-amber-800" />
                       <span>Full Name *</span>
                     </label>
                     <input
@@ -195,14 +195,14 @@ const ContactPage = () => {
                       value={formData.fullName}
                       onChange={handleInputChange}
                       placeholder="Enter your full name"
-                      className="w-full px-4 py-3 bg-white/80 backdrop-blur-sm border border-blue-100/50 rounded-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-400/20 transition-all duration-300 text-gray-900 placeholder-gray-500"
+                      className="w-full px-4 py-3 bg-white/80 backdrop-blur-sm border border-amber-100/50 rounded-sm focus:outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-400/20 transition-all duration-300 text-gray-900 placeholder-gray-500"
                       required
                     />
                   </div>
 
                   <div className="space-y-2">
                     <label className="text-sm font-medium text-gray-900 flex items-center space-x-2">
-                      <Mail className="w-4 h-4 text-blue-800" />
+                      <Mail className="w-4 h-4 text-amber-800" />
                       <span>Email Address *</span>
                     </label>
                     <input
@@ -211,7 +211,7 @@ const ContactPage = () => {
                       value={formData.email}
                       onChange={handleInputChange}
                       placeholder="your.email@example.com"
-                      className="w-full px-4 py-3 bg-white/80 backdrop-blur-sm border border-blue-100/50 rounded-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-400/20 transition-all duration-300 text-gray-900 placeholder-gray-500"
+                      className="w-full px-4 py-3 bg-white/80 backdrop-blur-sm border border-amber-100/50 rounded-sm focus:outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-400/20 transition-all duration-300 text-gray-900 placeholder-gray-500"
                       required
                     />
                   </div>
@@ -220,7 +220,7 @@ const ContactPage = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <label className="text-sm font-medium text-gray-900 flex items-center space-x-2">
-                      <Phone className="w-4 h-4 text-blue-800" />
+                      <Phone className="w-4 h-4 text-amber-800" />
                       <span>Phone Number</span>
                     </label>
                     <input
@@ -229,20 +229,20 @@ const ContactPage = () => {
                       value={formData.phone}
                       onChange={handleInputChange}
                       placeholder="+234 803 123 4567"
-                      className="w-full px-4 py-3 bg-white/80 backdrop-blur-sm border border-blue-100/50 rounded-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-400/20 transition-all duration-300 text-gray-900 placeholder-gray-500"
+                      className="w-full px-4 py-3 bg-white/80 backdrop-blur-sm border border-amber-100/50 rounded-sm focus:outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-400/20 transition-all duration-300 text-gray-900 placeholder-gray-500"
                     />
                   </div>
 
                   <div className="space-y-2">
                     <label className="text-sm font-medium text-gray-900 flex items-center space-x-2">
-                      <BookOpen className="w-4 h-4 text-blue-800" />
+                      <BookOpen className="w-4 h-4 text-amber-800" />
                       <span>Inquiry Type *</span>
                     </label>
                     <select
                       name="inquiryType"
                       value={formData.inquiryType}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 bg-white/80 backdrop-blur-sm border border-blue-100/50 rounded-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-400/20 transition-all duration-300 text-gray-900"
+                      className="w-full px-4 py-3 bg-white/80 backdrop-blur-sm border border-amber-100/50 rounded-sm focus:outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-400/20 transition-all duration-300 text-gray-900"
                       required
                     >
                       <option value="">Select inquiry type</option>
@@ -265,7 +265,7 @@ const ContactPage = () => {
                       name="studentClass"
                       value={formData.studentClass}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 bg-white/80 backdrop-blur-sm border border-blue-100/50 rounded-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-400/20 transition-all duration-300 text-gray-900"
+                      className="w-full px-4 py-3 bg-white/80 backdrop-blur-sm border border-amber-100/50 rounded-sm focus:outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-400/20 transition-all duration-300 text-gray-900"
                     >
                       <option value="">Select class level</option>
                       <option value="jss1">JSS 1</option>
@@ -279,14 +279,14 @@ const ContactPage = () => {
 
                   <div className="space-y-2">
                     <label className="text-sm font-medium text-gray-900 flex items-center space-x-2">
-                      <Calendar className="w-4 h-4 text-blue-800" />
+                      <Calendar className="w-4 h-4 text-amber-800" />
                       <span>Preferred Contact Method</span>
                     </label>
                     <select
                       name="preferredContact"
                       value={formData.preferredContact}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 bg-white/80 backdrop-blur-sm border border-blue-100/50 rounded-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-400/20 transition-all duration-300 text-gray-900"
+                      className="w-full px-4 py-3 bg-white/80 backdrop-blur-sm border border-amber-100/50 rounded-sm focus:outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-400/20 transition-all duration-300 text-gray-900"
                     >
                       <option value="">Select preferred method</option>
                       <option value="email">Email</option>
@@ -299,7 +299,7 @@ const ContactPage = () => {
 
                 <div className="space-y-2">
                   <label className="text-sm font-medium text-gray-900 flex items-center space-x-2">
-                    <MessageSquare className="w-4 h-4 text-blue-800" />
+                    <MessageSquare className="w-4 h-4 text-amber-800" />
                     <span>Message *</span>
                   </label>
                   <textarea
@@ -308,7 +308,7 @@ const ContactPage = () => {
                     onChange={handleInputChange}
                     placeholder="Please tell us about your inquiry, questions about admissions, academic programs, or any other information you need..."
                     rows={6}
-                    className="w-full px-4 py-3 bg-white/80 backdrop-blur-sm border border-blue-100/50 rounded-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-400/20 transition-all duration-300 text-gray-900 placeholder-gray-500 resize-none"
+                    className="w-full px-4 py-3 bg-white/80 backdrop-blur-sm border border-amber-100/50 rounded-sm focus:outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-400/20 transition-all duration-300 text-gray-900 placeholder-gray-500 resize-none"
                     required
                   />
                 </div>
@@ -317,9 +317,9 @@ const ContactPage = () => {
                   <button
                     onClick={handleSubmit}
                     type="submit"
-                    className="group relative w-full md:w-auto px-8 py-4 bg-blue-800 text-white font-light text-lg hover:bg-blue-700 transition-all duration-500 overflow-hidden"
+                    className="group relative w-full md:w-auto px-8 py-4 bg-amber-800 text-white font-light text-lg hover:bg-amber-700 transition-all duration-500 overflow-hidden"
                   >
-                    <div className="absolute inset-0 bg-blue-700 scale-x-0 group-hover:scale-x-100 transition-transform duration-700 ease-out origin-left"></div>
+                    <div className="absolute inset-0 bg-amber-700 scale-x-0 group-hover:scale-x-100 transition-transform duration-700 ease-out origin-left"></div>
                     <span className="relative z-10 flex items-center justify-center space-x-3">
                       <Send className="w-5 h-5" />
                       <span>Send Message</span>
@@ -334,9 +334,9 @@ const ContactPage = () => {
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <div className="w-8 h-8 relative">
-                    <div className="absolute top-1/2 left-0 w-full h-px bg-gradient-to-r from-blue-800 to-blue-700 transform -translate-y-1/2"></div>
-                    <div className="absolute left-1/2 top-0 w-px h-full bg-gradient-to-b from-blue-800 to-blue-700 transform -translate-x-1/2"></div>
-                    <div className="absolute top-1/2 left-1/2 w-2 h-2 bg-blue-800 rounded-full transform -translate-x-1/2 -translate-y-1/2"></div>
+                    <div className="absolute top-1/2 left-0 w-full h-px bg-gradient-to-r from-amber-800 to-amber-700 transform -translate-y-1/2"></div>
+                    <div className="absolute left-1/2 top-0 w-px h-full bg-gradient-to-b from-amber-800 to-amber-700 transform -translate-x-1/2"></div>
+                    <div className="absolute top-1/2 left-1/2 w-2 h-2 bg-amber-800 rounded-full transform -translate-x-1/2 -translate-y-1/2"></div>
                   </div>
                   <h2 className="text-3xl md:text-4xl font-light text-gray-900 tracking-tight">
                     Contact Information
@@ -347,8 +347,8 @@ const ContactPage = () => {
               <div className="space-y-10">
                 {/* Phone Numbers */}
                 <div className="flex items-start space-x-6">
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-100/50 rounded-full flex items-center justify-center">
-                    <Phone className="w-5 h-5 text-blue-800" />
+                  <div className="flex-shrink-0 w-12 h-12 bg-amber-100/50 rounded-full flex items-center justify-center">
+                    <Phone className="w-5 h-5 text-amber-800" />
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-xl font-medium text-gray-900">
@@ -364,8 +364,8 @@ const ContactPage = () => {
 
                 {/* Email */}
                 <div className="flex items-start space-x-6">
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-100/50 rounded-full flex items-center justify-center">
-                    <Mail className="w-5 h-5 text-blue-800" />
+                  <div className="flex-shrink-0 w-12 h-12 bg-amber-100/50 rounded-full flex items-center justify-center">
+                    <Mail className="w-5 h-5 text-amber-800" />
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-xl font-medium text-gray-900">
@@ -379,8 +379,8 @@ const ContactPage = () => {
 
                 {/* Location */}
                 <div className="flex items-start space-x-6">
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-100/50 rounded-full flex items-center justify-center">
-                    <MapPin className="w-5 h-5 text-blue-800" />
+                  <div className="flex-shrink-0 w-12 h-12 bg-amber-100/50 rounded-full flex items-center justify-center">
+                    <MapPin className="w-5 h-5 text-amber-800" />
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-xl font-medium text-gray-900">
@@ -400,8 +400,8 @@ const ContactPage = () => {
 
                 {/* Working Hours */}
                 <div className="flex items-start space-x-6">
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-100/50 rounded-full flex items-center justify-center">
-                    <Clock className="w-5 h-5 text-blue-800" />
+                  <div className="flex-shrink-0 w-12 h-12 bg-amber-100/50 rounded-full flex items-center justify-center">
+                    <Clock className="w-5 h-5 text-amber-800" />
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-xl font-medium text-gray-900">
@@ -416,18 +416,18 @@ const ContactPage = () => {
               </div>
 
               {/* Call to Action */}
-              <div className="bg-gradient-to-br from-blue-50/50 to-white p-8 rounded-sm border border-blue-100/50">
+              <div className="bg-gradient-to-br from-amber-50/50 to-white p-8 rounded-sm border border-amber-100/50">
                 <div className="space-y-4">
                   <h3 className="text-xl font-medium text-gray-900">
                     Ready to Join Our School Community?
                   </h3>
                   <p className="text-gray-700 font-light leading-relaxed">
-                    Discover quality education at Early Grip High School.
+                    Discover quality business at Push To Profit.
                     Schedule a visit or call us to learn more about our academic
                     programs and admission process.
                   </p>
-                  <button className="group relative px-6 py-3 bg-transparent border border-blue-800/30 text-blue-800 font-light hover:border-blue-800 transition-all duration-500 overflow-hidden">
-                    <div className="absolute inset-0 bg-blue-800 scale-x-0 group-hover:scale-x-100 transition-transform duration-700 ease-out origin-left"></div>
+                  <button className="group relative px-6 py-3 bg-transparent border border-amber-800/30 text-amber-800 font-light hover:border-amber-800 transition-all duration-500 overflow-hidden">
+                    <div className="absolute inset-0 bg-amber-800 scale-x-0 group-hover:scale-x-100 transition-transform duration-700 ease-out origin-left"></div>
                     <span className="relative z-10 group-hover:text-white transition-colors duration-700 flex items-center space-x-2">
                       <span>Schedule a Visit</span>
                       <ArrowUpRight className="w-4 h-4" />

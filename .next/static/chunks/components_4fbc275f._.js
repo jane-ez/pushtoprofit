@@ -51,7 +51,7 @@ const OurStory = ({ title = "JANE MAXWELL", subtitle = "Awards and Recognition",
                 className: "absolute inset-0 z-0",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute top-1/4 right-1/4 w-96 h-96 bg-blue-800/10 rounded-full blur-3xl animate-pulse",
+                        className: "absolute top-1/4 right-1/4 w-96 h-96 bg-amber-800/10 rounded-full blur-3xl animate-pulse",
                         style: {
                             animationDuration: "8s"
                         }
@@ -61,7 +61,7 @@ const OurStory = ({ title = "JANE MAXWELL", subtitle = "Awards and Recognition",
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute bottom-1/3 left-1/4 w-80 h-80 bg-blue-700/5 rounded-full blur-2xl animate-pulse",
+                        className: "absolute bottom-1/3 left-1/4 w-80 h-80 bg-amber-700/5 rounded-full blur-2xl animate-pulse",
                         style: {
                             animationDuration: "10s",
                             animationDelay: "2s"
@@ -102,7 +102,7 @@ const OurStory = ({ title = "JANE MAXWELL", subtitle = "Awards and Recognition",
                                 className: "relative",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: `absolute -left-4 top-0 w-1 bg-gradient-to-b from-blue-700 to-blue-800 transition-all duration-1000 delay-300 ${isVisible ? "h-full opacity-100" : "h-0 opacity-0"}`
+                                        className: `absolute -left-4 top-0 w-1 bg-gradient-to-b from-amber-700 to-amber-800 transition-all duration-1000 delay-300 ${isVisible ? "h-full opacity-100" : "h-0 opacity-0"}`
                                     }, void 0, false, {
                                         fileName: "[project]/components/about/AboutSpark.tsx",
                                         lineNumber: 84,
@@ -113,7 +113,7 @@ const OurStory = ({ title = "JANE MAXWELL", subtitle = "Awards and Recognition",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                 src: image,
-                                                alt: "EarlyGrip High School",
+                                                alt: "Push To Profit",
                                                 className: `w-full h-[800px] object-cover transition-all duration-300 ${isVisible ? "grayscale-0 scale-100" : "grayscale scale-110"} hover:grayscale-0`
                                             }, void 0, false, {
                                                 fileName: "[project]/components/about/AboutSpark.tsx",
@@ -121,7 +121,7 @@ const OurStory = ({ title = "JANE MAXWELL", subtitle = "Awards and Recognition",
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: `absolute inset-0 bg-gradient-to-br from-black/30 via-blue-900/20 to-black/50 transition-opacity duration-300 delay-700 ${isVisible ? "opacity-100" : "opacity-0"}`
+                                                className: `absolute inset-0 bg-gradient-to-br from-black/30 via-amber-900/20 to-black/50 transition-opacity duration-300 delay-700 ${isVisible ? "opacity-100" : "opacity-0"}`
                                             }, void 0, false, {
                                                 fileName: "[project]/components/about/AboutSpark.tsx",
                                                 lineNumber: 101,
@@ -133,7 +133,7 @@ const OurStory = ({ title = "JANE MAXWELL", subtitle = "Awards and Recognition",
                                                     className: "flex items-center space-x-3 text-white",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2d$open$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BookOpen$3e$__["BookOpen"], {
-                                                            className: "w-5 h-5 text-blue-300"
+                                                            className: "w-5 h-5 text-amber-300"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/about/AboutSpark.tsx",
                                                             lineNumber: 116,
@@ -184,14 +184,14 @@ const OurStory = ({ title = "JANE MAXWELL", subtitle = "Awards and Recognition",
                                         className: `absolute -top-4 -right-4 w-8 h-8 transition-all duration-300 delay-1200 ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-0"}`,
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: `w-full h-1 bg-gradient-to-r from-blue-700 to-blue-800 mb-2 transition-all duration-300 delay-1700 ${isVisible ? "w-full" : "w-0"}`
+                                                className: `w-full h-1 bg-gradient-to-r from-amber-700 to-amber-800 mb-2 transition-all duration-300 delay-1700 ${isVisible ? "w-full" : "w-0"}`
                                             }, void 0, false, {
                                                 fileName: "[project]/components/about/AboutSpark.tsx",
                                                 lineNumber: 131,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: `w-1 bg-gradient-to-b from-blue-700 to-blue-800 transition-all duration-300 delay-1800 800 ${isVisible ? "h-full" : "h-0"}`
+                                                className: `w-1 bg-gradient-to-b from-amber-700 to-amber-800 transition-all duration-300 delay-1800 800 ${isVisible ? "h-full" : "h-0"}`
                                             }, void 0, false, {
                                                 fileName: "[project]/components/about/AboutSpark.tsx",
                                                 lineNumber: 136,
@@ -224,14 +224,14 @@ const OurStory = ({ title = "JANE MAXWELL", subtitle = "Awards and Recognition",
                                             className: `flex items-center space-x-4 transition-all duration-300 delay-200 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`,
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: `bg-gradient-to-r from-blue-700 to-blue-800 h-px transition-all duration-300 delay-700 ${isVisible ? "w-12" : "w-0"}`
+                                                    className: `bg-gradient-to-r from-amber-700 to-amber-800 h-px transition-all duration-300 delay-700 ${isVisible ? "w-12" : "w-0"}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/about/AboutSpark.tsx",
                                                     lineNumber: 162,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: `text-sm font-medium text-blue-700 tracking-[0.15em] uppercase transition-opacity duration-300 delay-800 ${isVisible ? "opacity-100" : "opacity-0"}`,
+                                                    className: `text-sm font-medium text-amber-700 tracking-[0.15em] uppercase transition-opacity duration-300 delay-800 ${isVisible ? "opacity-100" : "opacity-0"}`,
                                                     children: "Meet the Convener"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/about/AboutSpark.tsx",
@@ -247,7 +247,7 @@ const OurStory = ({ title = "JANE MAXWELL", subtitle = "Awards and Recognition",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                             className: `text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light leading-tight transition-all duration-300 delay-300 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "bg-gradient-to-r from-blue-300 via-blue-700 to-blue-800 bg-clip-text text-transparent",
+                                                className: "bg-gradient-to-r from-amber-300 via-amber-700 to-amber-800 bg-clip-text text-transparent",
                                                 children: title
                                             }, void 0, false, {
                                                 fileName: "[project]/components/about/AboutSpark.tsx",
@@ -260,7 +260,7 @@ const OurStory = ({ title = "JANE MAXWELL", subtitle = "Awards and Recognition",
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: `bg-gradient-to-r from-blue-700 to-blue-800 h-1 transition-all duration-300 delay-800 ${isVisible ? "w-16" : "w-0"}`
+                                            className: `bg-gradient-to-r from-amber-700 to-amber-800 h-1 transition-all duration-300 delay-800 ${isVisible ? "w-16" : "w-0"}`
                                         }, void 0, false, {
                                             fileName: "[project]/components/about/AboutSpark.tsx",
                                             lineNumber: 188,
@@ -276,7 +276,7 @@ const OurStory = ({ title = "JANE MAXWELL", subtitle = "Awards and Recognition",
                                     className: "space-y-6",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: `text-lg md:text-xl leading-relaxed font-light bg-gradient-to-r from-neutral-900 via-blue-800 to-neutral-900 bg-clip-text text-transparent transition-all duration-300 delay-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
+                                            className: `text-lg md:text-xl leading-relaxed font-light bg-gradient-to-r from-neutral-900 via-amber-800 to-neutral-900 bg-clip-text text-transparent transition-all duration-300 delay-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
                                             children: description
                                         }, void 0, false, {
                                             fileName: "[project]/components/about/AboutSpark.tsx",
@@ -284,7 +284,7 @@ const OurStory = ({ title = "JANE MAXWELL", subtitle = "Awards and Recognition",
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: `bg-blue-50/50 rounded p-6 border-l-4 border-blue-700 hover:translate-x-2 hover:border-l-8 transition-all duration-300 delay-800 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
+                                            className: `bg-amber-50/50 rounded p-6 border-l-4 border-amber-700 hover:translate-x-2 hover:border-l-8 transition-all duration-300 delay-800 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-base leading-relaxed text-gray-700",
                                                 children: "Lead Consultant, Janelheight Consult Ltd Business & Personal Development Consultant | Serial Entrepreneur | Sales Strategist | Team Builder | Public & Motivational Speaker"
@@ -308,7 +308,7 @@ const OurStory = ({ title = "JANE MAXWELL", subtitle = "Awards and Recognition",
                                     className: `space-y-6 transition-all duration-300 delay-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "text-xl md:text-2xl font-semibold bg-gradient-to-r from-blue-300 via-blue-700 to-blue-800 bg-clip-text text-transparent",
+                                            className: "text-xl md:text-2xl font-semibold bg-gradient-to-r from-amber-300 via-amber-700 to-amber-800 bg-clip-text text-transparent",
                                             children: subtitle
                                         }, void 0, false, {
                                             fileName: "[project]/components/about/AboutSpark.tsx",
@@ -325,7 +325,7 @@ const OurStory = ({ title = "JANE MAXWELL", subtitle = "Awards and Recognition",
                                                     },
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "flex-shrink-0 w-5 h-5 rounded-full bg-gradient-to-r from-blue-700 to-blue-800 flex items-center justify-center group-hover:scale-125 group-hover:rotate-180 transition-all duration-300",
+                                                            className: "flex-shrink-0 w-5 h-5 rounded-full bg-gradient-to-r from-amber-700 to-amber-800 flex items-center justify-center group-hover:scale-125 group-hover:rotate-180 transition-all duration-300",
                                                             children: feature.icon ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(feature.icon, {
                                                                 className: "w-3 h-3 text-white"
                                                             }, void 0, false, {
@@ -345,7 +345,7 @@ const OurStory = ({ title = "JANE MAXWELL", subtitle = "Awards and Recognition",
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-base md:text-lg font-medium bg-gradient-to-r from-neutral-900 via-blue-800 to-neutral-900 bg-clip-text text-transparent group-hover:from-blue-300 group-hover:to-blue-700 transition-all duration-200",
+                                                            className: "text-base md:text-lg font-medium bg-gradient-to-r from-neutral-900 via-amber-800 to-neutral-900 bg-clip-text text-transparent group-hover:from-amber-300 group-hover:to-amber-700 transition-all duration-200",
                                                             children: feature.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/about/AboutSpark.tsx",
@@ -373,7 +373,7 @@ const OurStory = ({ title = "JANE MAXWELL", subtitle = "Awards and Recognition",
                                     className: `space-y-4 transition-all duration-300 delay-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                            className: "text-lg font-medium text-blue-800",
+                                            className: "text-lg font-medium text-amber-800",
                                             children: "Professional Impact & Services"
                                         }, void 0, false, {
                                             fileName: "[project]/components/about/AboutSpark.tsx",
@@ -398,7 +398,7 @@ const OurStory = ({ title = "JANE MAXWELL", subtitle = "Awards and Recognition",
                                                     },
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: `w-2 h-2 bg-blue-700 rounded-full mt-2 flex-shrink-0 hover:scale-150 transition-all duration-300 delay-${1200 + index * 100} ${isVisible ? "scale-100" : "scale-0"}`,
+                                                            className: `w-2 h-2 bg-amber-700 rounded-full mt-2 flex-shrink-0 hover:scale-150 transition-all duration-300 delay-${1200 + index * 100} ${isVisible ? "scale-100" : "scale-0"}`,
                                                             style: {
                                                                 transitionDelay: `${1200 + index * 100}ms`
                                                             }
@@ -452,7 +452,7 @@ const OurStory = ({ title = "JANE MAXWELL", subtitle = "Awards and Recognition",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: `pt-6 transition-all duration-300 delay-1700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "bg-gradient-to-r from-blue-800 to-blue-800 rounded p-6 text-white hover:scale-105 hover:-translate-y-1 transition-all duration-300",
+                                        className: "bg-gradient-to-r from-amber-800 to-amber-800 rounded p-6 text-white hover:scale-105 hover:-translate-y-1 transition-all duration-300",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                                 className: "text-lg font-semibold mb-2",
@@ -463,8 +463,8 @@ const OurStory = ({ title = "JANE MAXWELL", subtitle = "Awards and Recognition",
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-blue-100 mb-4",
-                                                children: "Contact us today to learn more about admission opportunities at EarlyGrip High School."
+                                                className: "text-amber-100 mb-4",
+                                                children: "Contact us today to learn more about business opportunities at Push To Profit."
                                             }, void 0, false, {
                                                 fileName: "[project]/components/about/AboutSpark.tsx",
                                                 lineNumber: 338,
@@ -510,21 +510,21 @@ const OurStory = ({ title = "JANE MAXWELL", subtitle = "Awards and Recognition",
                                         className: "flex items-center space-x-4",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: `bg-gradient-to-r from-blue-700 to-blue-800 h-px transition-all duration-300 delay-1700 ${isVisible ? "w-8" : "w-0"}`
+                                                className: `bg-gradient-to-r from-amber-700 to-amber-800 h-px transition-all duration-300 delay-1700 ${isVisible ? "w-8" : "w-0"}`
                                             }, void 0, false, {
                                                 fileName: "[project]/components/about/AboutSpark.tsx",
                                                 lineNumber: 356,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: `w-2 h-2 bg-blue-700 rounded-full transition-all duration-300 delay-1900 ${isVisible ? "scale-100" : "scale-0"}`
+                                                className: `w-2 h-2 bg-amber-700 rounded-full transition-all duration-300 delay-1900 ${isVisible ? "scale-100" : "scale-0"}`
                                             }, void 0, false, {
                                                 fileName: "[project]/components/about/AboutSpark.tsx",
                                                 lineNumber: 361,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: `bg-gradient-to-r from-blue-800 to-blue-800 h-px transition-all duration-300 delay-2100 ${isVisible ? "w-12" : "w-0"}`
+                                                className: `bg-gradient-to-r from-amber-800 to-amber-800 h-px transition-all duration-300 delay-2100 ${isVisible ? "w-12" : "w-0"}`
                                             }, void 0, false, {
                                                 fileName: "[project]/components/about/AboutSpark.tsx",
                                                 lineNumber: 366,
@@ -632,7 +632,7 @@ function VisionSection() {
             subtitle: "Maximizing Profitability",
             description: "At Push to Profit, our vision is to discover, define and design the untapped potential of small and medium sized business owners...",
             detail: "Empowering them to grow, innovate, and achieve sustainable success while maximizing profitability.",
-            image: "/2025 Conference/IMG-20250402-WA0093.jpg",
+            image: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283509/IMG-20250402-WA0096_qx1byx.jpg",
             imageAlt: "At the 2025 conference"
         },
         {
@@ -641,7 +641,7 @@ function VisionSection() {
             subtitle: "Holistic Development",
             description: "Our mission is to equip small and medium-sized business owners with the knowledge, skills, and confidence to compete on a global scale.",
             detail: "We achieve this through intensive training, personalized one-on-one mentorship, and dynamic group learning experiences, fostering a culture of professionalism, innovation, and growth.",
-            image: "/2025 Conference/IMG-20250401-WA0176.jpg",
+            image: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283509/IMG-20250401-WA0151_h2rln6.jpg",
             imageAlt: "Our mission pics"
         },
         {
@@ -650,19 +650,19 @@ function VisionSection() {
             subtitle: "Primary Goal & Ideology",
             description: "The Push to Profit Business Conference aims to equip small and medium-sized business owners with transformative insights that first reshape their mindset and, in turn, elevate their businesses and financial success. By connecting them with industry experts and fostering a dynamic environment for networking, collaboration, and cross-industry  partnerships,  the  conference  entrepreneurs to unlock new opportunities for growth.",
             detail: "We believe that a well-trained business owner with vision and strategic foresight can achieve remarkable success in a shorter time compared to those without proper guidance. By creating this platform, we can reach and train more entrepreneurs simultaneously, helping them become the best versions of themselves while maximizing profitability.",
-            image: "/2025 Conference/IMG-20250401-WA0172.jpg",
+            image: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283141/4_eoc85t.jpg",
             imageAlt: "Students in music class"
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         ref: sectionRef,
-        className: "relative py-16 sm:py-20 md:py-24 lg:py-32 bg-gradient-to-br from-blue-50 via-white to-blue-100 overflow-hidden",
+        className: "relative py-16 sm:py-20 md:py-24 lg:py-32 bg-gradient-to-br from-amber-50 via-white to-amber-100 overflow-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0 z-0",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute top-1/4 right-1/4 w-96 h-96 bg-blue-700/8 rounded-full blur-3xl animate-pulse",
+                        className: "absolute top-1/4 right-1/4 w-96 h-96 bg-amber-700/8 rounded-full blur-3xl animate-pulse",
                         style: {
                             animationDuration: "8s"
                         }
@@ -672,7 +672,7 @@ function VisionSection() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute bottom-1/3 left-1/4 w-80 h-80 bg-blue-800/5 rounded-full blur-2xl animate-pulse",
+                        className: "absolute bottom-1/3 left-1/4 w-80 h-80 bg-amber-800/5 rounded-full blur-2xl animate-pulse",
                         style: {
                             animationDuration: "10s",
                             animationDelay: "2s"
@@ -700,14 +700,14 @@ function VisionSection() {
                                     className: `flex items-center space-x-4 mb-6 transition-all duration-600 delay-200 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`,
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: `bg-gradient-to-r from-blue-700 to-blue-900 h-px transition-all duration-300 delay-400 ${isVisible ? "w-12" : "w-0"}`
+                                            className: `bg-gradient-to-r from-amber-700 to-amber-900 h-px transition-all duration-300 delay-400 ${isVisible ? "w-12" : "w-0"}`
                                         }, void 0, false, {
                                             fileName: "[project]/components/about/OurMission.tsx",
                                             lineNumber: 114,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: `text-sm font-medium text-blue-700 tracking-[0.15em] uppercase transition-opacity duration-600 delay-600 ${isVisible ? "opacity-100" : "opacity-0"}`,
+                                            className: `text-sm font-medium text-amber-700 tracking-[0.15em] uppercase transition-opacity duration-600 delay-600 ${isVisible ? "opacity-100" : "opacity-0"}`,
                                             children: "Push to Profit Business Philosophy"
                                         }, void 0, false, {
                                             fileName: "[project]/components/about/OurMission.tsx",
@@ -730,7 +730,7 @@ function VisionSection() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "bg-gradient-to-r from-blue-800/80 via-blue-700 to-blue-900 bg-clip-text text-transparent",
+                                            className: "bg-gradient-to-r from-amber-800/80 via-amber-700 to-amber-900 bg-clip-text text-transparent",
                                             children: "Maximum Profit"
                                         }, void 0, false, {
                                             fileName: "[project]/components/about/OurMission.tsx",
@@ -744,7 +744,7 @@ function VisionSection() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: `bg-gradient-to-r from-blue-700 to-blue-900 h-1 transition-all duration-300 delay-800 ${isVisible ? "w-16" : "w-0"}`
+                                    className: `bg-gradient-to-r from-amber-700 to-amber-900 h-1 transition-all duration-300 delay-800 ${isVisible ? "w-16" : "w-0"}`
                                 }, void 0, false, {
                                     fileName: "[project]/components/about/OurMission.tsx",
                                     lineNumber: 142,
@@ -796,7 +796,7 @@ function VisionSection() {
                                                     className: "aspect-[4/3] relative",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: `absolute -left-2 top-0 w-1 bg-gradient-to-b from-blue-800/80 to-blue-900 transition-all duration-1000 delay-${1000 + index * 200} ${isVisible ? "h-full opacity-100" : "h-0 opacity-0"}`
+                                                            className: `absolute -left-2 top-0 w-1 bg-gradient-to-b from-amber-800/80 to-amber-900 transition-all duration-1000 delay-${1000 + index * 200} ${isVisible ? "h-full opacity-100" : "h-0 opacity-0"}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/about/OurMission.tsx",
                                                             lineNumber: 206,
@@ -812,7 +812,7 @@ function VisionSection() {
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "absolute inset-0 bg-gradient-to-br from-blue-900/25 via-blue-900/15 to-blue-900/30 opacity-70 group-hover:opacity-50 transition-opacity duration-300"
+                                                            className: "absolute inset-0 bg-gradient-to-br from-amber-900/25 via-amber-900/15 to-amber-900/30 opacity-70 group-hover:opacity-50 transition-opacity duration-300"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/about/OurMission.tsx",
                                                             lineNumber: 223,
@@ -904,14 +904,14 @@ function VisionSection() {
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: `bg-gray-200 group-hover:bg-blue-400 h-px transition-all duration-300 delay-${1000 + index * 200} ${isVisible ? "w-8" : "w-0"}`
+                                                                className: `bg-gray-200 group-hover:bg-amber-400 h-px transition-all duration-300 delay-${1000 + index * 200} ${isVisible ? "w-8" : "w-0"}`
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/about/OurMission.tsx",
                                                                 lineNumber: 281,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                className: `text-sm font-medium text-blue-700 tracking-[0.15em] uppercase transition-opacity duration-600 delay-${1200 + index * 200} ${isVisible ? "opacity-100" : "opacity-0"}`,
+                                                                className: `text-sm font-medium text-amber-700 tracking-[0.15em] uppercase transition-opacity duration-600 delay-${1200 + index * 200} ${isVisible ? "opacity-100" : "opacity-0"}`,
                                                                 children: item.subtitle
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/about/OurMission.tsx",
@@ -925,7 +925,7 @@ function VisionSection() {
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                        className: `text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light text-gray-900 leading-tight tracking-tight group-hover:from-blue-800/80 group-hover:to-blue-900 group-hover:bg-gradient-to-r group-hover:bg-clip-text group-hover:text-transparent transition-all duration-300 delay-${900 + index * 200} ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
+                                                        className: `text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light text-gray-900 leading-tight tracking-tight group-hover:from-amber-800/80 group-hover:to-amber-900 group-hover:bg-gradient-to-r group-hover:bg-clip-text group-hover:text-transparent transition-all duration-300 delay-${900 + index * 200} ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
                                                         children: item.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/about/OurMission.tsx",
@@ -941,7 +941,7 @@ function VisionSection() {
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: `text-base text-gray-700 leading-relaxed font-light border-l-2 border-gray-200 pl-6 group-hover:border-blue-400 transition-all duration-300 delay-${1200 + index * 200} ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
+                                                        className: `text-base text-gray-700 leading-relaxed font-light border-l-2 border-gray-200 pl-6 group-hover:border-amber-400 transition-all duration-300 delay-${1200 + index * 200} ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
                                                         children: item.detail
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/about/OurMission.tsx",
@@ -949,10 +949,10 @@ function VisionSection() {
                                                         columnNumber: 19
                                                     }, this),
                                                     item.id === "mission" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: `bg-blue-50/50 rounded p-4 border-l-4 border-blue-700 hover:translate-x-2 hover:border-l-6 transition-all duration-300 delay-${1300 + index * 200} ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
+                                                        className: `bg-amber-50/50 rounded p-4 border-l-4 border-amber-700 hover:translate-x-2 hover:border-l-6 transition-all duration-300 delay-${1300 + index * 200} ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                                className: "text-sm font-semibold text-blue-700 mb-2",
+                                                                className: "text-sm font-semibold text-amber-700 mb-2",
                                                                 children: "Key Features:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/about/OurMission.tsx",
@@ -966,7 +966,7 @@ function VisionSection() {
                                                                         className: "flex items-center space-x-2",
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                className: "w-1.5 h-1.5 bg-blue-700 rounded-full"
+                                                                                className: "w-1.5 h-1.5 bg-amber-700 rounded-full"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/about/OurMission.tsx",
                                                                                 lineNumber: 350,
@@ -989,7 +989,7 @@ function VisionSection() {
                                                                         className: "flex items-center space-x-2",
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                className: "w-1.5 h-1.5 bg-blue-700 rounded-full"
+                                                                                className: "w-1.5 h-1.5 bg-amber-700 rounded-full"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/about/OurMission.tsx",
                                                                                 lineNumber: 356,
@@ -1012,7 +1012,7 @@ function VisionSection() {
                                                                         className: "flex items-center space-x-2",
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                className: "w-1.5 h-1.5 bg-blue-700 rounded-full"
+                                                                                className: "w-1.5 h-1.5 bg-amber-700 rounded-full"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/about/OurMission.tsx",
                                                                                 lineNumber: 360,
@@ -1044,10 +1044,10 @@ function VisionSection() {
                                                         columnNumber: 21
                                                     }, this),
                                                     item.id === "approach" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: `bg-blue-50/50 rounded p-4 border-l-4 border-blue-800/80 hover:translate-x-2 hover:border-l-6 transition-all duration-300 delay-${1300 + index * 200} ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
+                                                        className: `bg-amber-50/50 rounded p-4 border-l-4 border-amber-800/80 hover:translate-x-2 hover:border-l-6 transition-all duration-300 delay-${1300 + index * 200} ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                                className: "text-sm font-semibold text-blue-700 mb-2",
+                                                                className: "text-sm font-semibold text-amber-700 mb-2",
                                                                 children: "Musical Education:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/about/OurMission.tsx",
@@ -1061,7 +1061,7 @@ function VisionSection() {
                                                                         className: "flex items-center space-x-2",
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                className: "w-1.5 h-1.5 bg-blue-800/80 rounded-full"
+                                                                                className: "w-1.5 h-1.5 bg-amber-800/80 rounded-full"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/about/OurMission.tsx",
                                                                                 lineNumber: 382,
@@ -1084,7 +1084,7 @@ function VisionSection() {
                                                                         className: "flex items-center space-x-2",
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                className: "w-1.5 h-1.5 bg-blue-800/80 rounded-full"
+                                                                                className: "w-1.5 h-1.5 bg-amber-800/80 rounded-full"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/about/OurMission.tsx",
                                                                                 lineNumber: 386,
@@ -1107,7 +1107,7 @@ function VisionSection() {
                                                                         className: "flex items-center space-x-2",
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                className: "w-1.5 h-1.5 bg-blue-800/80 rounded-full"
+                                                                                className: "w-1.5 h-1.5 bg-amber-800/80 rounded-full"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/about/OurMission.tsx",
                                                                                 lineNumber: 390,
@@ -1130,7 +1130,7 @@ function VisionSection() {
                                                                         className: "flex items-center space-x-2",
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                className: "w-1.5 h-1.5 bg-blue-800/80 rounded-full"
+                                                                                className: "w-1.5 h-1.5 bg-amber-800/80 rounded-full"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/about/OurMission.tsx",
                                                                                 lineNumber: 394,
@@ -1165,14 +1165,14 @@ function VisionSection() {
                                                         className: `flex items-center space-x-4 pt-4 transition-all duration-600 delay-${1400 + index * 200} ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "w-12 h-px bg-gradient-to-r from-blue-700 to-blue-900 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"
+                                                                className: "w-12 h-px bg-gradient-to-r from-amber-700 to-amber-900 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/about/OurMission.tsx",
                                                                 lineNumber: 411,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "w-2 h-2 bg-blue-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                                                                className: "w-2 h-2 bg-amber-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/about/OurMission.tsx",
                                                                 lineNumber: 412,
@@ -1199,7 +1199,7 @@ function VisionSection() {
                                     index < visionItems.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: `mt-12 md:mt-16 lg:mt-20 transition-all duration-300 delay-${1700 + index * 200} ${isVisible ? "opacity-100" : "opacity-0"}`,
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-full h-px bg-gradient-to-r from-transparent via-blue-300 to-transparent"
+                                            className: "w-full h-px bg-gradient-to-r from-transparent via-amber-300 to-transparent"
                                         }, void 0, false, {
                                             fileName: "[project]/components/about/OurMission.tsx",
                                             lineNumber: 424,
@@ -1218,10 +1218,10 @@ function VisionSection() {
                                             transform: "translate(0, 0)"
                                         },
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "bg-white/95 backdrop-blur-sm border border-blue-200 p-4 shadow-lg max-w-xs rounded",
+                                            className: "bg-white/95 backdrop-blur-sm border border-amber-200 p-4 shadow-lg max-w-xs rounded",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-sm text-blue-700 font-medium",
+                                                    className: "text-sm text-amber-700 font-medium",
                                                     children: item.subtitle
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/about/OurMission.tsx",
@@ -1229,7 +1229,7 @@ function VisionSection() {
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-xs text-blue-700 mt-1",
+                                                    className: "text-xs text-amber-700 mt-1",
                                                     children: "For high profitability"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/about/OurMission.tsx",
@@ -1267,21 +1267,21 @@ function VisionSection() {
                                     className: "flex items-center justify-center space-x-8",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: `bg-gradient-to-r from-transparent via-blue-700 to-transparent h-px transition-all duration-300 delay-2200 ${isVisible ? "w-16" : "w-0"}`
+                                            className: `bg-gradient-to-r from-transparent via-amber-700 to-transparent h-px transition-all duration-300 delay-2200 ${isVisible ? "w-16" : "w-0"}`
                                         }, void 0, false, {
                                             fileName: "[project]/components/about/OurMission.tsx",
                                             lineNumber: 462,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: `w-3 h-3 border border-blue-700 transform rotate-45 transition-all duration-300 delay-2400 ${isVisible ? "scale-100" : "scale-0"}`
+                                            className: `w-3 h-3 border border-amber-700 transform rotate-45 transition-all duration-300 delay-2400 ${isVisible ? "scale-100" : "scale-0"}`
                                         }, void 0, false, {
                                             fileName: "[project]/components/about/OurMission.tsx",
                                             lineNumber: 467,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: `bg-gradient-to-r from-transparent via-blue-700 to-transparent h-px transition-all duration-300 delay-2600 ${isVisible ? "w-16" : "w-0"}`
+                                            className: `bg-gradient-to-r from-transparent via-amber-700 to-transparent h-px transition-all duration-300 delay-2600 ${isVisible ? "w-16" : "w-0"}`
                                         }, void 0, false, {
                                             fileName: "[project]/components/about/OurMission.tsx",
                                             lineNumber: 472,
@@ -1294,7 +1294,7 @@ function VisionSection() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: `text-sm text-blue-700 font-light tracking-[0.15em] uppercase transition-opacity duration-600 delay-2800 ${isVisible ? "opacity-100" : "opacity-0"}`,
+                                    className: `text-sm text-amber-700 font-light tracking-[0.15em] uppercase transition-opacity duration-600 delay-2800 ${isVisible ? "opacity-100" : "opacity-0"}`,
                                     children: "Excellence Through Education"
                                 }, void 0, false, {
                                     fileName: "[project]/components/about/OurMission.tsx",
@@ -1315,7 +1315,7 @@ function VisionSection() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: `mt-16 text-center transition-all duration-300 delay-2400 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "bg-gradient-to-r from-blue-800 to-blue-900 rounded p-8 text-white hover:scale-105 hover:-translate-y-1 transition-all duration-300",
+                            className: "bg-gradient-to-r from-amber-800 to-amber-900 rounded p-8 text-white hover:scale-105 hover:-translate-y-1 transition-all duration-300",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                     className: "text-2xl font-light mb-4",
@@ -1326,7 +1326,7 @@ function VisionSection() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-blue-200 mb-6 max-w-2xl mx-auto",
+                                    className: "text-amber-200 mb-6 max-w-2xl mx-auto",
                                     children: "Experience world-class education in our nurturing environment. Contact us to learn more about admission opportunities."
                                 }, void 0, false, {
                                     fileName: "[project]/components/about/OurMission.tsx",
@@ -1387,21 +1387,21 @@ function VisionSection() {
                             className: "flex items-center justify-center space-x-4",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: `bg-gradient-to-r from-blue-700 to-blue-900 h-px transition-all duration-300 delay-2800 ${isVisible ? "w-8" : "w-0"}`
+                                    className: `bg-gradient-to-r from-amber-700 to-amber-900 h-px transition-all duration-300 delay-2800 ${isVisible ? "w-8" : "w-0"}`
                                 }, void 0, false, {
                                     fileName: "[project]/components/about/OurMission.tsx",
                                     lineNumber: 520,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: `w-2 h-2 bg-blue-700 rounded-full transition-all duration-300 delay-3000 ${isVisible ? "scale-100" : "scale-0"}`
+                                    className: `w-2 h-2 bg-amber-700 rounded-full transition-all duration-300 delay-3000 ${isVisible ? "scale-100" : "scale-0"}`
                                 }, void 0, false, {
                                     fileName: "[project]/components/about/OurMission.tsx",
                                     lineNumber: 525,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: `bg-gradient-to-r from-blue-800 to-blue-900 h-px transition-all duration-300 delay-3200 ${isVisible ? "w-12" : "w-0"}`
+                                    className: `bg-gradient-to-r from-amber-800 to-amber-900 h-px transition-all duration-300 delay-3200 ${isVisible ? "w-12" : "w-0"}`
                                 }, void 0, false, {
                                     fileName: "[project]/components/about/OurMission.tsx",
                                     lineNumber: 530,
@@ -1455,7 +1455,7 @@ var _s = __turbopack_context__.k.signature();
 "use client";
 ;
 ;
-const ArchitectureHero = ({ title, description, descriptionHeader, backgroundImage, leftIcon: LeftIcon = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plus$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Plus$3e$__["Plus"], titleClassName = "", descriptionClassName = "", backgroundColor = "bg-gradient-to-br from-black via-gray-900 to-blue-950", containerClassName = "", imagePosition = "right", contentAlignment = "center", titleId, descriptionId })=>{
+const ArchitectureHero = ({ title, description, descriptionHeader, backgroundImage, leftIcon: LeftIcon = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plus$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Plus$3e$__["Plus"], titleClassName = "", descriptionClassName = "", backgroundColor = "bg-gradient-to-br from-black via-gray-900 to-amber-950", containerClassName = "", imagePosition = "right", contentAlignment = "center", titleId, descriptionId })=>{
     _s();
     const [scrollY, setScrollY] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
     const requestRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
@@ -1504,7 +1504,7 @@ const ArchitectureHero = ({ title, description, descriptionHeader, backgroundIma
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute inset-0 bg-gradient-to-br from-black/70 via-blue-900/40 to-black/80"
+                        className: "absolute inset-0 bg-gradient-to-br from-black/70 via-amber-900/40 to-black/80"
                     }, void 0, false, {
                         fileName: "[project]/components/ui/other-hero.tsx",
                         lineNumber: 92,
@@ -1520,14 +1520,14 @@ const ArchitectureHero = ({ title, description, descriptionHeader, backgroundIma
                 className: "absolute inset-0 z-0",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute top-1/4 right-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"
+                        className: "absolute top-1/4 right-1/4 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl"
                     }, void 0, false, {
                         fileName: "[project]/components/ui/other-hero.tsx",
                         lineNumber: 98,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute bottom-1/3 left-1/4 w-80 h-80 bg-blue-400/5 rounded-full blur-2xl"
+                        className: "absolute bottom-1/3 left-1/4 w-80 h-80 bg-amber-400/5 rounded-full blur-2xl"
                     }, void 0, false, {
                         fileName: "[project]/components/ui/other-hero.tsx",
                         lineNumber: 99,
@@ -1549,7 +1549,7 @@ const ArchitectureHero = ({ title, description, descriptionHeader, backgroundIma
                         className: "flex-1 mt-20 md:m-0 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-xl xl:max-w-2xl 2xl:max-w-4xl mx-auto md:mx-0 text-center md:text-left",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold leading-tight mb-2 sm:mb-3 md:mb-4 lg:mb-6 bg-gradient-to-r from-blue-300 via-blue-400 to-blue-500 bg-clip-text text-transparent",
+                                className: "text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold leading-tight mb-2 sm:mb-3 md:mb-4 lg:mb-6 bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500 bg-clip-text text-transparent",
                                 children: descriptionHeader
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/other-hero.tsx",
@@ -1558,7 +1558,7 @@ const ArchitectureHero = ({ title, description, descriptionHeader, backgroundIma
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 id: descriptionId,
-                                className: `text-base lg:text-lg xl:text-xl font-light leading-relaxed mb-4 sm:mb-6 md:mb-8 bg-gradient-to-r from-white via-blue-100 to-blue-200 bg-clip-text text-transparent ${contentAlignClass[contentAlignment]} ${descriptionClassName}`,
+                                className: `text-base lg:text-lg xl:text-xl font-light leading-relaxed mb-4 sm:mb-6 md:mb-8 bg-gradient-to-r from-white via-amber-100 to-amber-200 bg-clip-text text-transparent ${contentAlignClass[contentAlignment]} ${descriptionClassName}`,
                                 children: description
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/other-hero.tsx",
@@ -1574,7 +1574,7 @@ const ArchitectureHero = ({ title, description, descriptionHeader, backgroundIma
                     imagePosition === "right" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex-shrink-0 mt-2 md:mt-0 md:ml-6 lg:ml-8 xl:ml-12",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(LeftIcon, {
-                            className: "w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:w-10 xl:h-10 text-blue-400 opacity-70 hover:opacity-100 transition-opacity"
+                            className: "w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:w-10 xl:h-10 text-amber-400 opacity-70 hover:opacity-100 transition-opacity"
                         }, void 0, false, {
                             fileName: "[project]/components/ui/other-hero.tsx",
                             lineNumber: 123,
@@ -1595,7 +1595,7 @@ const ArchitectureHero = ({ title, description, descriptionHeader, backgroundIma
                 className: "fixed left-0 right-0 z-5 pointer-events-none overflow-hidden bottom-32 md:bottom-12 h-40",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                     id: titleId,
-                    className: `relative w-full text-center transition-transform duration-[30ms] ease-[cubic-bezier(0.25, 0.46, 0.45, 0.94)] will-change-transform font-bold  bg-gradient-to-br from-blue-900/60 via-blue-800/70 to-blue-700/75 bg-clip-text text-transparent text-4xl md:text-5xl  ${titleClassName}`,
+                    className: `relative w-full text-center transition-transform duration-[30ms] ease-[cubic-bezier(0.25, 0.46, 0.45, 0.94)] will-change-transform font-bold  bg-gradient-to-br from-amber-900/60 via-amber-800/70 to-amber-700/75 bg-clip-text text-transparent text-4xl md:text-5xl  ${titleClassName}`,
                     style: {
                         transform: `translateY(${displacement}px)`,
                         textShadow: "0 0 40px rgba(34, 197, 94, 0.1)",

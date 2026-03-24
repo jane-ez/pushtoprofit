@@ -24,26 +24,25 @@ const Contact = () => {
           {/* Left Content */}
           <div className="space-y-8">
             <div className="space-y-6">
-              <div className="w-16 h-px bg-blue-300"></div>
+              <div className="w-16 h-px bg-amber-300"></div>
 
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-blue-900 leading-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-amber-900 leading-tight">
                 Excellence in
-                <span className="block text-blue-700 italic">Education</span>
+                <span className="block text-amber-700 italic">Education</span>
               </h1>
 
-              <p className="text-lg text-blue-800 leading-relaxed max-w-lg">
-                Discover unparalleled acadmics excellence with EarlyGripHigh
-                school. Our expert team delivers tailored solutions that
+              <p className="text-lg text-amber-800 leading-relaxed max-w-lg">
+                Discover unparalleled business excellence with Push To Profit. Our expert team delivers tailored solutions that
                 transform your children into Future leaders.
               </p>
             </div>
 
             <div className="flex flex-col items-center sm:flex-row gap-4">
-              <button className="group relative overflow-hidden rounded w-fit bg-blue-800 text-white px-8 py-3 text-sm uppercase tracking-wide">
+              <button className="group relative overflow-hidden rounded w-fit bg-amber-800 text-white px-8 py-3 text-sm uppercase tracking-wide">
                 <span className="relative z-10">Join Us</span>
               </button>
 
-              <button className="group relative overflow-hidden rounded hover:bg-blue-100 transiti duration-300 w-fit text-blue-800 px-8 py-3 text-sm uppercase tracking-wide border border-blue-300">
+              <button className="group relative overflow-hidden rounded hover:bg-amber-100 transiti duration-300 w-fit text-amber-800 px-8 py-3 text-sm uppercase tracking-wide border border-amber-300">
                 <span className="relative z-10 transition-colors duration-300">
                   Learn More
                 </span>
@@ -63,7 +62,7 @@ const Contact = () => {
               {/*  overlay rectangles */}
               <div className="absolute inset-0">
                 {/* Main subtle overlay */}
-                <div className="absolute inset-0 bg-blue-900/20"></div>
+                <div className="absolute inset-0 bg-amber-900/20"></div>
 
                 {/* Decorative geometric overlay */}
                 <div className="absolute top-8 left-8 w-24 h-24 border-2 border-white/30"></div>
@@ -73,12 +72,12 @@ const Contact = () => {
                 <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-bl from-white/20 to-transparent"></div>
 
                 {/* Bottom gradient fade */}
-                <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-blue-900/30 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-amber-900/30 to-transparent"></div>
               </div>
             </div>
 
             {/*  border accent */}
-            <div className="absolute -bottom-4 -right-4 w-full h-full border-2 border-blue-500  -z-10"></div>
+            <div className="absolute -bottom-4 -right-4 w-full h-full border-2 border-amber-500  -z-10"></div>
           </div>
         </div>
       </div>

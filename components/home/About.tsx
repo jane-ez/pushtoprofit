@@ -131,7 +131,7 @@ export default function About() {
         transition={{ duration: 2 }}
       >
         <motion.div
-          className="absolute w-full h-full opacity-20 bg-gradient-to-br from-blue-50 via-emerald-50 to-blue-100"
+          className="absolute w-full h-full opacity-20 bg-gradient-to-br from-amber-50 via-emerald-50 to-amber-100"
           animate={{
             background: [
               "linear-gradient(45deg, #dbeafe, #d1fae5, #dbeafe)",
@@ -170,7 +170,7 @@ export default function About() {
               ease: "easeInOut",
             }}
           >
-            <div className="w-8 h-8 border border-blue-300 rounded-full" />
+            <div className="w-8 h-8 border border-amber-300 rounded-full" />
           </motion.div>
         ))}
       </div>
@@ -194,13 +194,13 @@ export default function About() {
                   variants={fadeInUp}
                 >
                   <motion.div
-                    className="w-12 h-px bg-gradient-to-r from-blue-800 to-gray-800"
+                    className="w-12 h-px bg-gradient-to-r from-amber-800 to-gray-800"
                     initial={{ width: 0 }}
                     animate={isHeroInView ? { width: 48 } : { width: 0 }}
                     transition={{ duration: 1, delay: 0.5 }}
                   />
                   <motion.span
-                    className="text-sm font-medium text-blue-700 tracking-wide uppercase"
+                    className="text-sm font-medium text-amber-700 tracking-wide uppercase"
                     initial={{ opacity: 0, x: -20 }}
                     animate={
                       isHeroInView
@@ -218,7 +218,7 @@ export default function About() {
                   variants={fadeInUp}
                 >
                   <motion.span
-                    className="bg-gradient-to-r from-blue-800 to-emerald-800 bg-clip-text text-transparent"
+                    className="bg-gradient-to-r from-amber-800 to-emerald-800 bg-clip-text text-transparent"
                     initial={{ backgroundPosition: "200% center" }}
                     animate={
                       isHeroInView
@@ -246,7 +246,7 @@ export default function About() {
                 </motion.h1>
 
                 <motion.div
-                  className="w-32 h-0.5 bg-gradient-to-r from-blue-800 to-emerald-800"
+                  className="w-32 h-0.5 bg-gradient-to-r from-amber-800 to-emerald-800"
                   initial={{ width: 0 }}
                   animate={isHeroInView ? { width: 128 } : { width: 0 }}
                   transition={{ duration: 1, delay: 1 }}
@@ -287,13 +287,13 @@ export default function About() {
 
               <motion.div className="pt-4" variants={fadeInUp}>
                 <motion.button
-                  className="group px-8 py-4 text-white font-medium transition-all duration-300 shadow-lg"
+                  className="group px-8 py-4 bg-amber-400 text-white font-medium transition-all duration-300 shadow-lg"
                   whileHover={{
                     scale: 1.05,
                     boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1)",
-                    backgroundColor:"#A8B83F"
+                    // backgroundColor:"#A8B83F"
                   }}
-                  initial={{backgroundColor:"#9ACD32"}}
+                  // initial={{backgroundColor:"#9ACD32"}}
                   whileTap={{ scale: 0.95 }}
                 >
                   <span className="flex items-center space-x-2">
@@ -320,10 +320,10 @@ export default function About() {
                 <div className="relative overflow-hidden shadow-2xl">
                   <motion.img
                     src="/ceopushtoprofit.png"
-                    alt="Earlygrip High School Campus"
+                    alt="Push To Profit"
                     className="w-full h-auto"
                     style={{
-                      aspectRatio: "4/3",
+                      aspectRatio: "6/6",
                       objectFit: "cover",
                     }}
                     initial={{ scale: 1.2, opacity: 0 }}
@@ -350,7 +350,7 @@ export default function About() {
                       transition={{ duration: 0.3, delay: 0.1 }}
                     >
                       <p className="text-sm font-medium">
-                        Earlygrip High School students
+                        Push To Profit
                       </p>
                       <p className="text-xs opacity-90">
                         Port Harcourt, Rivers State
@@ -361,7 +361,7 @@ export default function About() {
 
                 {/* Animated Decorative elements */}
                 <motion.div
-                  className="absolute -top-4 -right-4 w-12 h-12 border-2 border-blue-300 rounded-full"
+                  className="absolute -top-4 -right-4 w-12 h-12 border-2 border-amber-300 rounded-full"
                   animate={{
                     scale: [1, 1.2, 1],
                     rotate: [0, 180, 360],
@@ -394,7 +394,7 @@ export default function About() {
       {/* School Statistics Section */}
       <motion.section
         ref={statsRef}
-        className="relative py-20 bg-gradient-to-r from-lime-500 to-lime-300"
+        className="relative py-20 bg-gradient-to-r from-amber-500 to-amber-300"
         initial={{ opacity: 0, y: 100 }}
         animate={isStatsInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
         transition={{ duration: 1, ease: "easeOut" }}
@@ -523,7 +523,7 @@ export default function About() {
                   Shaping Tomorrow&apos;s
                   <br />
                   <motion.span
-                    className="bg-gradient-to-r from-lime-700 to-lime-400 bg-clip-text text-transparent"
+                    className="bg-gradient-to-r from-amber-700 to-amber-400 bg-clip-text text-transparent"
                     initial={{ backgroundPosition: "200% center" }}
                     animate={
                       isVisionInView
@@ -538,7 +538,7 @@ export default function About() {
                 </motion.h2>
 
                 <motion.div
-                  className="w-32 h-0.5 bg-gradient-to-r from-lime-700 to-lime-400 mx-auto"
+                  className="w-32 h-0.5 bg-gradient-to-r from-amber-700 to-amber-400 mx-auto"
                   initial={{ width: 0 }}
                   animate={isVisionInView ? { width: 128 } : { width: 0 }}
                   transition={{ duration: 1, delay: 1 }}

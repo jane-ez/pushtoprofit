@@ -62,7 +62,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             />
 
             {/* Main Image Container */}
-            <div className="relative overflow-hidden bg-black/50 backdrop-blur-sm border border-blue-500/20">
+            <div className="relative overflow-hidden bg-black/50 backdrop-blur-sm border border-amber-500/20">
               <div className="aspect-[4/3] relative overflow-hidden">
                 <img
                   src={project.image}
@@ -93,9 +93,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
               {/* Floating Status Badge */}
               <div className="absolute top-6 left-6 z-20">
-                <div className="flex items-center space-x-2 bg-black/70 backdrop-blur-lg rounded-lg px-4 py-2 border border-blue-600/30">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full animate-pulse" />
-                  <span className="text-xs font-medium text-blue-300 uppercase tracking-wider">
+                <div className="flex items-center space-x-2 bg-black/70 backdrop-blur-lg rounded-lg px-4 py-2 border border-amber-600/30">
+                  <div className="w-2 h-2 bg-amber-600 rounded-full animate-pulse" />
+                  <span className="text-xs font-medium text-amber-300 uppercase tracking-wider">
                     {project.status}
                   </span>
                 </div>
@@ -130,14 +130,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               <div
                 className={`w-8 h-0.5 bg-gradient-to-r ${project.gradient}`}
               />
-              <span className="text-xs font-medium text-blue-700 tracking-[0.2em] uppercase">
+              <span className="text-xs font-medium text-amber-700 tracking-[0.2em] uppercase">
                 {project.category}
               </span>
             </div>
 
             {/* Title */}
             <h3 className="text-3xl sm:text-4xl md:text-5xl font-light leading-tight">
-              <span className="bg-gradient-to-r from-blue-700 via-blue-800 to-blue-700 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-amber-700 via-amber-800 to-amber-700 bg-clip-text text-transparent">
                 {project.title}
               </span>
             </h3>
@@ -162,14 +162,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
           {/* Location */}
           <div className="flex items-center space-x-3 text-gray-600">
-            <MapPin className="w-4 h-4 text-blue-600" />
+            <MapPin className="w-4 h-4 text-amber-600" />
             <span className="text-sm font-light">{project.location}</span>
           </div>
 
           {/*  CTA */}
           <div className="pt-4">
-            <button className="group relative px-8 py-3 bg-transparent border rounded border-blue-600/30 text-blue-600 font-light text-base hover:border-blue-600 transition-all duration-500 overflow-hidden">
-              <div className="absolute inset-0 bg-blue-800 scale-x-0 group-hover:scale-x-100 transition-transform duration-700 ease-out origin-left"></div>
+            <button className="group relative px-8 py-3 bg-transparent border rounded border-amber-600/30 text-amber-600 font-light text-base hover:border-amber-600 transition-all duration-500 overflow-hidden">
+              <div className="absolute inset-0 bg-amber-800 scale-x-0 group-hover:scale-x-100 transition-transform duration-700 ease-out origin-left"></div>
               <span
                 className="relative z-10 group-hover:text-white transition-colors duration-700"
                 style={{

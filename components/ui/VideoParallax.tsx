@@ -82,7 +82,7 @@ export const VideoParallax = ({
         {/* Enhanced fallback background */}
         {mediaItems.length === 0 && (
           <motion.div
-            className="absolute inset-0 bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900"
+            className="absolute inset-0 bg-gradient-to-br from-slate-900 via-amber-950 to-slate-900"
             style={{
               y: videoY,
               scale: videoScale,

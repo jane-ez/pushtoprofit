@@ -48,17 +48,17 @@ const ServicesPage = () => {
         <div className="max-w-6xl mx-auto px-6 text-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <p className="text-sm font-medium text-blue-600 tracking-wider uppercase">
+              <p className="text-sm font-medium text-amber-600 tracking-wider uppercase">
                 What We Offer
               </p>
               <h1 className="text-5xl lg:text-6xl font-light tracking-tight">
-                <span className="bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-amber-600 to-amber-800 bg-clip-text text-transparent">
                   Our Specialization
                 </span>
               </h1>
             </div>
 
-            <div className="w-16 h-px bg-gradient-to-r from-blue-400 to-blue-600 mx-auto" />
+            <div className="w-16 h-px bg-gradient-to-r from-amber-400 to-amber-600 mx-auto" />
 
             <p className="text-xl text-gray-600 font-light max-w-3xl mx-auto leading-relaxed">
               Our mission is simple yet powerful: to deliver outstanding
@@ -81,16 +81,16 @@ const ServicesPage = () => {
               <div key={index} className="group">
                 <div className="relative">
                   {/* Subtle border accent */}
-                  <div className="absolute -left-4 top-0 w-px h-16 bg-gradient-to-b from-blue-400 to-blue-600" />
+                  <div className="absolute -left-4 top-0 w-px h-16 bg-gradient-to-b from-amber-400 to-amber-600" />
 
-                  <div className="bg-white/80 backdrop-blur-sm border border-gray-100  p-8 hover:border-blue-200 hover:shadow-lg transition-all duration-500">
+                  <div className="bg-white/80 backdrop-blur-sm border border-gray-100  p-8 hover:border-amber-200 hover:shadow-lg transition-all duration-500">
                     {/* Icon and Title */}
                     <div className="flex items-center gap-4 mb-6">
-                      <div className="bg-blue-50 p-3  text-blue-600 group-hover:bg-blue-100 transition-colors duration-300">
+                      <div className="bg-amber-50 p-3  text-amber-600 group-hover:bg-amber-100 transition-colors duration-300">
                         {service.icon}
                       </div>
                       <h3 className="text-2xl font-light">
-                        <span className="bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
+                        <span className="bg-gradient-to-r from-amber-600 to-amber-800 bg-clip-text text-transparent">
                           {service.title}
                         </span>
                       </h3>
@@ -105,7 +105,7 @@ const ServicesPage = () => {
                     <div className="space-y-2">
                       {service.features.map((feature, idx) => (
                         <div key={idx} className="flex items-center gap-3">
-                          <div className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
+                          <div className="w-1.5 h-1.5 bg-amber-500 rounded-full" />
                           <span className="text-sm text-gray-700 font-medium">
                             {feature}
                           </span>
@@ -115,9 +115,9 @@ const ServicesPage = () => {
 
                     {/* CTA */}
                     <div className="mt-8">
-                      <button className="group/btn relative overflow-hidden text-blue-600 border border-blue-200 px-6 py-2.5 hover:text-white transition-colors duration-300 font-medium text-sm tracking-wide">
+                      <button className="group/btn relative overflow-hidden text-amber-600 border border-amber-200 px-6 py-2.5 hover:text-white transition-colors duration-300 font-medium text-sm tracking-wide">
                         <span className="relative z-10">Learn More</span>
-                        <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-blue-600 transform translate-x-full group-hover/btn:translate-x-0 transition-transform duration-300" />
+                        <div className="absolute inset-0 bg-gradient-to-r from-amber-500 to-amber-600 transform translate-x-full group-hover/btn:translate-x-0 transition-transform duration-300" />
                       </button>
                     </div>
                   </div>
@@ -129,29 +129,29 @@ const ServicesPage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-24 bg-gradient-to-br from-blue-800 to-blue-900">
+      <section className="relative py-24 bg-gradient-to-br from-amber-800 to-amber-900">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <div className="space-y-8">
-            <p className="text-sm font-medium text-blue-300 tracking-wider uppercase">
+            <p className="text-sm font-medium text-amber-300 tracking-wider uppercase">
               Get Started
             </p>
 
             <h2 className="text-4xl lg:text-5xl font-light leading-tight">
-              <span className="bg-gradient-to-r from-blue-200 to-blue-300 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-amber-200 to-amber-300 bg-clip-text text-transparent">
                 Ready to Begin Your Project?
               </span>
             </h2>
 
-            <div className="w-16 h-px bg-gradient-to-r from-blue-300 to-blue-400 mx-auto" />
+            <div className="w-16 h-px bg-gradient-to-r from-amber-300 to-amber-400 mx-auto" />
 
-            <p className="text-lg text-blue-100/90 font-light max-w-2xl mx-auto leading-relaxed">
+            <p className="text-lg text-amber-100/90 font-light max-w-2xl mx-auto leading-relaxed">
               Let us transform your vision into reality with our expertise,
               dedication, and unwavering commitment to excellence.
             </p>
 
-            <button className="group relative overflow-hidden bg-white/95 text-blue-800 px-8 py-4 hover:text-white transition-colors duration-300 font-medium tracking-wide shadow-lg">
+            <button className="group relative overflow-hidden bg-white/95 text-amber-800 px-8 py-4 hover:text-white transition-colors duration-300 font-medium tracking-wide shadow-lg">
               <span className="relative z-10">Start Your Project</span>
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-700 transform translate-x-full group-hover:translate-x-0 transition-transform duration-300" />
+              <div className="absolute inset-0 bg-gradient-to-r from-amber-600 to-amber-700 transform translate-x-full group-hover:translate-x-0 transition-transform duration-300" />
             </button>
           </div>
         </div>

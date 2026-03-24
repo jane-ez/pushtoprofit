@@ -37,7 +37,7 @@ const ArchitectureHero: React.FC<HeroProps> = ({
   leftIcon: LeftIcon = Plus,
   titleClassName = "",
   descriptionClassName = "",
-  backgroundColor = "bg-gradient-to-br from-black via-gray-900 to-blue-950",
+  backgroundColor = "bg-gradient-to-br from-black via-gray-900 to-amber-950",
   containerClassName = "",
 
   imagePosition = "right",
@@ -81,7 +81,7 @@ const ArchitectureHero: React.FC<HeroProps> = ({
     <div
       className={`relative min-h-screen w-full overflow-hidden ${backgroundColor} ${containerClassName}`}
     >
-      {/* Background image with blue overlay */}
+      {/* Background image with amber overlay */}
       {backgroundImage && (
         <div className="absolute inset-0 z-0">
           <img
@@ -89,14 +89,14 @@ const ArchitectureHero: React.FC<HeroProps> = ({
             alt="Hero background"
             className="absolute inset-0 w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-blue-900/40 to-black/80" />
+          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-amber-900/40 to-black/80" />
         </div>
       )}
 
       {/* Decorative elements */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/3 left-1/4 w-80 h-80 bg-blue-400/5 rounded-full blur-2xl" />
+        <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl" />
+        <div className="absolute bottom-1/3 left-1/4 w-80 h-80 bg-amber-400/5 rounded-full blur-2xl" />
       </div>
 
       {/* Main layout - Better mobile centering */}
@@ -107,12 +107,12 @@ const ArchitectureHero: React.FC<HeroProps> = ({
         }}
       >
         <div className="flex-1 mt-20 md:m-0 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-xl xl:max-w-2xl 2xl:max-w-4xl mx-auto md:mx-0 text-center md:text-left">
-          <h1 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold leading-tight mb-2 sm:mb-3 md:mb-4 lg:mb-6 bg-gradient-to-r from-blue-300 via-blue-400 to-blue-500 bg-clip-text text-transparent">
+          <h1 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold leading-tight mb-2 sm:mb-3 md:mb-4 lg:mb-6 bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500 bg-clip-text text-transparent">
             {descriptionHeader}
           </h1>
           <p
             id={descriptionId}
-            className={`text-base lg:text-lg xl:text-xl font-light leading-relaxed mb-4 sm:mb-6 md:mb-8 bg-gradient-to-r from-white via-blue-100 to-blue-200 bg-clip-text text-transparent ${contentAlignClass[contentAlignment]} ${descriptionClassName}`}
+            className={`text-base lg:text-lg xl:text-xl font-light leading-relaxed mb-4 sm:mb-6 md:mb-8 bg-gradient-to-r from-white via-amber-100 to-amber-200 bg-clip-text text-transparent ${contentAlignClass[contentAlignment]} ${descriptionClassName}`}
           >
             {description}
           </p>
@@ -120,7 +120,7 @@ const ArchitectureHero: React.FC<HeroProps> = ({
 
         {imagePosition === "right" && (
           <div className="flex-shrink-0 mt-2 md:mt-0 md:ml-6 lg:ml-8 xl:ml-12">
-            <LeftIcon className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:w-10 xl:h-10 text-blue-400 opacity-70 hover:opacity-100 transition-opacity" />
+            <LeftIcon className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:w-10 xl:h-10 text-amber-400 opacity-70 hover:opacity-100 transition-opacity" />
           </div>
         )}
       </main>
@@ -129,7 +129,7 @@ const ArchitectureHero: React.FC<HeroProps> = ({
       <div className="fixed left-0 right-0 z-5 pointer-events-none overflow-hidden bottom-32 md:bottom-12 h-40">
         <h1
           id={titleId}
-          className={`relative w-full text-center transition-transform duration-[30ms] ease-[cubic-bezier(0.25, 0.46, 0.45, 0.94)] will-change-transform font-bold  bg-gradient-to-br from-blue-900/60 via-blue-800/70 to-blue-700/75 bg-clip-text text-transparent text-4xl md:text-5xl  ${titleClassName}`}
+          className={`relative w-full text-center transition-transform duration-[30ms] ease-[cubic-bezier(0.25, 0.46, 0.45, 0.94)] will-change-transform font-bold  bg-gradient-to-br from-amber-900/60 via-amber-800/70 to-amber-700/75 bg-clip-text text-transparent text-4xl md:text-5xl  ${titleClassName}`}
           style={{
             transform: `translateY(${displacement}px)`,
             textShadow: "0 0 40px rgba(34, 197, 94, 0.1)",

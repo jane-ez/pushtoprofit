@@ -8,10 +8,10 @@ const AboutPage = () => {
     <main>
       <div className="sticky top-0">
         <ArchitectureHero
-          descriptionHeader="Broad Vision. Exceptional Learning. Lasting Impact"
+          descriptionHeader="Broad Vision. Exceptional Business. Lasting Impact"
           title="About"
-          description="Our mission, both then and now, is to provide quality education while upholding the highest standards of integrity, professionalism, and student success."
-          backgroundImage="/2025 Conference/bg-image.jpg"
+          description="Our mission, both then and now, is to equip small and medium-sized business owners with the knowledge, skills, and confidence to compete on a global scale."
+          backgroundImage="https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283510/bg-image_vwbemw.jpg"
           titleId="hero-title"
           descriptionId="hero-description"
         />

@@ -21,8 +21,8 @@ const facilities = [
     number: "01",
     highlights: ["Smart Classrooms", "Digital Library", "Study Halls"],
     icon: BookOpen,
-    gradient: "from-blue-800 to-blue-700",
-    accentColor: "blue-800",
+    gradient: "from-amber-800 to-amber-700",
+    accentColor: "amber-800",
   },
   {
     title: "Science & Technology",
@@ -192,7 +192,7 @@ export default function MinimalFacilities() {
             {/* Accent line */}
             <div className="flex items-center justify-center space-x-4">
               <motion.div
-                className="w-12 h-px bg-gradient-to-r  from-lime-800 to-lime-300"
+                className="w-12 h-px bg-gradient-to-r  from-amber-800 to-amber-300"
                 initial={{ width: 0 }}
                 animate={{ width: 48 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
@@ -201,7 +201,7 @@ export default function MinimalFacilities() {
                 World-Class Business Programs
               </span>
               <motion.div
-                className="w-12 h-px bg-gradient-to-r  from-lime-800 to-lime-300"
+                className="w-12 h-px bg-gradient-to-r  from-amber-800 to-amber-300"
                 initial={{ width: 0 }}
                 animate={{ width: 48 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
@@ -211,7 +211,7 @@ export default function MinimalFacilities() {
             <div className="space-y-4">
               <h2 className="text-4xl lg:text-5xl font-light text-slate-900">
                 Our{" "}
-                <span className="bg-gradient-to-r from-lime-800 to-lime-400 bg-clip-text text-transparent font-medium">
+                <span className="bg-gradient-to-r from-amber-800 to-amber-400 bg-clip-text text-transparent font-medium">
                   Services
                 </span>
               </h2>
@@ -225,7 +225,7 @@ export default function MinimalFacilities() {
 
             {/* Philosophy quote */}
             <motion.div
-              className="bg-gradient-to-r from-blue-50 to-emerald-50 rounded-2xl p-6 lg:p-8 max-w-4xl mx-auto mt-8"
+              className="bg-gradient-to-r from-amber-50 to-emerald-50 rounded-2xl p-6 lg:p-8 max-w-4xl mx-auto mt-8"
               variants={itemVariants}
             >
               <blockquote className="text-slate-700 italic text-center">
@@ -255,7 +255,7 @@ export default function MinimalFacilities() {
               transition={{ duration: 0.2 }}
             >
               <div className="flex items-center justify-center mb-2">
-                <stat.icon className="w-5 h-5 text-slate-400 group-hover:text-blue-800 transition-colors duration-300" />
+                <stat.icon className="w-5 h-5 text-slate-400 group-hover:text-amber-800 transition-colors duration-300" />
               </div>
               <div className="text-2xl lg:text-3xl font-light text-slate-900 mb-1">
                 {stat.value}
@@ -304,7 +304,7 @@ export default function MinimalFacilities() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <motion.button
-              className="group inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-800 to-emerald-800 text-white font-medium rounded shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className="group inline-flex items-center px-6 py-3 bg-gradient-to-r from-amber-800 to-emerald-800 text-white font-medium rounded shadow-lg hover:shadow-xl transition-shadow duration-300"
               whileHover={{ scale: 1.02, y: -1 }}
               whileTap={{ scale: 0.98 }}
               transition={{ duration: 0.2 }}

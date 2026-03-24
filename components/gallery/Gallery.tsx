@@ -47,7 +47,7 @@ const Gallery: React.FC = () => {
   const images: GalleryImage[] = [
     {
       id: "1",
-      src: "2025 Conference/IMG-20250401-WA0013.jpg",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283508/IMG-20250401-WA0146_buvbin.jpg",
       title: "Convener's Speech",
       category: "2025Conference",
       description: "Convener's speech at the 2025 conference",
@@ -55,7 +55,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: "2",
-      src: "/2024 Conference/1.jpg",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283141/1_mliqfc.jpg",
       title: "Classroom View",
       category: "2024Conference",
       description: "Students focused during a classroom session",
@@ -63,7 +63,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: "3",
-      src: "/2025 Conference/IMG-20250401-WA0019.jpg",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283506/IMG-20250401-WA0127_dlebqx.jpg",
       title: "Handing of Award",
       category: "2025Conference",
       description: "An angled view showcasing the school building",
@@ -71,7 +71,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: "4",
-      src: "/2024 Conference/2.jpg",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283141/2_emx8de.jpg",
       title: "Students in Class",
       category: "2024Conference",
       description: "Interactive learning session with students in class",
@@ -79,7 +79,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: "5",
-      src: "/2025 Conference/IMG-20250401-WA0021.jpg",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283508/IMG-20250401-WA0139_ou4xw4.jpg",
       title: "School Entrance",
       category: "2025Conference",
       description: "Neat and well-maintained entrance to the school compound",
@@ -87,7 +87,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: "6",
-      src: "/2025 Conference/IMG-20250401-WA0022.jpg",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283504/IMG-20250401-WA0081_mcqkrh.jpg",
       title: "Outdoor Corridor",
       category: "2025Conference",
       description: "Walkway connecting the classrooms and offices",
@@ -95,7 +95,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: "7",
-      src: "/2025 Conference/IMG-20250402-WA0102.jpg",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283501/IMG-20250401-WA0048_mmn8xr.jpg",
       title: "Students Gathering",
       category: "2025Conference",
       description: "Students chatting and relaxing during break time",
@@ -103,7 +103,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: "8",
-      src: "/2025 Conference/IMG-20250401-WA0050.jpg",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283498/IMG-20250401-WA0175_s6dbiz.jpg",
       title: "School Assembly Ground",
       category: "2025Conference",
       description: "Open assembly area used for morning gatherings",
@@ -111,7 +111,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: "9",
-      src: "/2024 Conference/3.jpg",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283141/3_zof5nd.jpg",
       title: "Inside the Classroom",
       category: "2024Conference",
       description: "Students paying attention during a lecture",
@@ -119,7 +119,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: "10",
-      src: "/2025 Conference/IMG-20250401-WA0063.jpg",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283496/IMG-20250402-WA0098_rkxzee.jpg",
       title: "Student performing practicals",
       category: "2025Conference",
       description: "Chemistry practicals being performed by a student",
@@ -127,7 +127,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: "11",
-      src: "/2025 Conference/IMG-20250402-WA0092.jpg",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283493/IMG-20250401-WA0106_k97y6r.jpg",
       title: "Students Walking Across Campus",
       category: "2025Conference",
       description: "Students heading to class in the morning",
@@ -135,7 +135,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: "12",
-      src: "/2025 Conference/IMG-20250401-WA0074.jpg",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283490/IMG-20250401-WA0174_gpzylm.jpg",
       title: "Side View of School Building",
       category: "2025Conference",
       description: "Architectural side view of the main classroom block",
@@ -143,7 +143,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: "13",
-      src: "/2024 Conference/4.jpg",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283141/4_eoc85t.jpg",
       title: "Students Reading",
       category: "2024Conference",
       description: "Quiet reading time between lectures",
@@ -152,7 +152,7 @@ const Gallery: React.FC = () => {
 
     {
       id: "14",
-      src: "/2025 Conference/IMG-20250402-WA0086.jpg",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283489/IMG-20250402-WA0071_smkirp.jpg",
       title: "Students Group Photo",
       category: "2025Conference",
       description: "Group of students posing on campus",
@@ -160,7 +160,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: "15",
-      src: "/2025 Conference/IMG-20250401-WA0046.jpg",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283489/IMG-20250402-WA0080_ngilrh.jpg",
       title: "Students Group Photo",
       category: "2025Conference",
       description: "Group of students posing on campus",
@@ -169,7 +169,7 @@ const Gallery: React.FC = () => {
 
     {
       id: "16",
-      src: "/2025 Conference/IMG-20250402-WA0083.jpg",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283487/IMG-20250401-WA0163_wggryd.jpg",
       title: "Students revising",
       category: "2025Conference",
       description: "Happy students sharing a moment between classes",
@@ -178,7 +178,7 @@ const Gallery: React.FC = () => {
 
     {
       id: "17",
-      src: "/2024 Conference/5.jpg",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283141/5_lkmbfb.jpg",
       title: "Students Revising Notes",
       category: "2024Conference",
       description: "Students reviewing materials before class",
@@ -187,7 +187,263 @@ const Gallery: React.FC = () => {
 
     {
       id: "18",
-      src: "/2025 Conference/IMG-20250401-WA0082.jpg",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283487/IMG-20250401-WA0169_nrfsta.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "19",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364266/IMG-20250401-WA0042_zt27t0.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "20",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364278/IMG-20250401-WA0013_mopioy.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "21",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364276/IMG-20250401-WA0176_cn931o.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "22",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364276/IMG-20250402-WA0087_htv5au.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "23",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364272/IMG-20250401-WA0105_c34rrx.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "24",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364269/IMG-20250401-WA0079_k6gq2p.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "25",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364264/IMG-20250402-WA0099_vpnixm.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "26",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364259/IMG-20250402-WA0043_rwv0e3.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "27",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364260/IMG-20250402-WA0048_mt3tdf.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "28",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364254/IMG-20250401-WA0181_ymgfdx.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "29",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364258/IMG-20250401-WA0182_nyozur.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "30",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364251/IMG-20250401-WA0135_d3ocj2.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "31",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364238/IMG-20250401-WA0153_ecsmg0.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "32",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364250/IMG-20250401-WA0133_gooxwy.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "33",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364247/IMG-20250401-WA0179_zikex8.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "34",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364244/IMG-20250401-WA0129_njsse0.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "35",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364243/IMG-20250401-WA0178_cwtj4n.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "36",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364226/IMG-20250401-WA0120_tqw2uc.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "37",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364218/IMG-20250401-WA0118_v7uggp.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "38",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364213/IMG-20250402-WA0079_b3npy5.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "39",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364215/IMG-20250401-WA0101_ipfkjb.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "40",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364211/IMG-20250402-WA0077_snfwsq.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "41",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364212/IMG-20250401-WA0022_z8knms.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "42",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364210/IMG-20250401-WA0096_tde7dn.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "43",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364208/IMG-20250401-WA0100_hllv1e.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "44",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364190/IMG-20250402-WA0097_lnq6w1.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "44",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364172/IMG-20250402-WA0036_u7opl7.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "46",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364198/IMG-20250401-WA0091_jrbzcj.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "47",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364171/IMG-20250402-WA0069_igq9fn.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "48",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364171/IMG-20250402-WA0020_andfyx.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "49",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364170/IMG-20250402-WA0061_kurytf.jpg",
+      title: "Front Yard View",
+      category: "2025Conference",
+      description: "Front compound showing the main entrance and walkway",
+      date: "2025",
+    },
+    {
+      id: "50",
+      src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283507/IMG-20250401-WA0094_pists8.jpg",
       title: "Front Yard View",
       category: "2025Conference",
       description: "Front compound showing the main entrance and walkway",
@@ -242,15 +498,15 @@ const Gallery: React.FC = () => {
   }, [selectedImage, navigateImage]);
 
   return (
-    <section className="relative py-16 sm:py-20 md:py-24 lg:py-32 bg-gradient-to-br from-gray-50 via-white to-blue-50 overflow-hidden">
+    <section className="relative py-16 sm:py-20 md:py-24 lg:py-32 bg-gradient-to-br from-gray-50 via-white to-amber-50 overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 z-0">
         <div
-          className="absolute top-1/4 right-1/4 w-96 h-96 bg-blue-800/8 rounded-full blur-3xl animate-pulse"
+          className="absolute top-1/4 right-1/4 w-96 h-96 bg-amber-800/8 rounded-full blur-3xl animate-pulse"
           style={{ animationDuration: "8s" }}
         />
         <div
-          className="absolute bottom-1/3 left-1/4 w-80 h-80 bg-blue-900/5 rounded-full blur-2xl animate-pulse"
+          className="absolute bottom-1/3 left-1/4 w-80 h-80 bg-amber-900/5 rounded-full blur-2xl animate-pulse"
           style={{ animationDuration: "10s", animationDelay: "2s" }}
         />
       </div>
@@ -284,12 +540,12 @@ const Gallery: React.FC = () => {
               }`}
             >
               <div
-                className={`bg-gradient-to-r from-blue-800 to-blue-900 h-px transition-all duration-300 delay-400 ${
+                className={`bg-gradient-to-r from-amber-800 to-amber-900 h-px transition-all duration-300 delay-400 ${
                   isVisible ? "w-12" : "w-0"
                 }`}
               />
               <span
-                className={`text-sm font-medium text-blue-800 tracking-[0.15em] uppercase transition-opacity duration-600 delay-600 ${
+                className={`text-sm font-medium text-amber-800 tracking-[0.15em] uppercase transition-opacity duration-600 delay-600 ${
                   isVisible ? "opacity-100" : "opacity-0"
                 }`}
               >
@@ -306,13 +562,13 @@ const Gallery: React.FC = () => {
             >
               Capturing Our
               <br />
-              <span className="bg-gradient-to-r from-blue-700 via-blue-800 to-blue-900 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-amber-700 via-amber-800 to-amber-900 bg-clip-text text-transparent">
                 Educational Journey
               </span>
             </h1>
 
             <div
-              className={`bg-gradient-to-r from-blue-800 to-blue-900 h-1 transition-all duration-300 delay-800 ${
+              className={`bg-gradient-to-r from-amber-800 to-amber-900 h-1 transition-all duration-300 delay-800 ${
                 isVisible ? "w-16" : "w-0"
               }`}
             />
@@ -324,8 +580,7 @@ const Gallery: React.FC = () => {
                   : "opacity-0 translate-y-8"
               }`}
             >
-              Explore moments of learning, growth, and achievement at EarlyGrip
-              High School. From classroom innovations to sporting triumphs,
+              Explore moments of learning, growth, and achievement at Push To Profit. From classroom innovations to sporting triumphs,
               discover the vibrant life that defines our educational community.
             </p>
           </div>
@@ -344,8 +599,8 @@ const Gallery: React.FC = () => {
                 onClick={() => setSelectedCategory(category.id)}
                 className={`px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 hover:-translate-y-1 ${
                   selectedCategory === category.id
-                    ? "bg-gradient-to-r from-blue-800 to-blue-900 text-white shadow-lg"
-                    : "bg-white/80 backdrop-blur-sm text-blue-800 border border-blue-200 hover:bg-blue-50"
+                    ? "bg-gradient-to-r from-amber-800 to-amber-900 text-white shadow-lg"
+                    : "bg-white/80 backdrop-blur-sm text-amber-800 border border-amber-200 hover:bg-amber-50"
                 } transition-all duration-300 delay-${800 + index * 100}`}
                 style={{ transitionDelay: `${800 + index * 100}ms` }}
               >
@@ -354,7 +609,7 @@ const Gallery: React.FC = () => {
                   className={`ml-2 text-xs px-2 py-1 rounded-full ${
                     selectedCategory === category.id
                       ? "bg-white/20 text-white"
-                      : "bg-blue-100 text-blue-700"
+                      : "bg-amber-100 text-amber-700"
                   }`}
                 >
                   {category.count}
@@ -383,7 +638,7 @@ const Gallery: React.FC = () => {
               <div className="aspect-[4/3] relative overflow-hidden">
                 {/* Blue accent border */}
                 <div
-                  className={`absolute -left-1 top-0 w-1 bg-gradient-to-b from-blue-700 to-blue-900 transition-all duration-1000 delay-${
+                  className={`absolute -left-1 top-0 w-1 bg-gradient-to-b from-amber-700 to-amber-900 transition-all duration-1000 delay-${
                     1100 + index * 100
                   } ${isVisible ? "h-full opacity-100" : "h-0 opacity-0"}`}
                 />
@@ -395,7 +650,7 @@ const Gallery: React.FC = () => {
                 />
 
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-900/40 via-blue-800/20 to-blue-900/60 opacity-60 group-hover:opacity-80 transition-all duration-500" />
+                <div className="absolute inset-0 bg-gradient-to-br from-amber-900/40 via-amber-800/20 to-amber-900/60 opacity-60 group-hover:opacity-80 transition-all duration-500" />
 
                 {/* Hover Icons */}
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
@@ -406,18 +661,18 @@ const Gallery: React.FC = () => {
 
                 {/* Category Badge */}
                 <div className="absolute top-4 left-4">
-                  <span className="px-3 py-1 bg-blue-800/80 backdrop-blur-sm text-white text-xs font-medium rounded-full border border-white/20">
+                  <span className="px-3 py-1 bg-amber-800/80 backdrop-blur-sm text-white text-xs font-medium rounded-full border border-white/20">
                     {categories.find((cat) => cat.id === image.category)
                       ?.name || image.category}
                   </span>
                 </div>
 
                 {/* Title Overlay */}
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-900/90 via-blue-900/60 to-transparent p-4 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-amber-900/90 via-amber-900/60 to-transparent p-4 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
                   <h3 className="text-white font-medium text-sm mb-1 truncate">
                     {image.title}
                   </h3>
-                  <p className="text-blue-100 text-xs opacity-90 line-clamp-2">
+                  <p className="text-amber-100 text-xs opacity-90 line-clamp-2">
                     {image.description}
                   </p>
                 </div>
@@ -449,7 +704,7 @@ const Gallery: React.FC = () => {
                     : "opacity-0 translate-y-6"
                 }`}
               >
-                <div className="text-2xl md:text-3xl font-light text-blue-800 mb-2">
+                <div className="text-2xl md:text-3xl font-light text-amber-800 mb-2">
                   {stat.number}
                 </div>
                 <div className="text-sm text-gray-600 tracking-wide">
@@ -469,23 +724,23 @@ const Gallery: React.FC = () => {
           <div className="text-center space-y-6">
             <div className="flex items-center justify-center space-x-8">
               <div
-                className={`bg-gradient-to-r from-transparent via-blue-800 to-transparent h-px transition-all duration-300 delay-2200 ${
+                className={`bg-gradient-to-r from-transparent via-amber-800 to-transparent h-px transition-all duration-300 delay-2200 ${
                   isVisible ? "w-16" : "w-0"
                 }`}
               />
               <div
-                className={`w-3 h-3 border border-blue-800 transform rotate-45 transition-all duration-300 delay-2400 ${
+                className={`w-3 h-3 border border-amber-800 transform rotate-45 transition-all duration-300 delay-2400 ${
                   isVisible ? "scale-100" : "scale-0"
                 }`}
               />
               <div
-                className={`bg-gradient-to-r from-transparent via-blue-800 to-transparent h-px transition-all duration-300 delay-2600 ${
+                className={`bg-gradient-to-r from-transparent via-amber-800 to-transparent h-px transition-all duration-300 delay-2600 ${
                   isVisible ? "w-16" : "w-0"
                 }`}
               />
             </div>
             <p
-              className={`text-sm text-blue-700 font-light tracking-[0.15em] uppercase transition-opacity duration-600 delay-2800 ${
+              className={`text-sm text-amber-700 font-light tracking-[0.15em] uppercase transition-opacity duration-600 delay-2800 ${
                 isVisible ? "opacity-100" : "opacity-0"
               }`}
             >
@@ -544,7 +799,7 @@ const Gallery: React.FC = () => {
                   {selectedImage.description}
                 </p>
                 <div className="flex items-center justify-between">
-                  <span className="px-3 py-1 bg-blue-800/80 backdrop-blur-sm text-white text-xs font-medium rounded-full">
+                  <span className="px-3 py-1 bg-amber-800/80 backdrop-blur-sm text-white text-xs font-medium rounded-full">
                     {
                       categories.find(
                         (cat) => cat.id === selectedImage.category

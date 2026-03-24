@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "EarlyGrip High School",
+  title: "Push To Profit",
   description:
     "Excellence in education, character development, and academic achievement for every student",
 };
