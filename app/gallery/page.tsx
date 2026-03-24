@@ -8,8 +8,8 @@ const GalleryPage = () => {
         <ArchitectureHero
           descriptionHeader="Our collection of memories past and present"
           title="Gallery"
-          description="At Eargrip High School, every moment tells a story. Our gallery showcases the vibrant life of our students and community — from academic achievements to cultural events, sports, and everyday experiences. Explore these captured memories that reflect our spirit of learning, creativity, and excellence."
-          backgroundImage="/2025 Conference/bg-image.jpg"
+          description="At Push To Profit, every moment tells a story. Our gallery showcases our clients and community — from business achievements to cultural events, sports, and everyday experiences. Explore these captured memories that reflect our spirit of business, creativity, and excellence."
+          backgroundImage="https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283510/bg-image_vwbemw.jpg"
           titleId="hero-title"
           descriptionId="hero-description"
         />

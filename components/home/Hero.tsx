@@ -276,7 +276,7 @@ export default function Hero() {
               style={{ willChange: "transform" }}
             >
               <button
-                className="group flex px-4 py-4 w-fit bg-blue-900 text-white font-medium text-sm hover:bg-blue-700 transition-all duration-300 active:scale-95 shadow-lg touch-manipulation items-center justify-center"
+                className="group flex px-4 py-4 w-fit bg-amber-900 text-white font-medium text-sm hover:bg-amber-700 transition-all duration-300 active:scale-95 shadow-lg touch-manipulation items-center justify-center"
                 style={{
                   fontWeight: "500",
                   letterSpacing: "0.05em",
@@ -288,7 +288,7 @@ export default function Hero() {
                 </span>
               </button>
 
-              <button
+              {/* <button
                 className="group w-fit flex px-4 py-4 border border-white/40 text-white/90 font-light text-sm hover:bg-white/5 hover:border-white/60 transition-all duration-300 active:scale-95 backdrop-blur-sm touch-manipulation justify-center"
                 style={{
                   fontWeight: "300",
@@ -299,7 +299,7 @@ export default function Hero() {
                 <span className="relative z-10 uppercase tracking-wider">
                   Discover Facilities
                 </span>
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
@@ -383,11 +383,11 @@ export default function Hero() {
               style={{ willChange: "transform" }}
             >
               <button
-                className="group px-4 py-3 text-white font-medium hover:!bg-emerald-400 text-base transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+                className="group px-4 py-3 text-white bg-amber-400 font-medium hover:!bg-amber-500 text-base transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
                 style={{
                   fontWeight: "500",
                   letterSpacing: "0.05em",
-                  backgroundColor:"#9ACD32"
+                  // backgroundColor:"#9ACD32"
                 }}
               >
                 <span className="relative z-10 uppercase tracking-wider">
@@ -395,7 +395,7 @@ export default function Hero() {
                 </span>
               </button>
 
-              <button
+              {/* <button
                 className="group px-4 py-3 border border-white/30 text-white/90 font-light text-base hover:bg-white/5 hover:border-white/50 transition-all duration-300 transform hover:scale-105 backdrop-blur-sm"
                 style={{
                   fontWeight: "300",
@@ -405,7 +405,7 @@ export default function Hero() {
                 <span className="relative z-10 uppercase tracking-wider">
                   Discover Facilities
                 </span>
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

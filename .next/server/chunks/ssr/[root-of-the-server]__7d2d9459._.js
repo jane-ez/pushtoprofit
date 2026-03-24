@@ -159,7 +159,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$layout$2f$Navb
 ;
 ;
 const metadata = {
-    title: "EarlyGrip High School",
+    title: "Push To Profit",
     description: "Excellence in education, character development, and academic achievement for every student"
 };
 function RootLayout({ children }) {

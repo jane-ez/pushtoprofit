@@ -36,7 +36,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="relative min-h-screen bg-lime-500 overflow-hidden">
+    <footer className="relative min-h-screen bg-amber-500 overflow-hidden">
       {/* Animated Background Elements - matching navbar style */}
       <div className="absolute inset-0 overflow-hidden">
         <div
@@ -66,13 +66,13 @@ export default function Footer() {
               }s`,
             }}
           >
-            <div className="w-16 h-16 border border-blue-700/30 rounded-lg flex items-center justify-center">
-              {i % 4 === 0 && <BookOpen className="w-8 h-8 text-blue-700" />}
+            <div className="w-16 h-16 border border-amber-700/30 rounded-lg flex items-center justify-center">
+              {i % 4 === 0 && <BookOpen className="w-8 h-8 text-amber-700" />}
               {i % 4 === 1 && (
-                <GraduationCap className="w-8 h-8 text-blue-700" />
+                <GraduationCap className="w-8 h-8 text-amber-700" />
               )}
-              {i % 4 === 2 && <Users className="w-8 h-8 text-blue-700" />}
-              {i % 4 === 3 && <Trophy className="w-8 h-8 text-blue-700" />}
+              {i % 4 === 2 && <Users className="w-8 h-8 text-amber-700" />}
+              {i % 4 === 3 && <Trophy className="w-8 h-8 text-amber-700" />}
             </div>
           </div>
         ))}
@@ -89,27 +89,27 @@ export default function Footer() {
           }`}
         >
           <div className="relative inline-block mb-8">
-            <div className="absolute -inset-4 bg-gradient-to-r from-blue-800/20 via-blue-700/30 to-blue-800/20 blur-2xl rounded-full animate-pulse"></div>
-            <span className="relative text-sm font-light text-blue-500 tracking-[0.3em] uppercase backdrop-blur-sm">
+            <div className="absolute -inset-4 bg-gradient-to-r from-amber-800/20 via-amber-700/30 to-amber-800/20 blur-2xl rounded-full animate-pulse"></div>
+            <span className="relative text-sm font-light text-amber-500 tracking-[0.3em] uppercase backdrop-blur-sm">
               Excellence in Business
             </span>
           </div>
 
           <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-thin leading-[0.9] mb-8 tracking-tight">
-            <span className="inline-block bg-gradient-to-r from-blue-600 via-blue-700 to-blue-600 bg-clip-text text-transparent">
+            <span className="inline-block bg-gradient-to-r from-amber-600 via-amber-700 to-amber-600 bg-clip-text text-transparent">
               Join Our
             </span>
             <br />
-            <span className="inline-block bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent font-light">
+            <span className="inline-block bg-gradient-to-r from-white via-amber-100 to-white bg-clip-text text-transparent font-light">
               Community
             </span>
           </h2>
 
-          <div className="w-32 h-0.5 bg-gradient-to-r from-blue-800 via-blue-700 to-blue-800 mx-auto mb-12" />
+          <div className="w-32 h-0.5 bg-gradient-to-r from-amber-800 via-amber-700 to-amber-800 mx-auto mb-12" />
 
           <p className="text-lg md:text-xl text-white/80 font-light leading-relaxed max-w-2xl mx-auto">
             Ready to embark on an educational journey that shapes
-            tomorrow&apos;s leaders? Connect with EarlyGripHigh School and
+            tomorrow&apos;s leaders? Connect with Push To Profit and
             experience excellence in learning.
           </p>
         </div>
@@ -127,15 +127,15 @@ export default function Footer() {
           >
             <div className="space-y-6">
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-0.5 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-700" />
-                <span className="text-xs font-medium text-blue-600 tracking-[0.2em] uppercase">
+                <div className="w-8 h-0.5 bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700" />
+                <span className="text-xs font-medium text-amber-600 tracking-[0.2em] uppercase">
                   Our School
                 </span>
               </div>
 
               <div className="flex items-center space-x-4 mb-6">
                 <img
-                  src="/logo-white-small.png"
+                  src="/logo-trans.png"
                   alt="Push to Profit"
                   className="w-24 max-w-full h-24 object-contain rounded-lg"
                 />
@@ -149,7 +149,7 @@ export default function Footer() {
                 </div> */}
               </div>
 
-              <div className="w-16 h-0.5 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-700" />
+              <div className="w-16 h-0.5 bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700" />
             </div>
 
             <p className="text-white/70 text-base leading-relaxed font-light">
@@ -172,16 +172,16 @@ export default function Footer() {
                 <a
                   key={social.name}
                   href={social.link}
-                  className="group p-3 bg-white/5 border border-white/10 text-white/70 hover:border-blue-700/50 hover:bg-blue-700/10 transition-all duration-300 backdrop-blur-sm"
+                  className="group p-3 bg-white/5 border border-white/10 text-white/70 hover:border-amber-700/50 hover:bg-amber-700/10 transition-all duration-300 backdrop-blur-sm"
                 >
-                  <social.icon className="w-4 h-4 group-hover:text-blue-600 transition-colors duration-600" />
+                  <social.icon className="w-4 h-4 group-hover:text-amber-600 transition-colors duration-600" />
                 </a>
               ))}
               <a
                 href="https://wa.me/2348064657119"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group p-3 bg-white/5 border border-white/10 text-white/70 hover:border-blue-700/50 hover:bg-blue-700/10 transition-all duration-300 backdrop-blur-sm flex items-center justify-center"
+                className="group p-3 bg-white/5 border border-white/10 text-white/70 hover:border-amber-700/50 hover:bg-amber-700/10 transition-all duration-300 backdrop-blur-sm flex items-center justify-center"
               >
                 <img src="/whatsapp.svg" alt="whatsapp" className="size-4" />
               </a>
@@ -199,8 +199,8 @@ export default function Footer() {
           >
             <div className="space-y-6">
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-0.5 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-700" />
-                <span className="text-xs font-medium text-blue-600 tracking-[0.2em] uppercase">
+                <div className="w-8 h-0.5 bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700" />
+                <span className="text-xs font-medium text-amber-600 tracking-[0.2em] uppercase">
                   Academics
                 </span>
               </div>
@@ -209,7 +209,7 @@ export default function Footer() {
                 Learning Programs
               </h3>
 
-              <div className="w-16 h-0.5 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-700" />
+              <div className="w-16 h-0.5 bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700" />
             </div>
 
             <div className="space-y-4">
@@ -224,10 +224,10 @@ export default function Footer() {
                 <a
                   key={program}
                   href="#"
-                  className="group block text-white/70 hover:text-blue-600 transition-all duration-600 font-light"
+                  className="group block text-white/70 hover:text-amber-600 transition-all duration-600 font-light"
                 >
                   <div className="flex items-center space-x-2">
-                    <div className="w-1 h-1 bg-blue-700/70 rounded-full group-hover:w-2 group-hover:bg-blue-600 transition-all duration-600" />
+                    <div className="w-1 h-1 bg-amber-700/70 rounded-full group-hover:w-2 group-hover:bg-amber-600 transition-all duration-600" />
                     <span>{program}</span>
                   </div>
                 </a>
@@ -246,15 +246,15 @@ export default function Footer() {
           >
             <div className="space-y-6">
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-0.5 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-700" />
-                <span className="text-xs font-medium text-blue-600 tracking-[0.2em] uppercase">
+                <div className="w-8 h-0.5 bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700" />
+                <span className="text-xs font-medium text-amber-600 tracking-[0.2em] uppercase">
                   Quick Links
                 </span>
               </div>
 
               <h3 className="text-2xl font-light text-white">Navigate</h3>
 
-              <div className="w-16 h-0.5 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-700" />
+              <div className="w-16 h-0.5 bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700" />
             </div>
 
             <div className="space-y-4">
@@ -269,10 +269,10 @@ export default function Footer() {
                 <a
                   key={link.name}
                   href={link.href}
-                  className="group block text-white/70 hover:text-blue-600 transition-all duration-600 font-light"
+                  className="group block text-white/70 hover:text-amber-600 transition-all duration-600 font-light"
                 >
                   <div className="flex items-center space-x-2">
-                    <div className="w-1 h-1 bg-blue-700/70 rounded-full group-hover:w-2 group-hover:bg-blue-600 transition-all duration-600" />
+                    <div className="w-1 h-1 bg-amber-700/70 rounded-full group-hover:w-2 group-hover:bg-amber-600 transition-all duration-600" />
                     <span>{link.name}</span>
                   </div>
                 </a>
@@ -291,21 +291,21 @@ export default function Footer() {
           >
             <div className="space-y-6">
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-0.5 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-700" />
-                <span className="text-xs font-medium text-blue-600 tracking-[0.2em] uppercase">
+                <div className="w-8 h-0.5 bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700" />
+                <span className="text-xs font-medium text-amber-600 tracking-[0.2em] uppercase">
                   Get In Touch
                 </span>
               </div>
 
               <h3 className="text-2xl font-light text-white">Contact Us</h3>
 
-              <div className="w-16 h-0.5 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-700" />
+              <div className="w-16 h-0.5 bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700" />
             </div>
 
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
-                <div className="p-2 bg-blue-800/20 border border-blue-700/30 rounded-lg backdrop-blur-sm">
-                  <MapPin className="w-4 h-4 text-blue-600" />
+                <div className="p-2 bg-amber-800/20 border border-amber-700/30 rounded-lg backdrop-blur-sm">
+                  <MapPin className="w-4 h-4 text-amber-600" />
                 </div>
                 <div>
                   <p className="text-white/70 font-light leading-relaxed">
@@ -315,24 +315,24 @@ export default function Footer() {
               </div>
 
               <div className="flex items-center space-x-4">
-                <div className="p-2 bg-blue-800/20 border border-blue-700/30 rounded-lg backdrop-blur-sm">
-                  <Phone className="w-4 h-4 text-blue-600" />
+                <div className="p-2 bg-amber-800/20 border border-amber-700/30 rounded-lg backdrop-blur-sm">
+                  <Phone className="w-4 h-4 text-amber-600" />
                 </div>
                 <a
                   href="tel:+234"
-                  className="text-white/70 hover:text-blue-600 transition-colors duration-600 font-light"
+                  className="text-white/70 hover:text-amber-600 transition-colors duration-600 font-light"
                 >
                   +234 806 465 7119
                 </a>
               </div>
 
               <div className="flex items-center space-x-4">
-                <div className="p-2 bg-blue-800/20 border border-blue-700/30 rounded-lg backdrop-blur-sm">
-                  <Mail className="w-4 h-4 text-blue-600" />
+                <div className="p-2 bg-amber-800/20 border border-amber-700/30 rounded-lg backdrop-blur-sm">
+                  <Mail className="w-4 h-4 text-amber-600" />
                 </div>
                 <a
                   href="mailto:pushtoprofitcommunity@gmail.com"
-                  className="text-white/70 hover:text-blue-600 transition-colors duration-600 font-light"
+                  className="text-white/70 hover:text-amber-600 transition-colors duration-600 font-light"
                 >
                   pushtoprofitcommunity@gmail.com
                 </a>
@@ -341,9 +341,9 @@ export default function Footer() {
 
             {/* CTA Button */}
             <div className="pt-4">
-              <button className="group rounded relative px-8 py-3 bg-white/5 border border-white/20 text-white/80 font-light text-base hover:border-blue-700/50 hover:bg-blue-700/10 transition-all duration-300 overflow-hidden w-full backdrop-blur-sm">
+              <button className="group rounded relative px-8 py-3 bg-white/5 border border-white/20 text-white/80 font-light text-base hover:border-amber-700/50 hover:bg-amber-700/10 transition-all duration-300 overflow-hidden w-full backdrop-blur-sm">
                 <span
-                  className="relative z-10 group-hover:text-blue-200 transition-colors duration-600"
+                  className="relative z-10 group-hover:text-amber-200 transition-colors duration-600"
                   style={{ fontWeight: "600", letterSpacing: "0.02em" }}
                 >
                   Apply Now
@@ -364,11 +364,11 @@ export default function Footer() {
             style={{ transitionDelay: "1000ms" }}
           >
             <div className="flex items-center space-x-4 opacity-40">
-              <div className="w-2 h-2 bg-blue-700 rounded-full animate-pulse" />
-              <div className="w-16 h-px bg-gradient-to-r from-transparent via-blue-700/50 to-transparent" />
-              <div className="w-1 h-1 bg-blue-600 rounded-full animate-pulse delay-800" />
-              <div className="w-16 h-px bg-gradient-to-r from-transparent via-blue-700/50 to-transparent" />
-              <div className="w-2 h-2 bg-blue-700 rounded-full animate-pulse delay-1000" />
+              <div className="w-2 h-2 bg-amber-700 rounded-full animate-pulse" />
+              <div className="w-16 h-px bg-gradient-to-r from-transparent via-amber-700/50 to-transparent" />
+              <div className="w-1 h-1 bg-amber-600 rounded-full animate-pulse delay-800" />
+              <div className="w-16 h-px bg-gradient-to-r from-transparent via-amber-700/50 to-transparent" />
+              <div className="w-2 h-2 bg-amber-700 rounded-full animate-pulse delay-1000" />
             </div>
 
             <div className="text-center">
@@ -378,11 +378,11 @@ export default function Footer() {
             </div>
 
             <div className="flex items-center space-x-4 opacity-40">
-              <div className="w-2 h-2 bg-blue-700 rounded-full animate-pulse delay-1000" />
-              <div className="w-16 h-px bg-gradient-to-r from-transparent via-blue-700/50 to-transparent" />
-              <div className="w-1 h-1 bg-blue-600 rounded-full animate-pulse delay-800" />
-              <div className="w-16 h-px bg-gradient-to-r from-transparent via-blue-700/50 to-transparent" />
-              <div className="w-2 h-2 bg-blue-700 rounded-full animate-pulse" />
+              <div className="w-2 h-2 bg-amber-700 rounded-full animate-pulse delay-1000" />
+              <div className="w-16 h-px bg-gradient-to-r from-transparent via-amber-700/50 to-transparent" />
+              <div className="w-1 h-1 bg-amber-600 rounded-full animate-pulse delay-800" />
+              <div className="w-16 h-px bg-gradient-to-r from-transparent via-amber-700/50 to-transparent" />
+              <div className="w-2 h-2 bg-amber-700 rounded-full animate-pulse" />
             </div>
           </div>
         </div>

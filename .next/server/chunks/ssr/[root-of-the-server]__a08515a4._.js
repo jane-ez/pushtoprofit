@@ -198,7 +198,7 @@ function About() {
                     duration: 2
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                    className: "absolute w-full h-full opacity-20 bg-gradient-to-br from-blue-50 via-emerald-50 to-blue-100",
+                    className: "absolute w-full h-full opacity-20 bg-gradient-to-br from-amber-50 via-emerald-50 to-amber-100",
                     animate: {
                         background: [
                             "linear-gradient(45deg, #dbeafe, #d1fae5, #dbeafe)",
@@ -259,7 +259,7 @@ function About() {
                             ease: "easeInOut"
                         },
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "w-8 h-8 border border-blue-300 rounded-full"
+                            className: "w-8 h-8 border border-amber-300 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/components/home/About.tsx",
                             lineNumber: 173,
@@ -299,7 +299,7 @@ function About() {
                                                 variants: fadeInUp,
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                                        className: "w-12 h-px bg-gradient-to-r from-blue-800 to-gray-800",
+                                                        className: "w-12 h-px bg-gradient-to-r from-amber-800 to-gray-800",
                                                         initial: {
                                                             width: 0
                                                         },
@@ -318,7 +318,7 @@ function About() {
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
-                                                        className: "text-sm font-medium text-blue-700 tracking-wide uppercase",
+                                                        className: "text-sm font-medium text-amber-700 tracking-wide uppercase",
                                                         initial: {
                                                             opacity: 0,
                                                             x: -20
@@ -351,7 +351,7 @@ function About() {
                                                 variants: fadeInUp,
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
-                                                        className: "bg-gradient-to-r from-blue-800 to-emerald-800 bg-clip-text text-transparent",
+                                                        className: "bg-gradient-to-r from-amber-800 to-emerald-800 bg-clip-text text-transparent",
                                                         initial: {
                                                             backgroundPosition: "200% center"
                                                         },
@@ -408,7 +408,7 @@ function About() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                                className: "w-32 h-0.5 bg-gradient-to-r from-blue-800 to-emerald-800",
+                                                className: "w-32 h-0.5 bg-gradient-to-r from-amber-800 to-emerald-800",
                                                 initial: {
                                                     width: 0
                                                 },
@@ -470,15 +470,12 @@ function About() {
                                         className: "pt-4",
                                         variants: fadeInUp,
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].button, {
-                                            className: "group px-8 py-4 text-white font-medium transition-all duration-300 shadow-lg",
+                                            className: "group px-8 py-4 bg-amber-400 text-white font-medium transition-all duration-300 shadow-lg",
                                             whileHover: {
                                                 scale: 1.05,
-                                                boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1)",
-                                                backgroundColor: "#A8B83F"
+                                                boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1)"
                                             },
-                                            initial: {
-                                                backgroundColor: "#9ACD32"
-                                            },
+                                            // initial={{backgroundColor:"#9ACD32"}}
                                             whileTap: {
                                                 scale: 0.95
                                             },
@@ -543,10 +540,10 @@ function About() {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].img, {
                                                     src: "/ceopushtoprofit.png",
-                                                    alt: "Earlygrip High School Campus",
+                                                    alt: "Push To Profit",
                                                     className: "w-full h-auto",
                                                     style: {
-                                                        aspectRatio: "4/3",
+                                                        aspectRatio: "6/6",
                                                         objectFit: "cover"
                                                     },
                                                     initial: {
@@ -600,7 +597,7 @@ function About() {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 className: "text-sm font-medium",
-                                                                children: "Earlygrip High School students"
+                                                                children: "Push To Profit"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/home/About.tsx",
                                                                 lineNumber: 352,
@@ -632,7 +629,7 @@ function About() {
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                            className: "absolute -top-4 -right-4 w-12 h-12 border-2 border-blue-300 rounded-full",
+                                            className: "absolute -top-4 -right-4 w-12 h-12 border-2 border-amber-300 rounded-full",
                                             animate: {
                                                 scale: [
                                                     1,
@@ -709,7 +706,7 @@ function About() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].section, {
                 ref: statsRef,
-                className: "relative py-20 bg-gradient-to-r from-lime-500 to-lime-300",
+                className: "relative py-20 bg-gradient-to-r from-amber-500 to-amber-300",
                 initial: {
                     opacity: 0,
                     y: 100
@@ -951,7 +948,7 @@ function About() {
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
-                                                        className: "bg-gradient-to-r from-lime-700 to-lime-400 bg-clip-text text-transparent",
+                                                        className: "bg-gradient-to-r from-amber-700 to-amber-400 bg-clip-text text-transparent",
                                                         initial: {
                                                             backgroundPosition: "200% center"
                                                         },
@@ -980,7 +977,7 @@ function About() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                                className: "w-32 h-0.5 bg-gradient-to-r from-lime-700 to-lime-400 mx-auto",
+                                                className: "w-32 h-0.5 bg-gradient-to-r from-amber-700 to-amber-400 mx-auto",
                                                 initial: {
                                                     width: 0
                                                 },
@@ -1187,7 +1184,7 @@ const VideoParallax = ({ scrollY, title, description, className, mediaItems = []
                             columnNumber: 11
                         }, this)),
                     mediaItems.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                        className: "absolute inset-0 bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900",
+                        className: "absolute inset-0 bg-gradient-to-br from-slate-900 via-amber-950 to-slate-900",
                         style: {
                             y: videoY,
                             scale: videoScale
@@ -1614,49 +1611,27 @@ function Hero() {
                                 style: {
                                     willChange: "transform"
                                 },
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "group flex px-4 py-4 w-fit bg-blue-900 text-white font-medium text-sm hover:bg-blue-700 transition-all duration-300 active:scale-95 shadow-lg touch-manipulation items-center justify-center",
-                                        style: {
-                                            fontWeight: "500",
-                                            letterSpacing: "0.05em",
-                                            minHeight: "48px"
-                                        },
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "relative z-10 uppercase tracking-wider",
-                                            children: "Explore our Programs"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/home/Hero.tsx",
-                                            lineNumber: 286,
-                                            columnNumber: 17
-                                        }, this)
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    className: "group flex px-4 py-4 w-fit bg-amber-900 text-white font-medium text-sm hover:bg-amber-700 transition-all duration-300 active:scale-95 shadow-lg touch-manipulation items-center justify-center",
+                                    style: {
+                                        fontWeight: "500",
+                                        letterSpacing: "0.05em",
+                                        minHeight: "48px"
+                                    },
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "relative z-10 uppercase tracking-wider",
+                                        children: "Explore our Programs"
                                     }, void 0, false, {
                                         fileName: "[project]/components/home/Hero.tsx",
-                                        lineNumber: 278,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "group w-fit flex px-4 py-4 border border-white/40 text-white/90 font-light text-sm hover:bg-white/5 hover:border-white/60 transition-all duration-300 active:scale-95 backdrop-blur-sm touch-manipulation justify-center",
-                                        style: {
-                                            fontWeight: "300",
-                                            letterSpacing: "0.05em",
-                                            minHeight: "48px"
-                                        },
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "relative z-10 uppercase tracking-wider",
-                                            children: "Discover Facilities"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/home/Hero.tsx",
-                                            lineNumber: 299,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/home/Hero.tsx",
-                                        lineNumber: 291,
-                                        columnNumber: 15
+                                        lineNumber: 286,
+                                        columnNumber: 17
                                     }, this)
-                                ]
-                            }, void 0, true, {
+                                }, void 0, false, {
+                                    fileName: "[project]/components/home/Hero.tsx",
+                                    lineNumber: 278,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/components/home/Hero.tsx",
                                 lineNumber: 273,
                                 columnNumber: 13
@@ -1789,48 +1764,26 @@ function Hero() {
                                     style: {
                                         willChange: "transform"
                                     },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                            className: "group px-4 py-3 text-white font-medium hover:!bg-emerald-400 text-base transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl",
-                                            style: {
-                                                fontWeight: "500",
-                                                letterSpacing: "0.05em",
-                                                backgroundColor: "#9ACD32"
-                                            },
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "relative z-10 uppercase tracking-wider",
-                                                children: "Explore our Programs"
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/home/Hero.tsx",
-                                                lineNumber: 393,
-                                                columnNumber: 17
-                                            }, this)
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        className: "group px-4 py-3 text-white bg-amber-400 font-medium hover:!bg-amber-500 text-base transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl",
+                                        style: {
+                                            fontWeight: "500",
+                                            letterSpacing: "0.05em"
+                                        },
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "relative z-10 uppercase tracking-wider",
+                                            children: "Explore our Programs"
                                         }, void 0, false, {
                                             fileName: "[project]/components/home/Hero.tsx",
-                                            lineNumber: 385,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                            className: "group px-4 py-3 border border-white/30 text-white/90 font-light text-base hover:bg-white/5 hover:border-white/50 transition-all duration-300 transform hover:scale-105 backdrop-blur-sm",
-                                            style: {
-                                                fontWeight: "300",
-                                                letterSpacing: "0.05em"
-                                            },
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "relative z-10 uppercase tracking-wider",
-                                                children: "Discover Facilities"
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/home/Hero.tsx",
-                                                lineNumber: 405,
-                                                columnNumber: 17
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/home/Hero.tsx",
-                                            lineNumber: 398,
-                                            columnNumber: 15
+                                            lineNumber: 393,
+                                            columnNumber: 17
                                         }, this)
-                                    ]
-                                }, void 0, true, {
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/home/Hero.tsx",
+                                        lineNumber: 385,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
                                     fileName: "[project]/components/home/Hero.tsx",
                                     lineNumber: 380,
                                     columnNumber: 13
@@ -1942,8 +1895,8 @@ const facilities = [
             "Study Halls"
         ],
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2d$open$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__BookOpen$3e$__["BookOpen"],
-        gradient: "from-blue-800 to-blue-700",
-        accentColor: "blue-800"
+        gradient: "from-amber-800 to-amber-700",
+        accentColor: "amber-800"
     },
     {
         title: "Science & Technology",
@@ -2242,7 +2195,7 @@ function MinimalFacilities() {
                                 className: "flex items-center justify-center space-x-4",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                        className: "w-12 h-px bg-gradient-to-r  from-lime-800 to-lime-300",
+                                        className: "w-12 h-px bg-gradient-to-r  from-amber-800 to-amber-300",
                                         initial: {
                                             width: 0
                                         },
@@ -2267,7 +2220,7 @@ function MinimalFacilities() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                        className: "w-12 h-px bg-gradient-to-r  from-lime-800 to-lime-300",
+                                        className: "w-12 h-px bg-gradient-to-r  from-amber-800 to-amber-300",
                                         initial: {
                                             width: 0
                                         },
@@ -2298,7 +2251,7 @@ function MinimalFacilities() {
                                             "Our",
                                             " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "bg-gradient-to-r from-lime-800 to-lime-400 bg-clip-text text-transparent font-medium",
+                                                className: "bg-gradient-to-r from-amber-800 to-amber-400 bg-clip-text text-transparent font-medium",
                                                 children: "Services"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/home/Services.tsx",
@@ -2326,7 +2279,7 @@ function MinimalFacilities() {
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                className: "bg-gradient-to-r from-blue-50 to-emerald-50 rounded-2xl p-6 lg:p-8 max-w-4xl mx-auto mt-8",
+                                className: "bg-gradient-to-r from-amber-50 to-emerald-50 rounded-2xl p-6 lg:p-8 max-w-4xl mx-auto mt-8",
                                 variants: itemVariants,
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("blockquote", {
                                     className: "text-slate-700 italic text-center",
@@ -2380,7 +2333,7 @@ function MinimalFacilities() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex items-center justify-center mb-2",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(stat.icon, {
-                                        className: "w-5 h-5 text-slate-400 group-hover:text-blue-800 transition-colors duration-300"
+                                        className: "w-5 h-5 text-slate-400 group-hover:text-amber-800 transition-colors duration-300"
                                     }, void 0, false, {
                                         fileName: "[project]/components/home/Services.tsx",
                                         lineNumber: 258,
@@ -2487,7 +2440,7 @@ function MinimalFacilities() {
                             className: "flex flex-col sm:flex-row items-center justify-center gap-4",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].button, {
-                                    className: "group inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-800 to-emerald-800 text-white font-medium rounded shadow-lg hover:shadow-xl transition-shadow duration-300",
+                                    className: "group inline-flex items-center px-6 py-3 bg-gradient-to-r from-amber-800 to-emerald-800 text-white font-medium rounded shadow-lg hover:shadow-xl transition-shadow duration-300",
                                     whileHover: {
                                         scale: 1.02,
                                         y: -1

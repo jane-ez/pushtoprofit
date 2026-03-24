@@ -50,7 +50,7 @@ export default function VisionSection(): JSX.Element {
         "At Push to Profit, our vision is to discover, define and design the untapped potential of small and medium sized business owners...",
       detail:
         "Empowering them to grow, innovate, and achieve sustainable success while maximizing profitability.",
-      image: "/2025 Conference/IMG-20250402-WA0093.jpg",
+      image: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283509/IMG-20250402-WA0096_qx1byx.jpg",
       imageAlt: "At the 2025 conference",
     },
     {
@@ -61,7 +61,7 @@ export default function VisionSection(): JSX.Element {
         "Our mission is to equip small and medium-sized business owners with the knowledge, skills, and confidence to compete on a global scale.",
       detail:
         "We achieve this through intensive training, personalized one-on-one mentorship, and dynamic group learning experiences, fostering a culture of professionalism, innovation, and growth.",
-      image: "/2025 Conference/IMG-20250401-WA0176.jpg",
+      image: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283509/IMG-20250401-WA0151_h2rln6.jpg",
       imageAlt: "Our mission pics",
     },
     {
@@ -73,7 +73,7 @@ export default function VisionSection(): JSX.Element {
       detail:
         "We believe that a well-trained business owner with vision and strategic foresight can achieve remarkable success in a shorter time compared to those without proper guidance. By creating this platform, we can reach and train more entrepreneurs simultaneously, helping them become the best versions of themselves while maximizing profitability.",
       image:
-        "/2025 Conference/IMG-20250401-WA0172.jpg",
+        "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283141/4_eoc85t.jpg",
       imageAlt: "Students in music class",
     },
   ];
@@ -81,16 +81,16 @@ export default function VisionSection(): JSX.Element {
   return (
     <section
       ref={sectionRef}
-      className="relative py-16 sm:py-20 md:py-24 lg:py-32 bg-gradient-to-br from-blue-50 via-white to-blue-100 overflow-hidden"
+      className="relative py-16 sm:py-20 md:py-24 lg:py-32 bg-gradient-to-br from-amber-50 via-white to-amber-100 overflow-hidden"
     >
       {/* Animated background elements */}
       <div className="absolute inset-0 z-0">
         <div
-          className="absolute top-1/4 right-1/4 w-96 h-96 bg-blue-700/8 rounded-full blur-3xl animate-pulse"
+          className="absolute top-1/4 right-1/4 w-96 h-96 bg-amber-700/8 rounded-full blur-3xl animate-pulse"
           style={{ animationDuration: "8s" }}
         />
         <div
-          className="absolute bottom-1/3 left-1/4 w-80 h-80 bg-blue-800/5 rounded-full blur-2xl animate-pulse"
+          className="absolute bottom-1/3 left-1/4 w-80 h-80 bg-amber-800/5 rounded-full blur-2xl animate-pulse"
           style={{ animationDuration: "10s", animationDelay: "2s" }}
         />
       </div>
@@ -112,12 +112,12 @@ export default function VisionSection(): JSX.Element {
               }`}
             >
               <div
-                className={`bg-gradient-to-r from-blue-700 to-blue-900 h-px transition-all duration-300 delay-400 ${
+                className={`bg-gradient-to-r from-amber-700 to-amber-900 h-px transition-all duration-300 delay-400 ${
                   isVisible ? "w-12" : "w-0"
                 }`}
               />
               <span
-                className={`text-sm font-medium text-blue-700 tracking-[0.15em] uppercase transition-opacity duration-600 delay-600 ${
+                className={`text-sm font-medium text-amber-700 tracking-[0.15em] uppercase transition-opacity duration-600 delay-600 ${
                   isVisible ? "opacity-100" : "opacity-0"
                 }`}
               >
@@ -134,13 +134,13 @@ export default function VisionSection(): JSX.Element {
             >
               Building Business Owners for
               <br />
-              <span className="bg-gradient-to-r from-blue-800/80 via-blue-700 to-blue-900 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-amber-800/80 via-amber-700 to-amber-900 bg-clip-text text-transparent">
                 Maximum Profit
               </span>
             </h2>
 
             <div
-              className={`bg-gradient-to-r from-blue-700 to-blue-900 h-1 transition-all duration-300 delay-800 ${
+              className={`bg-gradient-to-r from-amber-700 to-amber-900 h-1 transition-all duration-300 delay-800 ${
                 isVisible ? "w-16" : "w-0"
               }`}
             />
@@ -204,7 +204,7 @@ export default function VisionSection(): JSX.Element {
                   <div className="aspect-[4/3] relative">
                     {/* Blue accent border */}
                     <div
-                      className={`absolute -left-2 top-0 w-1 bg-gradient-to-b from-blue-800/80 to-blue-900 transition-all duration-1000 delay-${
+                      className={`absolute -left-2 top-0 w-1 bg-gradient-to-b from-amber-800/80 to-amber-900 transition-all duration-1000 delay-${
                         1000 + index * 200
                       } ${isVisible ? "h-full opacity-100" : "h-0 opacity-0"}`}
                     />
@@ -220,7 +220,7 @@ export default function VisionSection(): JSX.Element {
                     />
 
                     {/* Subtle overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-blue-900/25 via-blue-900/15 to-blue-900/30 opacity-70 group-hover:opacity-50 transition-opacity duration-300" />
+                    <div className="absolute inset-0 bg-gradient-to-br from-amber-900/25 via-amber-900/15 to-amber-900/30 opacity-70 group-hover:opacity-50 transition-opacity duration-300" />
 
                     {/* Educational icon accent */}
                     <div
@@ -279,12 +279,12 @@ export default function VisionSection(): JSX.Element {
                       {String(index + 1).padStart(2, "0")}
                     </span>
                     <div
-                      className={`bg-gray-200 group-hover:bg-blue-400 h-px transition-all duration-300 delay-${
+                      className={`bg-gray-200 group-hover:bg-amber-400 h-px transition-all duration-300 delay-${
                         1000 + index * 200
                       } ${isVisible ? "w-8" : "w-0"}`}
                     />
                     <span
-                      className={`text-sm font-medium text-blue-700 tracking-[0.15em] uppercase transition-opacity duration-600 delay-${
+                      className={`text-sm font-medium text-amber-700 tracking-[0.15em] uppercase transition-opacity duration-600 delay-${
                         1200 + index * 200
                       } ${isVisible ? "opacity-100" : "opacity-0"}`}
                     >
@@ -294,7 +294,7 @@ export default function VisionSection(): JSX.Element {
 
                   {/* Title */}
                   <h3
-                    className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light text-gray-900 leading-tight tracking-tight group-hover:from-blue-800/80 group-hover:to-blue-900 group-hover:bg-gradient-to-r group-hover:bg-clip-text group-hover:text-transparent transition-all duration-300 delay-${
+                    className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light text-gray-900 leading-tight tracking-tight group-hover:from-amber-800/80 group-hover:to-amber-900 group-hover:bg-gradient-to-r group-hover:bg-clip-text group-hover:text-transparent transition-all duration-300 delay-${
                       900 + index * 200
                     } ${
                       isVisible
@@ -320,7 +320,7 @@ export default function VisionSection(): JSX.Element {
 
                   {/* Detail text */}
                   <p
-                    className={`text-base text-gray-700 leading-relaxed font-light border-l-2 border-gray-200 pl-6 group-hover:border-blue-400 transition-all duration-300 delay-${
+                    className={`text-base text-gray-700 leading-relaxed font-light border-l-2 border-gray-200 pl-6 group-hover:border-amber-400 transition-all duration-300 delay-${
                       1200 + index * 200
                     } ${
                       isVisible
@@ -334,7 +334,7 @@ export default function VisionSection(): JSX.Element {
                   {/* Educational highlights for specific cards */}
                   {item.id === "mission" && (
                     <div
-                      className={`bg-blue-50/50 rounded p-4 border-l-4 border-blue-700 hover:translate-x-2 hover:border-l-6 transition-all duration-300 delay-${
+                      className={`bg-amber-50/50 rounded p-4 border-l-4 border-amber-700 hover:translate-x-2 hover:border-l-6 transition-all duration-300 delay-${
                         1300 + index * 200
                       } ${
                         isVisible
@@ -342,22 +342,22 @@ export default function VisionSection(): JSX.Element {
                           : "opacity-0 translate-y-6"
                       }`}
                     >
-                      <h4 className="text-sm font-semibold text-blue-700 mb-2">
+                      <h4 className="text-sm font-semibold text-amber-700 mb-2">
                         Key Features:
                       </h4>
                       <ul className="text-sm text-gray-600 space-y-1">
                         <li className="flex items-center space-x-2">
-                          <div className="w-1.5 h-1.5 bg-blue-700 rounded-full" />
+                          <div className="w-1.5 h-1.5 bg-amber-700 rounded-full" />
                           <span>
                             Equip small and medium-sized business owners
                           </span>
                         </li>
                         <li className="flex items-center space-x-2">
-                          <div className="w-1.5 h-1.5 bg-blue-700 rounded-full" />
+                          <div className="w-1.5 h-1.5 bg-amber-700 rounded-full" />
                           <span>Intensive training & mentorship</span>
                         </li>
                         <li className="flex items-center space-x-2">
-                          <div className="w-1.5 h-1.5 bg-blue-700 rounded-full" />
+                          <div className="w-1.5 h-1.5 bg-amber-700 rounded-full" />
                           <span>Fostering a culture of innovation and growth</span>
                         </li>
                       </ul>
@@ -366,7 +366,7 @@ export default function VisionSection(): JSX.Element {
 
                   {item.id === "approach" && (
                     <div
-                      className={`bg-blue-50/50 rounded p-4 border-l-4 border-blue-800/80 hover:translate-x-2 hover:border-l-6 transition-all duration-300 delay-${
+                      className={`bg-amber-50/50 rounded p-4 border-l-4 border-amber-800/80 hover:translate-x-2 hover:border-l-6 transition-all duration-300 delay-${
                         1300 + index * 200
                       } ${
                         isVisible
@@ -374,24 +374,24 @@ export default function VisionSection(): JSX.Element {
                           : "opacity-0 translate-y-6"
                       }`}
                     >
-                      <h4 className="text-sm font-semibold text-blue-700 mb-2">
+                      <h4 className="text-sm font-semibold text-amber-700 mb-2">
                         Musical Education:
                       </h4>
                       <div className="text-sm text-gray-600 grid grid-cols-2 gap-2">
                         <span className="flex items-center space-x-2">
-                          <div className="w-1.5 h-1.5 bg-blue-800/80 rounded-full" />
+                          <div className="w-1.5 h-1.5 bg-amber-800/80 rounded-full" />
                           <span>Organ</span>
                         </span>
                         <span className="flex items-center space-x-2">
-                          <div className="w-1.5 h-1.5 bg-blue-800/80 rounded-full" />
+                          <div className="w-1.5 h-1.5 bg-amber-800/80 rounded-full" />
                           <span>Violin</span>
                         </span>
                         <span className="flex items-center space-x-2">
-                          <div className="w-1.5 h-1.5 bg-blue-800/80 rounded-full" />
+                          <div className="w-1.5 h-1.5 bg-amber-800/80 rounded-full" />
                           <span>Flutes</span>
                         </span>
                         <span className="flex items-center space-x-2">
-                          <div className="w-1.5 h-1.5 bg-blue-800/80 rounded-full" />
+                          <div className="w-1.5 h-1.5 bg-amber-800/80 rounded-full" />
                           <span>Drums</span>
                         </span>
                       </div>
@@ -408,8 +408,8 @@ export default function VisionSection(): JSX.Element {
                         : "opacity-0 translate-y-6"
                     }`}
                   >
-                    <div className="w-12 h-px bg-gradient-to-r from-blue-700 to-blue-900 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
-                    <div className="w-2 h-2 bg-blue-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                    <div className="w-12 h-px bg-gradient-to-r from-amber-700 to-amber-900 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
+                    <div className="w-2 h-2 bg-amber-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   </div>
                 </div>
               </div>
@@ -421,7 +421,7 @@ export default function VisionSection(): JSX.Element {
                     1700 + index * 200
                   } ${isVisible ? "opacity-100" : "opacity-0"}`}
                 >
-                  <div className="w-full h-px bg-gradient-to-r from-transparent via-blue-300 to-transparent" />
+                  <div className="w-full h-px bg-gradient-to-r from-transparent via-amber-300 to-transparent" />
                 </div>
               )}
 
@@ -437,11 +437,11 @@ export default function VisionSection(): JSX.Element {
                       transform: "translate(0, 0)",
                     }}
                   >
-                    <div className="bg-white/95 backdrop-blur-sm border border-blue-200 p-4 shadow-lg max-w-xs rounded">
-                      <p className="text-sm text-blue-700 font-medium">
+                    <div className="bg-white/95 backdrop-blur-sm border border-amber-200 p-4 shadow-lg max-w-xs rounded">
+                      <p className="text-sm text-amber-700 font-medium">
                         {item.subtitle}
                       </p>
-                      <p className="text-xs text-blue-700 mt-1">
+                      <p className="text-xs text-amber-700 mt-1">
                         For high profitability
                       </p>
                     </div>
@@ -460,23 +460,23 @@ export default function VisionSection(): JSX.Element {
           <div className="text-center space-y-6">
             <div className="flex items-center justify-center space-x-8">
               <div
-                className={`bg-gradient-to-r from-transparent via-blue-700 to-transparent h-px transition-all duration-300 delay-2200 ${
+                className={`bg-gradient-to-r from-transparent via-amber-700 to-transparent h-px transition-all duration-300 delay-2200 ${
                   isVisible ? "w-16" : "w-0"
                 }`}
               />
               <div
-                className={`w-3 h-3 border border-blue-700 transform rotate-45 transition-all duration-300 delay-2400 ${
+                className={`w-3 h-3 border border-amber-700 transform rotate-45 transition-all duration-300 delay-2400 ${
                   isVisible ? "scale-100" : "scale-0"
                 }`}
               />
               <div
-                className={`bg-gradient-to-r from-transparent via-blue-700 to-transparent h-px transition-all duration-300 delay-2600 ${
+                className={`bg-gradient-to-r from-transparent via-amber-700 to-transparent h-px transition-all duration-300 delay-2600 ${
                   isVisible ? "w-16" : "w-0"
                 }`}
               />
             </div>
             <p
-              className={`text-sm text-blue-700 font-light tracking-[0.15em] uppercase transition-opacity duration-600 delay-2800 ${
+              className={`text-sm text-amber-700 font-light tracking-[0.15em] uppercase transition-opacity duration-600 delay-2800 ${
                 isVisible ? "opacity-100" : "opacity-0"
               }`}
             >
@@ -491,11 +491,11 @@ export default function VisionSection(): JSX.Element {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          <div className="bg-gradient-to-r from-blue-800 to-blue-900 rounded p-8 text-white hover:scale-105 hover:-translate-y-1 transition-all duration-300">
+          <div className="bg-gradient-to-r from-amber-800 to-amber-900 rounded p-8 text-white hover:scale-105 hover:-translate-y-1 transition-all duration-300">
             <h3 className="text-2xl font-light mb-4">
               Ready to Join Our Educational Family?
             </h3>
-            <p className="text-blue-200 mb-6 max-w-2xl mx-auto">
+            <p className="text-amber-200 mb-6 max-w-2xl mx-auto">
               Experience world-class education in our nurturing environment.
               Contact us to learn more about admission opportunities.
             </p>
@@ -518,17 +518,17 @@ export default function VisionSection(): JSX.Element {
         >
           <div className="flex items-center justify-center space-x-4">
             <div
-              className={`bg-gradient-to-r from-blue-700 to-blue-900 h-px transition-all duration-300 delay-2800 ${
+              className={`bg-gradient-to-r from-amber-700 to-amber-900 h-px transition-all duration-300 delay-2800 ${
                 isVisible ? "w-8" : "w-0"
               }`}
             />
             <div
-              className={`w-2 h-2 bg-blue-700 rounded-full transition-all duration-300 delay-3000 ${
+              className={`w-2 h-2 bg-amber-700 rounded-full transition-all duration-300 delay-3000 ${
                 isVisible ? "scale-100" : "scale-0"
               }`}
             />
             <div
-              className={`bg-gradient-to-r from-blue-800 to-blue-900 h-px transition-all duration-300 delay-3200 ${
+              className={`bg-gradient-to-r from-amber-800 to-amber-900 h-px transition-all duration-300 delay-3200 ${
                 isVisible ? "w-12" : "w-0"
               }`}
             />
