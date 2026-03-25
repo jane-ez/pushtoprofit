@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { MapPin } from "lucide-react";
+import Image from "next/image";
 
 interface Project {
   id: number;
@@ -58,21 +59,23 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           <div className="relative group/image">
             {/* Glow Effect */}
             <div
-              className={`absolute -inset-8 bg-gradient-to-r ${project.gradient} opacity-0 group-hover:opacity-20 blur-3xl transition-all duration-1000 rounded-3xl`}
+              className={`absolute -inset-8 bg-linear-to-r ${project.gradient} opacity-0 group-hover:opacity-20 blur-3xl transition-all duration-1000 rounded-3xl`}
             />
 
             {/* Main Image Container */}
             <div className="relative overflow-hidden bg-black/50 backdrop-blur-sm border border-amber-500/20">
-              <div className="aspect-[4/3] relative overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000 ease-out"
-                />
+              <div className="aspect-4/3 relative overflow-hidden">
+                <Image
+  src={project.image}
+  alt={project.title}
+  width={800}   // set an appropriate width
+  height={600}  // set an appropriate height
+  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000 ease-out"
+/>
 
                 {/* Dynamic Overlay */}
                 <div
-                  className={`absolute inset-0 bg-gradient-to-br ${project.gradient} mix-blend-overlay opacity-40 group-hover:opacity-60 transition-opacity duration-700`}
+                  className={`absolute inset-0 bg-linear-to-br ${project.gradient} mix-blend-overlay opacity-40 group-hover:opacity-60 transition-opacity duration-700`}
                 />
 
                 {/* Geometric Overlay Pattern */}
@@ -104,7 +107,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               {/* Project Icon */}
               <div className="absolute top-6 right-6 z-20">
                 <div
-                  className={`p-3 bg-gradient-to-br ${project.gradient} shadow-2xl transform group-hover:rotate-12 group-hover:scale-110 transition-all duration-500`}
+                  className={`p-3 bg-linear-to-br ${project.gradient} shadow-2xl transform group-hover:rotate-12 group-hover:scale-110 transition-all duration-500`}
                 >
                   <project.icon className="w-5 h-5 text-white" />
                 </div>
@@ -113,7 +116,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
             {/*  Border Animation */}
             <div
-              className={`absolute -z-50 inset-0 rounded-2xl border-2 border-transparent bg-gradient-to-r ${project.gradient} p-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-700`}
+              className={`absolute -z-50 inset-0 rounded-2xl border-2 border-transparent bg-linear-to-r ${project.gradient} p-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-700`}
             >
               <div className="w-full h-full bg-transparent rounded-2xl" />
             </div>
@@ -128,7 +131,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             {/* Category */}
             <div className="flex items-center space-x-3">
               <div
-                className={`w-8 h-0.5 bg-gradient-to-r ${project.gradient}`}
+                className={`w-8 h-0.5 bg-linear-to-r ${project.gradient}`}
               />
               <span className="text-xs font-medium text-amber-700 tracking-[0.2em] uppercase">
                 {project.category}
@@ -137,21 +140,21 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
             {/* Title */}
             <h3 className="text-3xl sm:text-4xl md:text-5xl font-light leading-tight">
-              <span className="bg-gradient-to-r from-amber-700 via-amber-800 to-amber-700 bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-amber-700 via-amber-800 to-amber-700 bg-clip-text text-transparent">
                 {project.title}
               </span>
             </h3>
 
             {/* Subtitle */}
             <p
-              className={`text-lg md:text-xl font-light bg-gradient-to-r ${project.gradient} bg-clip-text text-transparent`}
+              className={`text-lg md:text-xl font-light bg-linear-to-r ${project.gradient} bg-clip-text text-transparent`}
             >
               {project.subtitle}
             </p>
 
             {/* Divider */}
             <div
-              className={`w-16 h-0.5 bg-gradient-to-r ${project.gradient}`}
+              className={`w-16 h-0.5 bg-linear-to-r ${project.gradient}`}
             />
           </div>
 

@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import {
   X,
   ChevronLeft,
@@ -9,6 +9,7 @@ import {
   Share2,
   Heart,
 } from "lucide-react";
+import Image from "next/image";
 
 interface GalleryImage {
   id: string;
@@ -402,7 +403,7 @@ const Gallery: React.FC = () => {
       date: "2025",
     },
     {
-      id: "44",
+      id: "45",
       src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364172/IMG-20250402-WA0036_u7opl7.jpg",
       title: "Front Yard View",
       category: "2025Conference",
@@ -465,23 +466,27 @@ const Gallery: React.FC = () => {
     setSelectedImage(null);
   };
 
-  const navigateImage = (direction: "prev" | "next") => {
-    const currentIndex = filteredImages.findIndex(
-      (img) => img.id === selectedImage?.id
-    );
-    let newIndex;
+  const navigateImage = useCallback(
+    (direction: "prev" | "next") => {
+      const currentIndex = filteredImages.findIndex(
+        (img) => img.id === selectedImage?.id,
+      );
 
-    if (direction === "next") {
-      newIndex =
-        currentIndex === filteredImages.length - 1 ? 0 : currentIndex + 1;
-    } else {
-      newIndex =
-        currentIndex === 0 ? filteredImages.length - 1 : currentIndex - 1;
-    }
+      let newIndex;
 
-    setSelectedImage(filteredImages[newIndex]);
-    setCurrentImageIndex(newIndex);
-  };
+      if (direction === "next") {
+        newIndex =
+          currentIndex === filteredImages.length - 1 ? 0 : currentIndex + 1;
+      } else {
+        newIndex =
+          currentIndex === 0 ? filteredImages.length - 1 : currentIndex - 1;
+      }
+
+      setSelectedImage(filteredImages[newIndex]);
+      setCurrentImageIndex(newIndex);
+    },
+    [filteredImages, selectedImage, setSelectedImage, setCurrentImageIndex], // ✅ dependencies
+  );
 
   // Handle keyboard navigation
   useEffect(() => {
@@ -498,7 +503,7 @@ const Gallery: React.FC = () => {
   }, [selectedImage, navigateImage]);
 
   return (
-    <section className="relative py-16 sm:py-20 md:py-24 lg:py-32 bg-gradient-to-br from-gray-50 via-white to-amber-50 overflow-hidden">
+    <section className="relative py-16 sm:py-20 md:py-24 lg:py-32 bg-linear-to-br from-gray-50 via-white to-amber-50 overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 z-0">
         <div
@@ -540,7 +545,7 @@ const Gallery: React.FC = () => {
               }`}
             >
               <div
-                className={`bg-gradient-to-r from-amber-800 to-amber-900 h-px transition-all duration-300 delay-400 ${
+                className={`bg-linear-to-r from-amber-800 to-amber-900 h-px transition-all duration-300 delay-400 ${
                   isVisible ? "w-12" : "w-0"
                 }`}
               />
@@ -562,13 +567,13 @@ const Gallery: React.FC = () => {
             >
               Capturing Our
               <br />
-              <span className="bg-gradient-to-r from-amber-700 via-amber-800 to-amber-900 bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-amber-700 via-amber-800 to-amber-900 bg-clip-text text-transparent">
                 Educational Journey
               </span>
             </h1>
 
             <div
-              className={`bg-gradient-to-r from-amber-800 to-amber-900 h-1 transition-all duration-300 delay-800 ${
+              className={`bg-linear-to-r from-amber-800 to-amber-900 h-1 transition-all duration-300 delay-800 ${
                 isVisible ? "w-16" : "w-0"
               }`}
             />
@@ -580,8 +585,9 @@ const Gallery: React.FC = () => {
                   : "opacity-0 translate-y-8"
               }`}
             >
-              Explore moments of learning, growth, and achievement at Push To Profit. From classroom innovations to sporting triumphs,
-              discover the vibrant life that defines our educational community.
+              Explore moments of learning, growth, and achievement at Push To
+              Profit. From classroom innovations to sporting triumphs, discover
+              the vibrant life that defines our educational community.
             </p>
           </div>
         </div>
@@ -599,7 +605,7 @@ const Gallery: React.FC = () => {
                 onClick={() => setSelectedCategory(category.id)}
                 className={`px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 hover:-translate-y-1 ${
                   selectedCategory === category.id
-                    ? "bg-gradient-to-r from-amber-800 to-amber-900 text-white shadow-lg"
+                    ? "bg-linear-to-r from-amber-800 to-amber-900 text-white shadow-lg"
                     : "bg-white/80 backdrop-blur-sm text-amber-800 border border-amber-200 hover:bg-amber-50"
                 } transition-all duration-300 delay-${800 + index * 100}`}
                 style={{ transitionDelay: `${800 + index * 100}ms` }}
@@ -635,22 +641,24 @@ const Gallery: React.FC = () => {
               onClick={() => openLightbox(image, index)}
             >
               {/* Image Container */}
-              <div className="aspect-[4/3] relative overflow-hidden">
+              <div className="aspect-4/3 relative overflow-hidden">
                 {/* Blue accent border */}
                 <div
-                  className={`absolute -left-1 top-0 w-1 bg-gradient-to-b from-amber-700 to-amber-900 transition-all duration-1000 delay-${
+                  className={`absolute -left-1 top-0 w-1 bg-linear-to-b from-amber-700 to-amber-900 transition-all duration-1000 delay-${
                     1100 + index * 100
                   } ${isVisible ? "h-full opacity-100" : "h-0 opacity-0"}`}
                 />
 
-                <img
+                <Image
                   src={image.src}
                   alt={image.title}
+                  width={800} // set an appropriate width
+                  height={600} // set an appropriate height
                   className="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
                 />
 
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-br from-amber-900/40 via-amber-800/20 to-amber-900/60 opacity-60 group-hover:opacity-80 transition-all duration-500" />
+                <div className="absolute inset-0 bg-linear-to-br from-amber-900/40 via-amber-800/20 to-amber-900/60 opacity-60 group-hover:opacity-80 transition-all duration-500" />
 
                 {/* Hover Icons */}
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
@@ -668,7 +676,7 @@ const Gallery: React.FC = () => {
                 </div>
 
                 {/* Title Overlay */}
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-amber-900/90 via-amber-900/60 to-transparent p-4 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                <div className="absolute bottom-0 left-0 right-0 bg-linear-to-t from-amber-900/90 via-amber-900/60 to-transparent p-4 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
                   <h3 className="text-white font-medium text-sm mb-1 truncate">
                     {image.title}
                   </h3>
@@ -724,7 +732,7 @@ const Gallery: React.FC = () => {
           <div className="text-center space-y-6">
             <div className="flex items-center justify-center space-x-8">
               <div
-                className={`bg-gradient-to-r from-transparent via-amber-800 to-transparent h-px transition-all duration-300 delay-2200 ${
+                className={`bg-linear-to-r from-transparent via-amber-800 to-transparent h-px transition-all duration-300 delay-2200 ${
                   isVisible ? "w-16" : "w-0"
                 }`}
               />
@@ -734,7 +742,7 @@ const Gallery: React.FC = () => {
                 }`}
               />
               <div
-                className={`bg-gradient-to-r from-transparent via-amber-800 to-transparent h-px transition-all duration-300 delay-2600 ${
+                className={`bg-linear-to-r from-transparent via-amber-800 to-transparent h-px transition-all duration-300 delay-2600 ${
                   isVisible ? "w-16" : "w-0"
                 }`}
               />
@@ -779,14 +787,16 @@ const Gallery: React.FC = () => {
 
             {/* Image */}
             <div className="relative">
-              <img
+              <Image
                 src={selectedImage.src}
                 alt={selectedImage.title}
+                width={1200} // set an appropriate width
+                height={800} // set an appropriate height
                 className="w-full h-full max-h-[80vh] object-contain rounded"
               />
 
               {/* Image Info */}
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6 rounded-b-lg">
+              <div className="absolute bottom-0 left-0 right-0 bg-linear-to-t from-black/80 to-transparent p-6 rounded-b-lg">
                 <div className="flex items-center justify-between mb-2">
                   <h3 className="text-white text-xl font-medium">
                     {selectedImage.title}
@@ -802,7 +812,7 @@ const Gallery: React.FC = () => {
                   <span className="px-3 py-1 bg-amber-800/80 backdrop-blur-sm text-white text-xs font-medium rounded-full">
                     {
                       categories.find(
-                        (cat) => cat.id === selectedImage.category
+                        (cat) => cat.id === selectedImage.category,
                       )?.name
                     }
                   </span>

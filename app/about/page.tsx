@@ -1,5 +1,4 @@
 import OurStory from "@/components/about/AboutSpark";
-import Contact from "@/components/about/ContactUs";
 import VisionSection from "@/components/about/OurMission";
 import ArchitectureHero from "@/components/ui/other-hero";
 

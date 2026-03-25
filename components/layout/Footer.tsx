@@ -13,6 +13,7 @@ import {
   Users,
   Trophy,
 } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
   const footerRef = useRef<HTMLDivElement>(null);
@@ -89,23 +90,23 @@ export default function Footer() {
           }`}
         >
           <div className="relative inline-block mb-8">
-            <div className="absolute -inset-4 bg-gradient-to-r from-amber-800/20 via-amber-700/30 to-amber-800/20 blur-2xl rounded-full animate-pulse"></div>
+            <div className="absolute -inset-4 bg-linear-to-r from-amber-800/20 via-amber-700/30 to-amber-800/20 blur-2xl rounded-full animate-pulse"></div>
             <span className="relative text-sm font-light text-amber-500 tracking-[0.3em] uppercase backdrop-blur-sm">
               Excellence in Business
             </span>
           </div>
 
           <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-thin leading-[0.9] mb-8 tracking-tight">
-            <span className="inline-block bg-gradient-to-r from-amber-600 via-amber-700 to-amber-600 bg-clip-text text-transparent">
+            <span className="inline-block bg-linear-to-r from-amber-600 via-amber-700 to-amber-600 bg-clip-text text-transparent">
               Join Our
             </span>
             <br />
-            <span className="inline-block bg-gradient-to-r from-white via-amber-100 to-white bg-clip-text text-transparent font-light">
+            <span className="inline-block bg-linear-to-r from-white via-amber-100 to-white bg-clip-text text-transparent font-light">
               Community
             </span>
           </h2>
 
-          <div className="w-32 h-0.5 bg-gradient-to-r from-amber-800 via-amber-700 to-amber-800 mx-auto mb-12" />
+          <div className="w-32 h-0.5 bg-linear-to-r from-amber-800 via-amber-700 to-amber-800 mx-auto mb-12" />
 
           <p className="text-lg md:text-xl text-white/80 font-light leading-relaxed max-w-2xl mx-auto">
             Ready to embark on an educational journey that shapes
@@ -127,18 +128,20 @@ export default function Footer() {
           >
             <div className="space-y-6">
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-0.5 bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700" />
+                <div className="w-8 h-0.5 bg-linear-to-r from-amber-700 via-amber-600 to-amber-700" />
                 <span className="text-xs font-medium text-amber-600 tracking-[0.2em] uppercase">
                   Our School
                 </span>
               </div>
 
               <div className="flex items-center space-x-4 mb-6">
-                <img
-                  src="/logo-trans.png"
-                  alt="Push to Profit"
-                  className="w-24 max-w-full h-24 object-contain rounded-lg"
-                />
+                <Image
+  src="/logo-trans.png"
+  alt="Push to Profit"
+  width={96}   // matches w-24 (24 * 4px = 96px)
+  height={96}  // matches h-24
+  className="w-24 max-w-full h-24 object-contain rounded-lg"
+/>
                 {/* <div className="flex flex-col">
                   <h3 className="text-xl font-light text-white">
                     Push to Profit
@@ -149,7 +152,7 @@ export default function Footer() {
                 </div> */}
               </div>
 
-              <div className="w-16 h-0.5 bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700" />
+              <div className="w-16 h-0.5 bg-linear-to-r from-amber-700 via-amber-600 to-amber-700" />
             </div>
 
             <p className="text-white/70 text-base leading-relaxed font-light">
@@ -183,7 +186,13 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="group p-3 bg-white/5 border border-white/10 text-white/70 hover:border-amber-700/50 hover:bg-amber-700/10 transition-all duration-300 backdrop-blur-sm flex items-center justify-center"
               >
-                <img src="/whatsapp.svg" alt="whatsapp" className="size-4" />
+                <Image
+  src="/whatsapp.svg"
+  alt="whatsapp"
+  width={16}   // size-4 in Tailwind = 1rem = 16px
+  height={16}
+  className="size-4"
+/>
               </a>
             </div>
           </div>
@@ -199,7 +208,7 @@ export default function Footer() {
           >
             <div className="space-y-6">
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-0.5 bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700" />
+                <div className="w-8 h-0.5 bg-linear-to-r from-amber-700 via-amber-600 to-amber-700" />
                 <span className="text-xs font-medium text-amber-600 tracking-[0.2em] uppercase">
                   Academics
                 </span>
@@ -209,7 +218,7 @@ export default function Footer() {
                 Learning Programs
               </h3>
 
-              <div className="w-16 h-0.5 bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700" />
+              <div className="w-16 h-0.5 bg-linear-to-r from-amber-700 via-amber-600 to-amber-700" />
             </div>
 
             <div className="space-y-4">
@@ -246,7 +255,7 @@ export default function Footer() {
           >
             <div className="space-y-6">
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-0.5 bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700" />
+                <div className="w-8 h-0.5 bg-linear-to-r from-amber-700 via-amber-600 to-amber-700" />
                 <span className="text-xs font-medium text-amber-600 tracking-[0.2em] uppercase">
                   Quick Links
                 </span>
@@ -254,7 +263,7 @@ export default function Footer() {
 
               <h3 className="text-2xl font-light text-white">Navigate</h3>
 
-              <div className="w-16 h-0.5 bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700" />
+              <div className="w-16 h-0.5 bg-linear-to-r from-amber-700 via-amber-600 to-amber-700" />
             </div>
 
             <div className="space-y-4">
@@ -291,7 +300,7 @@ export default function Footer() {
           >
             <div className="space-y-6">
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-0.5 bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700" />
+                <div className="w-8 h-0.5 bg-linear-to-r from-amber-700 via-amber-600 to-amber-700" />
                 <span className="text-xs font-medium text-amber-600 tracking-[0.2em] uppercase">
                   Get In Touch
                 </span>
@@ -299,7 +308,7 @@ export default function Footer() {
 
               <h3 className="text-2xl font-light text-white">Contact Us</h3>
 
-              <div className="w-16 h-0.5 bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700" />
+              <div className="w-16 h-0.5 bg-linear-to-r from-amber-700 via-amber-600 to-amber-700" />
             </div>
 
             <div className="space-y-6">
@@ -365,9 +374,9 @@ export default function Footer() {
           >
             <div className="flex items-center space-x-4 opacity-40">
               <div className="w-2 h-2 bg-amber-700 rounded-full animate-pulse" />
-              <div className="w-16 h-px bg-gradient-to-r from-transparent via-amber-700/50 to-transparent" />
+              <div className="w-16 h-px bg-linear-to-r from-transparent via-amber-700/50 to-transparent" />
               <div className="w-1 h-1 bg-amber-600 rounded-full animate-pulse delay-800" />
-              <div className="w-16 h-px bg-gradient-to-r from-transparent via-amber-700/50 to-transparent" />
+              <div className="w-16 h-px bg-linear-to-r from-transparent via-amber-700/50 to-transparent" />
               <div className="w-2 h-2 bg-amber-700 rounded-full animate-pulse delay-1000" />
             </div>
 
@@ -379,9 +388,9 @@ export default function Footer() {
 
             <div className="flex items-center space-x-4 opacity-40">
               <div className="w-2 h-2 bg-amber-700 rounded-full animate-pulse delay-1000" />
-              <div className="w-16 h-px bg-gradient-to-r from-transparent via-amber-700/50 to-transparent" />
+              <div className="w-16 h-px bg-linear-to-r from-transparent via-amber-700/50 to-transparent" />
               <div className="w-1 h-1 bg-amber-600 rounded-full animate-pulse delay-800" />
-              <div className="w-16 h-px bg-gradient-to-r from-transparent via-amber-700/50 to-transparent" />
+              <div className="w-16 h-px bg-linear-to-r from-transparent via-amber-700/50 to-transparent" />
               <div className="w-2 h-2 bg-amber-700 rounded-full animate-pulse" />
             </div>
           </div>

@@ -2,6 +2,8 @@
 import { useEffect, useRef } from "react";
 import { motion, useInView, Variants } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
+const MotionImage = motion(Image);
 
 export default function About() {
   const videoRef = useRef(null);
@@ -131,7 +133,7 @@ export default function About() {
         transition={{ duration: 2 }}
       >
         <motion.div
-          className="absolute w-full h-full opacity-20 bg-gradient-to-br from-amber-50 via-emerald-50 to-amber-100"
+          className="absolute w-full h-full opacity-20 bg-linear-to-br from-amber-50 via-emerald-50 to-amber-100"
           animate={{
             background: [
               "linear-gradient(45deg, #dbeafe, #d1fae5, #dbeafe)",
@@ -194,7 +196,7 @@ export default function About() {
                   variants={fadeInUp}
                 >
                   <motion.div
-                    className="w-12 h-px bg-gradient-to-r from-amber-800 to-gray-800"
+                    className="w-12 h-px bg-linear-to-r from-amber-800 to-gray-800"
                     initial={{ width: 0 }}
                     animate={isHeroInView ? { width: 48 } : { width: 0 }}
                     transition={{ duration: 1, delay: 0.5 }}
@@ -218,7 +220,7 @@ export default function About() {
                   variants={fadeInUp}
                 >
                   <motion.span
-                    className="bg-gradient-to-r from-amber-800 to-emerald-800 bg-clip-text text-transparent"
+                    className="bg-linear-to-r from-amber-800 to-emerald-800 bg-clip-text text-transparent"
                     initial={{ backgroundPosition: "200% center" }}
                     animate={
                       isHeroInView
@@ -246,7 +248,7 @@ export default function About() {
                 </motion.h1>
 
                 <motion.div
-                  className="w-32 h-0.5 bg-gradient-to-r from-amber-800 to-emerald-800"
+                  className="w-32 h-0.5 bg-linear-to-r from-amber-800 to-emerald-800"
                   initial={{ width: 0 }}
                   animate={isHeroInView ? { width: 128 } : { width: 0 }}
                   transition={{ duration: 1, delay: 1 }}
@@ -271,7 +273,7 @@ export default function About() {
 
               <motion.div className="space-y-6" variants={staggerContainer}>
                 {[
-                  "Jane Maxwell is a seasoned business and personal development consultant with over nine years of professional experience spanning indigenous and international health and wellness organizations. She has built a strong reputation for helping individuals and organizations develop strategic clarity, leadership capacity, and sustainable profitability."
+                  "Jane Maxwell is a seasoned business and personal development consultant with over nine years of professional experience spanning indigenous and international health and wellness organizations. She has built a strong reputation for helping individuals and organizations develop strategic clarity, leadership capacity, and sustainable profitability.",
                 ].map((text, index) => (
                   <motion.p
                     key={index}
@@ -297,7 +299,7 @@ export default function About() {
                   whileTap={{ scale: 0.95 }}
                 >
                   <span className="flex items-center space-x-2">
-                  <Link href="/about">Read More</Link>
+                    <Link href="/about">Read More</Link>
                     <motion.span
                       className="transform transition-transform"
                       whileHover={{ x: 5 }}
@@ -318,8 +320,10 @@ export default function About() {
                 transition={{ duration: 0.3 }}
               >
                 <div className="relative overflow-hidden shadow-2xl">
-                  <motion.img
+                  <MotionImage
                     src="/ceopushtoprofit.png"
+                    width={600} // ✅ required
+                    height={600} // ✅ required
                     alt="Push To Profit"
                     className="w-full h-auto"
                     style={{
@@ -338,7 +342,7 @@ export default function About() {
 
                   {/* Animated Overlay */}
                   <motion.div
-                    className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"
+                    className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent"
                     initial={{ opacity: 0 }}
                     whileHover={{ opacity: 1 }}
                     transition={{ duration: 0.3 }}
@@ -349,9 +353,7 @@ export default function About() {
                       whileHover={{ y: 0, opacity: 1 }}
                       transition={{ duration: 0.3, delay: 0.1 }}
                     >
-                      <p className="text-sm font-medium">
-                        Push To Profit
-                      </p>
+                      <p className="text-sm font-medium">Push To Profit</p>
                       <p className="text-xs opacity-90">
                         Port Harcourt, Rivers State
                       </p>
@@ -394,7 +396,7 @@ export default function About() {
       {/* School Statistics Section */}
       <motion.section
         ref={statsRef}
-        className="relative py-20 bg-gradient-to-r from-amber-500 to-amber-300"
+        className="relative py-20 bg-linear-to-r from-amber-500 to-amber-300"
         initial={{ opacity: 0, y: 100 }}
         animate={isStatsInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
         transition={{ duration: 1, ease: "easeOut" }}
@@ -523,7 +525,7 @@ export default function About() {
                   Shaping Tomorrow&apos;s
                   <br />
                   <motion.span
-                    className="bg-gradient-to-r from-amber-700 to-amber-400 bg-clip-text text-transparent"
+                    className="bg-linear-to-r from-amber-700 to-amber-400 bg-clip-text text-transparent"
                     initial={{ backgroundPosition: "200% center" }}
                     animate={
                       isVisionInView
@@ -538,7 +540,7 @@ export default function About() {
                 </motion.h2>
 
                 <motion.div
-                  className="w-32 h-0.5 bg-gradient-to-r from-amber-700 to-amber-400 mx-auto"
+                  className="w-32 h-0.5 bg-linear-to-r from-amber-700 to-amber-400 mx-auto"
                   initial={{ width: 0 }}
                   animate={isVisionInView ? { width: 128 } : { width: 0 }}
                   transition={{ duration: 1, delay: 1 }}

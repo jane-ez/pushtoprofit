@@ -175,7 +175,7 @@ export default function Hero() {
             mediaItems={[
               {
                 type: "video",
-                src: "/school1.mp4",
+                src: "/BenefitsattendingBC.mp4",
                 alt: "sky2",
               },
             ]}
@@ -186,7 +186,7 @@ export default function Hero() {
         {/* Dynamic Overlay */}
         <div
           ref={overlayRef}
-          className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70 z-50"
+          className="absolute inset-0 bg-linear-to-b from-black/70 via-black/50 to-black/70 z-50"
           style={{ willChange: "opacity" }}
         />
 
@@ -351,8 +351,8 @@ export default function Hero() {
                   letterSpacing: "0.02em",
                 }}
               >
-                Shaping Tomorrow&apos;s Leaders in business Today!
-                <span className="block mt-1 text-white/80">Great Value</span>
+                Building business owners for maximum profit.
+                {/* <span className="block mt-1 text-white/80">Great Value</span> */}
               </h2>
             </div>
 
@@ -383,7 +383,7 @@ export default function Hero() {
               style={{ willChange: "transform" }}
             >
               <button
-                className="group px-4 py-3 text-white bg-amber-400 font-medium hover:!bg-amber-500 text-base transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+                className="group px-4 py-3 text-white bg-amber-400 font-medium hover:bg-amber-500! text-base transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
                 style={{
                   fontWeight: "500",
                   letterSpacing: "0.05em",

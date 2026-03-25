@@ -100,7 +100,7 @@ const ContactPage = () => {
         {[...Array(20)].map((_, i) => (
           <div
             key={i}
-            className="absolute w-1 h-1 bg-gradient-to-r from-amber-400 to-teal-300 rounded-full"
+            className="absolute w-1 h-1 bg-linear-to-r from-amber-400 to-teal-300 rounded-full"
             style={{
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
@@ -126,15 +126,15 @@ const ContactPage = () => {
             <div className="text-center space-y-8">
               {/* Decorative accent */}
               <div className="flex items-center justify-center space-x-4">
-                <div className="w-12 h-px bg-gradient-to-r from-amber-800 to-amber-700"></div>
+                <div className="w-12 h-px bg-linear-to-r from-amber-800 to-amber-700"></div>
                 <span className="text-sm font-medium text-amber-700 tracking-[0.15em] uppercase">
                   Get In Touch
                 </span>
-                <div className="w-12 h-px bg-gradient-to-r from-amber-700 to-amber-800"></div>
+                <div className="w-12 h-px bg-linear-to-r from-amber-700 to-amber-800"></div>
               </div>
 
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-thin leading-[0.9] tracking-tight">
-                <span className="inline-block bg-gradient-to-r from-amber-800 via-amber-700 to-amber-800 bg-clip-text text-transparent">
+                <span className="inline-block bg-linear-to-r from-amber-800 via-amber-700 to-amber-800 bg-clip-text text-transparent">
                   Contact Us
                 </span>
               </h1>
@@ -146,7 +146,7 @@ const ContactPage = () => {
                 programs.
               </p>
 
-              <div className="w-32 h-0.5 bg-gradient-to-r from-amber-700 via-amber-800 to-amber-700 mx-auto" />
+              <div className="w-32 h-0.5 bg-linear-to-r from-amber-700 via-amber-800 to-amber-700 mx-auto" />
             </div>
           </div>
         </div>
@@ -161,8 +161,8 @@ const ContactPage = () => {
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <div className="w-8 h-8 relative">
-                    <div className="absolute top-1/2 left-0 w-full h-px bg-gradient-to-r from-amber-800 to-amber-700 transform -translate-y-1/2"></div>
-                    <div className="absolute left-1/2 top-0 w-px h-full bg-gradient-to-b from-amber-800 to-amber-700 transform -translate-x-1/2"></div>
+                    <div className="absolute top-1/2 left-0 w-full h-px bg-linear-to-r from-amber-800 to-amber-700 transform -translate-y-1/2"></div>
+                    <div className="absolute left-1/2 top-0 w-px h-full bg-linear-to-b from-amber-800 to-amber-700 transform -translate-x-1/2"></div>
                     <div className="absolute top-1/2 left-1/2 w-2 h-2 bg-amber-800 rounded-full transform -translate-x-1/2 -translate-y-1/2"></div>
                   </div>
                   <h2 className="text-3xl md:text-4xl font-light text-gray-900 tracking-tight">
@@ -334,8 +334,8 @@ const ContactPage = () => {
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <div className="w-8 h-8 relative">
-                    <div className="absolute top-1/2 left-0 w-full h-px bg-gradient-to-r from-amber-800 to-amber-700 transform -translate-y-1/2"></div>
-                    <div className="absolute left-1/2 top-0 w-px h-full bg-gradient-to-b from-amber-800 to-amber-700 transform -translate-x-1/2"></div>
+                    <div className="absolute top-1/2 left-0 w-full h-px bg-linear-to-r from-amber-800 to-amber-700 transform -translate-y-1/2"></div>
+                    <div className="absolute left-1/2 top-0 w-px h-full bg-linear-to-b from-amber-800 to-amber-700 transform -translate-x-1/2"></div>
                     <div className="absolute top-1/2 left-1/2 w-2 h-2 bg-amber-800 rounded-full transform -translate-x-1/2 -translate-y-1/2"></div>
                   </div>
                   <h2 className="text-3xl md:text-4xl font-light text-gray-900 tracking-tight">
@@ -347,7 +347,7 @@ const ContactPage = () => {
               <div className="space-y-10">
                 {/* Phone Numbers */}
                 <div className="flex items-start space-x-6">
-                  <div className="flex-shrink-0 w-12 h-12 bg-amber-100/50 rounded-full flex items-center justify-center">
+                  <div className="shrink-0 w-12 h-12 bg-amber-100/50 rounded-full flex items-center justify-center">
                     <Phone className="w-5 h-5 text-amber-800" />
                   </div>
                   <div className="space-y-2">
@@ -364,7 +364,7 @@ const ContactPage = () => {
 
                 {/* Email */}
                 <div className="flex items-start space-x-6">
-                  <div className="flex-shrink-0 w-12 h-12 bg-amber-100/50 rounded-full flex items-center justify-center">
+                  <div className="shrink-0 w-12 h-12 bg-amber-100/50 rounded-full flex items-center justify-center">
                     <Mail className="w-5 h-5 text-amber-800" />
                   </div>
                   <div className="space-y-2">
@@ -379,7 +379,7 @@ const ContactPage = () => {
 
                 {/* Location */}
                 <div className="flex items-start space-x-6">
-                  <div className="flex-shrink-0 w-12 h-12 bg-amber-100/50 rounded-full flex items-center justify-center">
+                  <div className="shrink-0 w-12 h-12 bg-amber-100/50 rounded-full flex items-center justify-center">
                     <MapPin className="w-5 h-5 text-amber-800" />
                   </div>
                   <div className="space-y-2">
@@ -400,7 +400,7 @@ const ContactPage = () => {
 
                 {/* Working Hours */}
                 <div className="flex items-start space-x-6">
-                  <div className="flex-shrink-0 w-12 h-12 bg-amber-100/50 rounded-full flex items-center justify-center">
+                  <div className="shrink-0 w-12 h-12 bg-amber-100/50 rounded-full flex items-center justify-center">
                     <Clock className="w-5 h-5 text-amber-800" />
                   </div>
                   <div className="space-y-2">
@@ -416,7 +416,7 @@ const ContactPage = () => {
               </div>
 
               {/* Call to Action */}
-              <div className="bg-gradient-to-br from-amber-50/50 to-white p-8 rounded-sm border border-amber-100/50">
+              <div className="bg-linear-to-br from-amber-50/50 to-white p-8 rounded-sm border border-amber-100/50">
                 <div className="space-y-4">
                   <h3 className="text-xl font-medium text-gray-900">
                     Ready to Join Our School Community?

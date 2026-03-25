@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import { Plus } from "lucide-react";
+import Image from "next/image";
 
 // Type definitions
 type ContentAlignment = "left" | "center" | "right";
@@ -83,13 +84,15 @@ const ArchitectureHero: React.FC<HeroProps> = ({
     >
       {/* Background image with amber overlay */}
       {backgroundImage && (
-        <div className="absolute inset-0 z-0">
-          <img
+        <div className="absolute inset-0 z-0 h-full">
+          <Image
             src={backgroundImage}
             alt="Hero background"
-            className="absolute inset-0 w-full h-full object-cover"
+            fill
+            priority
+            className="absolute inset-0 object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-amber-900/40 to-black/80" />
+          <div className="absolute inset-0 bg-linear-to-br from-black/70 via-amber-900/40 to-black/80" />
         </div>
       )}
 
@@ -101,25 +104,25 @@ const ArchitectureHero: React.FC<HeroProps> = ({
 
       {/* Main layout - Better mobile centering */}
       <main
-        className="relative z-10 h-screen flex flex-col md:flex-row items-center justify-center md:justify-between px-4 sm:px-6 md:px-8 lg:px-16 xl:px-20 2xl:px-24 transition-transform duration-[30ms] ease-[cubic-bezier(0.25, 0.46, 0.45, 0.94)] will-change-transform pt-8 pb-24 sm:pt-12 sm:pb-28 md:pt-16 md:pb-16"
+        className="relative z-10 h-screen flex flex-col md:flex-row items-center justify-center md:justify-between px-4 sm:px-6 md:px-8 lg:px-16 xl:px-20 2xl:px-24 transition-transform duration-30 ease-[cubic-bezier(0.25, 0.46, 0.45, 0.94)] will-change-transform pt-8 pb-24 sm:pt-12 sm:pb-28 md:pt-16 md:pb-16"
         style={{
           transform: `translateY(${displacement}px)`,
         }}
       >
         <div className="flex-1 mt-20 md:m-0 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-xl xl:max-w-2xl 2xl:max-w-4xl mx-auto md:mx-0 text-center md:text-left">
-          <h1 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold leading-tight mb-2 sm:mb-3 md:mb-4 lg:mb-6 bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500 bg-clip-text text-transparent">
+          <h1 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold leading-tight mb-2 sm:mb-3 md:mb-4 lg:mb-6 bg-linear-to-r from-amber-300 via-amber-400 to-amber-500 bg-clip-text text-transparent">
             {descriptionHeader}
           </h1>
           <p
             id={descriptionId}
-            className={`text-base lg:text-lg xl:text-xl font-light leading-relaxed mb-4 sm:mb-6 md:mb-8 bg-gradient-to-r from-white via-amber-100 to-amber-200 bg-clip-text text-transparent ${contentAlignClass[contentAlignment]} ${descriptionClassName}`}
+            className={`text-base lg:text-lg xl:text-xl font-light leading-relaxed mb-4 sm:mb-6 md:mb-8 bg-linear-to-r from-white via-amber-100 to-amber-200 bg-clip-text text-transparent ${contentAlignClass[contentAlignment]} ${descriptionClassName}`}
           >
             {description}
           </p>
         </div>
 
         {imagePosition === "right" && (
-          <div className="flex-shrink-0 mt-2 md:mt-0 md:ml-6 lg:ml-8 xl:ml-12">
+          <div className="shrink-0 mt-2 md:mt-0 md:ml-6 lg:ml-8 xl:ml-12">
             <LeftIcon className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:w-10 xl:h-10 text-amber-400 opacity-70 hover:opacity-100 transition-opacity" />
           </div>
         )}
@@ -129,7 +132,7 @@ const ArchitectureHero: React.FC<HeroProps> = ({
       <div className="fixed left-0 right-0 z-5 pointer-events-none overflow-hidden bottom-32 md:bottom-12 h-40">
         <h1
           id={titleId}
-          className={`relative w-full text-center transition-transform duration-[30ms] ease-[cubic-bezier(0.25, 0.46, 0.45, 0.94)] will-change-transform font-bold  bg-gradient-to-br from-amber-900/60 via-amber-800/70 to-amber-700/75 bg-clip-text text-transparent text-4xl md:text-5xl  ${titleClassName}`}
+          className={`relative w-full text-center transition-transform duration-30 ease-[cubic-bezier(0.25, 0.46, 0.45, 0.94)] will-change-transform font-bold  bg-linear-to-br from-amber-900/60 via-amber-800/70 to-amber-700/75 bg-clip-text text-transparent text-4xl md:text-5xl  ${titleClassName}`}
           style={{
             transform: `translateY(${displacement}px)`,
             textShadow: "0 0 40px rgba(34, 197, 94, 0.1)",
@@ -137,7 +140,7 @@ const ArchitectureHero: React.FC<HeroProps> = ({
             lineHeight: "0.85",
           }}
         >
-          <span className="block max-w-full break-words hyphens-auto" lang="en">
+          <span className="block max-w-full wrap-break-word hyphens-auto" lang="en">
             {title}
           </span>
         </h1>
