@@ -9,7 +9,7 @@ const FacilitiesPage = () => {
           descriptionHeader="Our Facilities Speaks for themselves"
           title="Facilities"
           description="At Push To Profit, we provide more than just classrooms — we offer an environment designed for growth, creativity, and excellence. Our state-of-the-art facilities support learning, sports, technology, and the arts, giving students the space and tools to thrive. Explore our well-curated facilities, each one built to inspire achievement and nurture potential."
-          backgroundImage="https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283510/bg-image_vwbemw.jpg"
+          backgroundImage="https://res.cloudinary.com/dlfui2ojv/image/upload/v1774418498/bg-image_ersnzf.jpg"
           titleId="hero-title"
           descriptionId="hero-description"
         />
