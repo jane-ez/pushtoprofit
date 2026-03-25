@@ -174,8 +174,8 @@ export default function Hero() {
             scrollY={scrollY}
             mediaItems={[
               {
-                type: "video",
-                src: "/BenefitsattendingBC.mp4",
+                type: "image",
+                src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364278/IMG-20250401-WA0013_mopioy.jpg",
                 alt: "sky2",
               },
             ]}
