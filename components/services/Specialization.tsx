@@ -5,7 +5,7 @@ const ServicesPage = () => {
   const services = [
     {
       icon: <Building2 className="w-6 h-6" />,
-      title: "Construction Services",
+      title: "Construction Service",
       description:
         "From ground-breaking to final touches, we excel in building new structures that meet and exceed expectations. Our experienced team ensures every detail is meticulously executed.",
       features: [

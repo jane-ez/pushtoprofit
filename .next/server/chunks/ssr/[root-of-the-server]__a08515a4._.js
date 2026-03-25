@@ -37,11 +37,14 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$use$2d$in$2d$view$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/utils/use-in-view.mjs [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 "use client";
 ;
 ;
 ;
 ;
+;
+const MotionImage = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]);
 function About() {
     const videoRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
     const heroRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
@@ -198,7 +201,7 @@ function About() {
                     duration: 2
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                    className: "absolute w-full h-full opacity-20 bg-gradient-to-br from-amber-50 via-emerald-50 to-amber-100",
+                    className: "absolute w-full h-full opacity-20 bg-linear-to-br from-amber-50 via-emerald-50 to-amber-100",
                     animate: {
                         background: [
                             "linear-gradient(45deg, #dbeafe, #d1fae5, #dbeafe)",
@@ -213,12 +216,12 @@ function About() {
                     }
                 }, void 0, false, {
                     fileName: "[project]/components/home/About.tsx",
-                    lineNumber: 133,
+                    lineNumber: 135,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/home/About.tsx",
-                lineNumber: 127,
+                lineNumber: 129,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -262,17 +265,17 @@ function About() {
                             className: "w-8 h-8 border border-amber-300 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/components/home/About.tsx",
-                            lineNumber: 173,
+                            lineNumber: 175,
                             columnNumber: 13
                         }, this)
                     }, i, false, {
                         fileName: "[project]/components/home/About.tsx",
-                        lineNumber: 153,
+                        lineNumber: 155,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/home/About.tsx",
-                lineNumber: 151,
+                lineNumber: 153,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -299,7 +302,7 @@ function About() {
                                                 variants: fadeInUp,
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                                        className: "w-12 h-px bg-gradient-to-r from-amber-800 to-gray-800",
+                                                        className: "w-12 h-px bg-linear-to-r from-amber-800 to-gray-800",
                                                         initial: {
                                                             width: 0
                                                         },
@@ -314,7 +317,7 @@ function About() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/home/About.tsx",
-                                                        lineNumber: 196,
+                                                        lineNumber: 198,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
@@ -337,13 +340,13 @@ function About() {
                                                         children: "Excellence in Business"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/home/About.tsx",
-                                                        lineNumber: 202,
+                                                        lineNumber: 204,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/home/About.tsx",
-                                                lineNumber: 192,
+                                                lineNumber: 194,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h1, {
@@ -351,7 +354,7 @@ function About() {
                                                 variants: fadeInUp,
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
-                                                        className: "bg-gradient-to-r from-amber-800 to-emerald-800 bg-clip-text text-transparent",
+                                                        className: "bg-linear-to-r from-amber-800 to-emerald-800 bg-clip-text text-transparent",
                                                         initial: {
                                                             backgroundPosition: "200% center"
                                                         },
@@ -370,12 +373,12 @@ function About() {
                                                         children: "Meet the"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/home/About.tsx",
-                                                        lineNumber: 220,
+                                                        lineNumber: 222,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/components/home/About.tsx",
-                                                        lineNumber: 233,
+                                                        lineNumber: 235,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
@@ -398,17 +401,17 @@ function About() {
                                                         children: "Convener"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/home/About.tsx",
-                                                        lineNumber: 234,
+                                                        lineNumber: 236,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/home/About.tsx",
-                                                lineNumber: 216,
+                                                lineNumber: 218,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                                className: "w-32 h-0.5 bg-gradient-to-r from-amber-800 to-emerald-800",
+                                                className: "w-32 h-0.5 bg-linear-to-r from-amber-800 to-emerald-800",
                                                 initial: {
                                                     width: 0
                                                 },
@@ -423,7 +426,7 @@ function About() {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/components/home/About.tsx",
-                                                lineNumber: 248,
+                                                lineNumber: 250,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -432,13 +435,13 @@ function About() {
                                                 children: "Lead Consultant, Janelheight Consult Ltd Business & Personal Development Consultant | Serial Entrepreneur | Sales Strategist | Team Builder | Public & Motivational Speaker"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/home/About.tsx",
-                                                lineNumber: 262,
+                                                lineNumber: 264,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/home/About.tsx",
-                                        lineNumber: 190,
+                                        lineNumber: 192,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -458,12 +461,12 @@ function About() {
                                                 children: text
                                             }, index, false, {
                                                 fileName: "[project]/components/home/About.tsx",
-                                                lineNumber: 276,
+                                                lineNumber: 278,
                                                 columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/home/About.tsx",
-                                        lineNumber: 272,
+                                        lineNumber: 274,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -487,8 +490,8 @@ function About() {
                                                         children: "Read More"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/home/About.tsx",
-                                                        lineNumber: 300,
-                                                        columnNumber: 19
+                                                        lineNumber: 302,
+                                                        columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
                                                         className: "transform transition-transform",
@@ -498,29 +501,29 @@ function About() {
                                                         children: "→"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/home/About.tsx",
-                                                        lineNumber: 301,
+                                                        lineNumber: 303,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/home/About.tsx",
-                                                lineNumber: 299,
+                                                lineNumber: 301,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/home/About.tsx",
-                                            lineNumber: 289,
+                                            lineNumber: 291,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/home/About.tsx",
-                                        lineNumber: 288,
+                                        lineNumber: 290,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/home/About.tsx",
-                                lineNumber: 189,
+                                lineNumber: 191,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -538,8 +541,10 @@ function About() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "relative overflow-hidden shadow-2xl",
                                             children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].img, {
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(MotionImage, {
                                                     src: "/ceopushtoprofit.png",
+                                                    width: 600,
+                                                    height: 600,
                                                     alt: "Push To Profit",
                                                     className: "w-full h-auto",
                                                     style: {
@@ -566,11 +571,11 @@ function About() {
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/home/About.tsx",
-                                                    lineNumber: 321,
+                                                    lineNumber: 323,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                                    className: "absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent",
+                                                    className: "absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent",
                                                     initial: {
                                                         opacity: 0
                                                     },
@@ -600,7 +605,7 @@ function About() {
                                                                 children: "Push To Profit"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/home/About.tsx",
-                                                                lineNumber: 352,
+                                                                lineNumber: 356,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -608,24 +613,24 @@ function About() {
                                                                 children: "Port Harcourt, Rivers State"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/home/About.tsx",
-                                                                lineNumber: 355,
+                                                                lineNumber: 357,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/home/About.tsx",
-                                                        lineNumber: 346,
+                                                        lineNumber: 350,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/home/About.tsx",
-                                                    lineNumber: 340,
+                                                    lineNumber: 344,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/home/About.tsx",
-                                            lineNumber: 320,
+                                            lineNumber: 322,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -649,7 +654,7 @@ function About() {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/components/home/About.tsx",
-                                            lineNumber: 363,
+                                            lineNumber: 365,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -674,39 +679,39 @@ function About() {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/components/home/About.tsx",
-                                            lineNumber: 375,
+                                            lineNumber: 377,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/home/About.tsx",
-                                    lineNumber: 314,
+                                    lineNumber: 316,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/home/About.tsx",
-                                lineNumber: 313,
+                                lineNumber: 315,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/home/About.tsx",
-                        lineNumber: 187,
+                        lineNumber: 189,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/home/About.tsx",
-                    lineNumber: 180,
+                    lineNumber: 182,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/home/About.tsx",
-                lineNumber: 179,
+                lineNumber: 181,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].section, {
                 ref: statsRef,
-                className: "relative py-20 bg-gradient-to-r from-amber-500 to-amber-300",
+                className: "relative py-20 bg-linear-to-r from-amber-500 to-amber-300",
                 initial: {
                     opacity: 0,
                     y: 100
@@ -737,7 +742,7 @@ function About() {
                                     children: "Our Journey Since 2023"
                                 }, void 0, false, {
                                     fileName: "[project]/components/home/About.tsx",
-                                    lineNumber: 409,
+                                    lineNumber: 411,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -756,13 +761,13 @@ function About() {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/components/home/About.tsx",
-                                    lineNumber: 415,
+                                    lineNumber: 417,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/home/About.tsx",
-                            lineNumber: 403,
+                            lineNumber: 405,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -813,7 +818,7 @@ function About() {
                                             children: stat.number
                                         }, void 0, false, {
                                             fileName: "[project]/components/home/About.tsx",
-                                            lineNumber: 441,
+                                            lineNumber: 443,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -822,29 +827,29 @@ function About() {
                                             children: stat.label
                                         }, void 0, false, {
                                             fileName: "[project]/components/home/About.tsx",
-                                            lineNumber: 454,
+                                            lineNumber: 456,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/components/home/About.tsx",
-                                    lineNumber: 434,
+                                    lineNumber: 436,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/home/About.tsx",
-                            lineNumber: 423,
+                            lineNumber: 425,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/home/About.tsx",
-                    lineNumber: 402,
+                    lineNumber: 404,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/home/About.tsx",
-                lineNumber: 395,
+                lineNumber: 397,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].section, {
@@ -887,12 +892,12 @@ function About() {
                                 type: "video/mp4"
                             }, void 0, false, {
                                 fileName: "[project]/components/home/About.tsx",
-                                lineNumber: 487,
+                                lineNumber: 489,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/home/About.tsx",
-                            lineNumber: 472,
+                            lineNumber: 474,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -908,7 +913,7 @@ function About() {
                             }
                         }, void 0, false, {
                             fileName: "[project]/components/home/About.tsx",
-                            lineNumber: 491,
+                            lineNumber: 493,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -934,7 +939,7 @@ function About() {
                                                 children: "Our Mission"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/home/About.tsx",
-                                                lineNumber: 508,
+                                                lineNumber: 510,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h2, {
@@ -944,11 +949,11 @@ function About() {
                                                     "Shaping Tomorrow's",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/components/home/About.tsx",
-                                                        lineNumber: 524,
+                                                        lineNumber: 526,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
-                                                        className: "bg-gradient-to-r from-amber-700 to-amber-400 bg-clip-text text-transparent",
+                                                        className: "bg-linear-to-r from-amber-700 to-amber-400 bg-clip-text text-transparent",
                                                         initial: {
                                                             backgroundPosition: "200% center"
                                                         },
@@ -967,17 +972,17 @@ function About() {
                                                         children: "World Leaders"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/home/About.tsx",
-                                                        lineNumber: 525,
+                                                        lineNumber: 527,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/home/About.tsx",
-                                                lineNumber: 519,
+                                                lineNumber: 521,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                                className: "w-32 h-0.5 bg-gradient-to-r from-amber-700 to-amber-400 mx-auto",
+                                                className: "w-32 h-0.5 bg-linear-to-r from-amber-700 to-amber-400 mx-auto",
                                                 initial: {
                                                     width: 0
                                                 },
@@ -992,7 +997,7 @@ function About() {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/components/home/About.tsx",
-                                                lineNumber: 540,
+                                                lineNumber: 542,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -1001,13 +1006,13 @@ function About() {
                                                 children: "At EGHS, we stand not only for knowledge but excellence in every aspect of student development. We deliver world-class education in a nurturing environment that fosters growth, leadership, and service to humanity."
                                             }, void 0, false, {
                                                 fileName: "[project]/components/home/About.tsx",
-                                                lineNumber: 547,
+                                                lineNumber: 549,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/home/About.tsx",
-                                        lineNumber: 507,
+                                        lineNumber: 509,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1026,40 +1031,40 @@ function About() {
                                             children: "Discover Our Programs"
                                         }, void 0, false, {
                                             fileName: "[project]/components/home/About.tsx",
-                                            lineNumber: 559,
+                                            lineNumber: 561,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/home/About.tsx",
-                                        lineNumber: 558,
+                                        lineNumber: 560,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/home/About.tsx",
-                                lineNumber: 500,
+                                lineNumber: 502,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/home/About.tsx",
-                            lineNumber: 499,
+                            lineNumber: 501,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/home/About.tsx",
-                    lineNumber: 471,
+                    lineNumber: 473,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/home/About.tsx",
-                lineNumber: 464,
+                lineNumber: 466,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/home/About.tsx",
-        lineNumber: 125,
+        lineNumber: 127,
         columnNumber: 5
     }, this);
 }
@@ -1092,7 +1097,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/utils.ts [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/value/use-transform.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 "use client";
+;
 ;
 ;
 ;
@@ -1148,9 +1155,11 @@ const VideoParallax = ({ scrollY, title, description, className, mediaItems = []
                                 scale: videoScale,
                                 transformOrigin: "center center"
                             },
-                            children: item.type === "image" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                            children: item.type === "image" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 src: item.src,
                                 alt: item.alt || `Parallax image ${index + 1}`,
+                                width: 1200,
+                                height: 800,
                                 className: "w-full h-full object-cover",
                                 loading: "lazy",
                                 style: {
@@ -1159,7 +1168,7 @@ const VideoParallax = ({ scrollY, title, description, className, mediaItems = []
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/VideoParallax.tsx",
-                                lineNumber: 54,
+                                lineNumber: 55,
                                 columnNumber: 15
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
                                 src: item.src,
@@ -1168,40 +1177,40 @@ const VideoParallax = ({ scrollY, title, description, className, mediaItems = []
                                 muted: true,
                                 loop: true,
                                 playsInline: true,
-                                preload: "metadata",
+                                preload: "auto",
                                 style: {
                                     willChange: "transform",
                                     backfaceVisibility: "hidden"
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/VideoParallax.tsx",
-                                lineNumber: 65,
+                                lineNumber: 68,
                                 columnNumber: 15
                             }, this)
                         }, index, false, {
                             fileName: "[project]/components/ui/VideoParallax.tsx",
-                            lineNumber: 43,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, this)),
                     mediaItems.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                        className: "absolute inset-0 bg-gradient-to-br from-slate-900 via-amber-950 to-slate-900",
+                        className: "absolute inset-0 bg-linear-to-br from-slate-900 via-amber-950 to-slate-900",
                         style: {
                             y: videoY,
                             scale: videoScale
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/ui/VideoParallax.tsx",
-                        lineNumber: 84,
+                        lineNumber: 87,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ui/VideoParallax.tsx",
-                lineNumber: 41,
+                lineNumber: 42,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                className: "relative z-[60] flex flex-col items-center justify-center h-full text-center px-8",
+                className: "relative z-60 flex flex-col items-center justify-center h-full text-center px-8",
                 style: {
                     y: textY,
                     opacity: textOpacity
@@ -1217,7 +1226,7 @@ const VideoParallax = ({ scrollY, title, description, className, mediaItems = []
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/components/ui/VideoParallax.tsx",
-                        lineNumber: 102,
+                        lineNumber: 105,
                         columnNumber: 11
                     }, this),
                     description && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -1229,42 +1238,42 @@ const VideoParallax = ({ scrollY, title, description, className, mediaItems = []
                         children: description
                     }, void 0, false, {
                         fileName: "[project]/components/ui/VideoParallax.tsx",
-                        lineNumber: 114,
+                        lineNumber: 117,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ui/VideoParallax.tsx",
-                lineNumber: 94,
+                lineNumber: 97,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0 pointer-events-none",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute inset-0 bg-gradient-to-r from-black/10 via-transparent to-black/10"
+                        className: "absolute inset-0 bg-linear-to-r from-black/10 via-transparent to-black/10"
                     }, void 0, false, {
                         fileName: "[project]/components/ui/VideoParallax.tsx",
-                        lineNumber: 127,
+                        lineNumber: 130,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute inset-0 bg-gradient-to-b from-black/5 via-transparent to-black/20"
+                        className: "absolute inset-0 bg-linear-to-b from-black/5 via-transparent to-black/20"
                     }, void 0, false, {
                         fileName: "[project]/components/ui/VideoParallax.tsx",
-                        lineNumber: 128,
+                        lineNumber: 131,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ui/VideoParallax.tsx",
-                lineNumber: 126,
+                lineNumber: 129,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/ui/VideoParallax.tsx",
-        lineNumber: 39,
+        lineNumber: 40,
         columnNumber: 5
     }, this);
 };
@@ -1455,7 +1464,7 @@ function Hero() {
                         mediaItems: [
                             {
                                 type: "video",
-                                src: "/school1.mp4",
+                                src: "/BenefitsattendingBC.mp4",
                                 alt: "sky2"
                             }
                         ],
@@ -1472,7 +1481,7 @@ function Hero() {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     ref: overlayRef,
-                    className: "absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70 z-50",
+                    className: "absolute inset-0 bg-linear-to-b from-black/70 via-black/50 to-black/70 z-50",
                     style: {
                         willChange: "opacity"
                     }
@@ -1712,18 +1721,8 @@ function Hero() {
                                             textShadow: "0 2px 10px rgba(0,0,0,0.3)",
                                             letterSpacing: "0.02em"
                                         },
-                                        children: [
-                                            "Shaping Tomorrow's Leaders in business Today!",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "block mt-1 text-white/80",
-                                                children: "Great Value"
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/home/Hero.tsx",
-                                                lineNumber: 355,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
+                                        children: "Building business owners for maximum profit."
+                                    }, void 0, false, {
                                         fileName: "[project]/components/home/Hero.tsx",
                                         lineNumber: 346,
                                         columnNumber: 15
@@ -1765,7 +1764,7 @@ function Hero() {
                                         willChange: "transform"
                                     },
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "group px-4 py-3 text-white bg-amber-400 font-medium hover:!bg-amber-500 text-base transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl",
+                                        className: "group px-4 py-3 text-white bg-amber-400 font-medium hover:bg-amber-500! text-base transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl",
                                         style: {
                                             fontWeight: "500",
                                             letterSpacing: "0.05em"
@@ -2034,7 +2033,7 @@ const FacilityCard = ({ facility, index })=>{
                             className: "flex items-center space-x-4",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                    className: `w-12 h-12 rounded bg-gradient-to-r ${facility.gradient} flex items-center justify-center`,
+                                    className: `w-12 h-12 rounded bg-linear-to-r ${facility.gradient} flex items-center justify-center`,
                                     whileHover: {
                                         rotate: 5
                                     },
@@ -2195,7 +2194,7 @@ function MinimalFacilities() {
                                 className: "flex items-center justify-center space-x-4",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                        className: "w-12 h-px bg-gradient-to-r  from-amber-800 to-amber-300",
+                                        className: "w-12 h-px bg-linear-to-r  from-amber-800 to-amber-300",
                                         initial: {
                                             width: 0
                                         },
@@ -2220,7 +2219,7 @@ function MinimalFacilities() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                        className: "w-12 h-px bg-gradient-to-r  from-amber-800 to-amber-300",
+                                        className: "w-12 h-px bg-linear-to-r  from-amber-800 to-amber-300",
                                         initial: {
                                             width: 0
                                         },
@@ -2251,7 +2250,7 @@ function MinimalFacilities() {
                                             "Our",
                                             " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "bg-gradient-to-r from-amber-800 to-amber-400 bg-clip-text text-transparent font-medium",
+                                                className: "bg-linear-to-r from-amber-800 to-amber-400 bg-clip-text text-transparent font-medium",
                                                 children: "Services"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/home/Services.tsx",
@@ -2279,7 +2278,7 @@ function MinimalFacilities() {
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                className: "bg-gradient-to-r from-amber-50 to-emerald-50 rounded-2xl p-6 lg:p-8 max-w-4xl mx-auto mt-8",
+                                className: "bg-linear-to-r from-amber-50 to-emerald-50 rounded-2xl p-6 lg:p-8 max-w-4xl mx-auto mt-8",
                                 variants: itemVariants,
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("blockquote", {
                                     className: "text-slate-700 italic text-center",
@@ -2440,7 +2439,7 @@ function MinimalFacilities() {
                             className: "flex flex-col sm:flex-row items-center justify-center gap-4",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].button, {
-                                    className: "group inline-flex items-center px-6 py-3 bg-gradient-to-r from-amber-800 to-emerald-800 text-white font-medium rounded shadow-lg hover:shadow-xl transition-shadow duration-300",
+                                    className: "group inline-flex items-center px-6 py-3 bg-linear-to-r from-amber-800 to-emerald-800 text-white font-medium rounded shadow-lg hover:shadow-xl transition-shadow duration-300",
                                     whileHover: {
                                         scale: 1.02,
                                         y: -1
