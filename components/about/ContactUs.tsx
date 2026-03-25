@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React, { useState, useEffect } from "react";
 
 const Contact = () => {
@@ -52,12 +53,14 @@ const Contact = () => {
 
           {/* Right Content - Video Section */}
           <div className="relative">
-            <div className="relative aspect-[4/3] overflow-hidden">
-              <img
-                className="w-full h-full object-cover"
-                src="https://res.cloudinary.com/dl0krsagd/image/upload/v1762898386/29_d1mb7v.jpg"
-                alt="house2"
-              />
+            <div className="relative aspect-4/3 overflow-hidden">
+              <Image
+  src="https://res.cloudinary.com/dl0krsagd/image/upload/v1762898386/29_d1mb7v.jpg"
+  alt="house2"
+  width={1920}   // set an appropriate width
+  height={1080}  // set an appropriate height
+  className="w-full h-full object-cover"
+/>
 
               {/*  overlay rectangles */}
               <div className="absolute inset-0">
@@ -69,10 +72,10 @@ const Contact = () => {
                 <div className="absolute bottom-8 right-8 w-32 h-20 border-2 border-white/40"></div>
 
                 {/*  corner accent */}
-                <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-bl from-white/20 to-transparent"></div>
+                <div className="absolute top-0 right-0 w-20 h-20 bg-linear-to-bl from-white/20 to-transparent"></div>
 
                 {/* Bottom gradient fade */}
-                <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-amber-900/30 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 right-0 h-24 bg-linear-to-t from-amber-900/30 to-transparent"></div>
               </div>
             </div>
 

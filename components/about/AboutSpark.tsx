@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { Check, BookOpen, Users, Heart, Award } from "lucide-react";
+import { Check, BookOpen, Award } from "lucide-react";
+import Image from "next/image";
 
 interface OurStoryProps {
   title?: string;
@@ -82,24 +83,26 @@ const OurStory: React.FC<OurStoryProps> = ({
             <div className="relative">
               {/* Blue accent border */}
               <div
-                className={`absolute -left-4 top-0 w-1 bg-gradient-to-b from-amber-700 to-amber-800 transition-all duration-1000 delay-300 ${
+                className={`absolute -left-4 top-0 w-1 bg-linear-to-b from-amber-700 to-amber-800 transition-all duration-1000 delay-300 ${
                   isVisible ? "h-full opacity-100" : "h-0 opacity-0"
                 }`}
               />
 
               {/* Image container */}
               <div className="relative overflow-hidden rounded hover:scale-105 transition-transform duration-300">
-                <img
+                <Image
                   src={image}
                   alt="Push To Profit"
-                  className={`w-full h-[800px] object-cover transition-all duration-300 ${
+                  width={1920} // set an appropriate width
+                  height={800} // set an appropriate height
+                  className={`w-full h-200 object-cover transition-all duration-300 ${
                     isVisible ? "grayscale-0 scale-100" : "grayscale scale-110"
                   } hover:grayscale-0`}
                 />
 
                 {/* Image overlay */}
                 <div
-                  className={`absolute inset-0 bg-gradient-to-br from-black/30 via-amber-900/20 to-black/50 transition-opacity duration-300 delay-700 ${
+                  className={`absolute inset-0 bg-linear-to-br from-black/30 via-amber-900/20 to-black/50 transition-opacity duration-300 delay-700 ${
                     isVisible ? "opacity-100" : "opacity-0"
                   }`}
                 />
@@ -129,12 +132,12 @@ const OurStory: React.FC<OurStoryProps> = ({
                 }`}
               >
                 <div
-                  className={`w-full h-1 bg-gradient-to-r from-amber-700 to-amber-800 mb-2 transition-all duration-300 delay-1700 ${
+                  className={`w-full h-1 bg-linear-to-r from-amber-700 to-amber-800 mb-2 transition-all duration-300 delay-1700 ${
                     isVisible ? "w-full" : "w-0"
                   }`}
                 />
                 <div
-                  className={`w-1 bg-gradient-to-b from-amber-700 to-amber-800 transition-all duration-300 delay-1800 800 ${
+                  className={`w-1 bg-linear-to-b from-amber-700 to-amber-800 transition-all duration-300 delay-1800 800 ${
                     isVisible ? "h-full" : "h-0"
                   }`}
                 />
@@ -160,7 +163,7 @@ const OurStory: React.FC<OurStoryProps> = ({
                 }`}
               >
                 <div
-                  className={`bg-gradient-to-r from-amber-700 to-amber-800 h-px transition-all duration-300 delay-700 ${
+                  className={`bg-linear-to-r from-amber-700 to-amber-800 h-px transition-all duration-300 delay-700 ${
                     isVisible ? "w-12" : "w-0"
                   }`}
                 />
@@ -180,13 +183,13 @@ const OurStory: React.FC<OurStoryProps> = ({
                     : "opacity-0 translate-y-8"
                 }`}
               >
-                <span className="bg-gradient-to-r from-amber-300 via-amber-700 to-amber-800 bg-clip-text text-transparent">
+                <span className="bg-linear-to-r from-amber-300 via-amber-700 to-amber-800 bg-clip-text text-transparent">
                   {title}
                 </span>
               </h2>
 
               <div
-                className={`bg-gradient-to-r from-amber-700 to-amber-800 h-1 transition-all duration-300 delay-800 ${
+                className={`bg-linear-to-r from-amber-700 to-amber-800 h-1 transition-all duration-300 delay-800 ${
                   isVisible ? "w-16" : "w-0"
                 }`}
               />
@@ -195,7 +198,7 @@ const OurStory: React.FC<OurStoryProps> = ({
             {/* Description */}
             <div className="space-y-6">
               <p
-                className={`text-lg md:text-xl leading-relaxed font-light bg-gradient-to-r from-neutral-900 via-amber-800 to-neutral-900 bg-clip-text text-transparent transition-all duration-300 delay-700 ${
+                className={`text-lg md:text-xl leading-relaxed font-light bg-linear-to-r from-neutral-900 via-amber-800 to-neutral-900 bg-clip-text text-transparent transition-all duration-300 delay-700 ${
                   isVisible
                     ? "opacity-100 translate-y-0"
                     : "opacity-0 translate-y-8"
@@ -228,7 +231,7 @@ const OurStory: React.FC<OurStoryProps> = ({
                   : "opacity-0 translate-y-8"
               }`}
             >
-              <h3 className="text-xl md:text-2xl font-semibold bg-gradient-to-r from-amber-300 via-amber-700 to-amber-800 bg-clip-text text-transparent">
+              <h3 className="text-xl md:text-2xl font-semibold bg-linear-to-r from-amber-300 via-amber-700 to-amber-800 bg-clip-text text-transparent">
                 {subtitle}
               </h3>
 
@@ -249,14 +252,14 @@ const OurStory: React.FC<OurStoryProps> = ({
                         index === features.length - 1 ? "span 2" : "span 1",
                     }}
                   >
-                    <div className="flex-shrink-0 w-5 h-5 rounded-full bg-gradient-to-r from-amber-700 to-amber-800 flex items-center justify-center group-hover:scale-125 group-hover:rotate-180 transition-all duration-300">
+                    <div className="shrink-0 w-5 h-5 rounded-full bg-linear-to-r from-amber-700 to-amber-800 flex items-center justify-center group-hover:scale-125 group-hover:rotate-180 transition-all duration-300">
                       {feature.icon ? (
                         <feature.icon className="w-3 h-3 text-white" />
                       ) : (
                         <Check className="w-3 h-3 text-white" />
                       )}
                     </div>
-                    <span className="text-base md:text-lg font-medium bg-gradient-to-r from-neutral-900 via-amber-800 to-neutral-900 bg-clip-text text-transparent group-hover:from-amber-300 group-hover:to-amber-700 transition-all duration-200">
+                    <span className="text-base md:text-lg font-medium bg-linear-to-r from-neutral-900 via-amber-800 to-neutral-900 bg-clip-text text-transparent group-hover:from-amber-300 group-hover:to-amber-700 transition-all duration-200">
                       {feature.title}
                     </span>
                   </div>
@@ -302,7 +305,7 @@ const OurStory: React.FC<OurStoryProps> = ({
                     style={{ transitionDelay: `${1100 + index * 100}ms` }}
                   >
                     <div
-                      className={`w-2 h-2 bg-amber-700 rounded-full mt-2 flex-shrink-0 hover:scale-150 transition-all duration-300 delay-${
+                      className={`w-2 h-2 bg-amber-700 rounded-full mt-2 shrink-0 hover:scale-150 transition-all duration-300 delay-${
                         1200 + index * 100
                       } ${isVisible ? "scale-100" : "scale-0"}`}
                       style={{ transitionDelay: `${1200 + index * 100}ms` }}
@@ -331,13 +334,13 @@ const OurStory: React.FC<OurStoryProps> = ({
                   : "opacity-0 translate-y-8"
               }`}
             >
-              <div className="bg-gradient-to-r from-amber-800 to-amber-800 rounded p-6 text-white hover:scale-105 hover:-translate-y-1 transition-all duration-300">
+              <div className="bg-linear-to-r from-amber-800 to-amber-800 rounded p-6 text-white hover:scale-105 hover:-translate-y-1 transition-all duration-300">
                 <h4 className="text-lg font-semibold mb-2">
                   Ready to Join Our Family?
                 </h4>
                 <p className="text-amber-100 mb-4">
-                  Contact us today to learn more about business opportunities
-                  at Push To Profit.
+                  Contact us today to learn more about business opportunities at
+                  Push To Profit.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-2 text-sm">
                   <span>📞 +234 806 465 7119</span>
@@ -354,7 +357,7 @@ const OurStory: React.FC<OurStoryProps> = ({
             >
               <div className="flex items-center space-x-4">
                 <div
-                  className={`bg-gradient-to-r from-amber-700 to-amber-800 h-px transition-all duration-300 delay-1700 ${
+                  className={`bg-linear-to-r from-amber-700 to-amber-800 h-px transition-all duration-300 delay-1700 ${
                     isVisible ? "w-8" : "w-0"
                   }`}
                 />
@@ -364,7 +367,7 @@ const OurStory: React.FC<OurStoryProps> = ({
                   }`}
                 />
                 <div
-                  className={`bg-gradient-to-r from-amber-800 to-amber-800 h-px transition-all duration-300 delay-2100 ${
+                  className={`bg-linear-to-r from-amber-800 to-amber-800 h-px transition-all duration-300 delay-2100 ${
                     isVisible ? "w-12" : "w-0"
                   }`}
                 />

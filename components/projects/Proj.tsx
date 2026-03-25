@@ -169,7 +169,7 @@ const Facilities: React.FC = () => {
         {[...Array(50)].map((_, i) => (
           <div
             key={i}
-            className="absolute w-1 h-1 bg-gradient-to-r from-slate-800 to-amber-900 rounded-full"
+            className="absolute w-1 h-1 bg-linear-to-r from-slate-800 to-amber-900 rounded-full"
             style={{
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
@@ -192,23 +192,23 @@ const Facilities: React.FC = () => {
           }`}
         >
           <div className="relative inline-block mb-8">
-            <div className="absolute -inset-4 bg-gradient-to-r from-slate-900/20 via-amber-900/30 to-slate-900/20 blur-2xl rounded-full animate-pulse"></div>
+            <div className="absolute -inset-4 bg-linear-to-r from-slate-900/20 via-amber-900/30 to-slate-900/20 blur-2xl rounded-full animate-pulse"></div>
             <span className="relative text-sm font-light text-slate-800 tracking-[0.3em] uppercase backdrop-blur-sm">
               Push To Profit
             </span>
           </div>
 
           <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-thin leading-[0.9] mb-8 tracking-tight">
-            <span className="inline-block bg-gradient-to-r from-slate-900 via-amber-900 to-slate-900 bg-clip-text text-transparent">
+            <span className="inline-block bg-linear-to-r from-slate-900 via-amber-900 to-slate-900 bg-clip-text text-transparent">
               Our
             </span>
             <br />
-            <span className="inline-block bg-gradient-to-r from-slate-900 via-black to-slate-900 bg-clip-text text-transparent font-light">
+            <span className="inline-block bg-linear-to-r from-slate-900 via-black to-slate-900 bg-clip-text text-transparent font-light">
               Facilities
             </span>
           </h2>
 
-          <div className="w-32 h-0.5 bg-gradient-to-r from-slate-800 via-amber-900 to-slate-800 mx-auto mb-12" />
+          <div className="w-32 h-0.5 bg-linear-to-r from-slate-800 via-amber-900 to-slate-800 mx-auto mb-12" />
 
           <p className="text-lg md:text-xl text-gray-800 font-light leading-relaxed max-w-2xl mx-auto">
             Discover our world-class boarding facilities designed to provide a

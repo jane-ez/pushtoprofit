@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 "use client";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Navbar() {
@@ -52,11 +53,13 @@ export default function Navbar() {
               <a href="/" className="group flex items-center space-x-3 w-50 h-full">
                 <div className="relative h-full">
                   {<div className="absolute -inset-2 bg-linear-to-r from-amber-700/20 to-amber-400/20 blur-lg rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>}
-                  <img
-                    src="/logo-trans.png"
-                    alt="logo"
-                    className="relative max-w-full h-full object-contain"
-                  />
+                  <Image
+  src="/logo-trans.png"
+  alt="logo"
+  width={200}   // set an appropriate width
+  height={200}  // set an appropriate height
+  className="relative max-w-full h-full object-contain"
+/>
                 </div>
                 {/* <div className="flex flex-col">
                   <span

@@ -1,6 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { motion, MotionValue, useTransform } from "framer-motion";
+import Image from "next/image";
 import React from "react";
 
 export interface MediaItem {
@@ -51,9 +52,11 @@ export const VideoParallax = ({
             }}
           >
             {item.type === "image" ? (
-              <img
+              <Image
                 src={item.src}
                 alt={item.alt || `Parallax image ${index + 1}`}
+                width={1200} // set an appropriate width
+                height={800} // set an appropriate height
                 className="w-full h-full object-cover"
                 loading="lazy"
                 style={{
@@ -69,7 +72,7 @@ export const VideoParallax = ({
                 muted
                 loop
                 playsInline
-                preload="metadata"
+                preload="auto"
                 style={{
                   willChange: "transform",
                   backfaceVisibility: "hidden",
@@ -82,7 +85,7 @@ export const VideoParallax = ({
         {/* Enhanced fallback background */}
         {mediaItems.length === 0 && (
           <motion.div
-            className="absolute inset-0 bg-gradient-to-br from-slate-900 via-amber-950 to-slate-900"
+            className="absolute inset-0 bg-linear-to-br from-slate-900 via-amber-950 to-slate-900"
             style={{
               y: videoY,
               scale: videoScale,
@@ -92,7 +95,7 @@ export const VideoParallax = ({
       </div>
 
       <motion.div
-        className="relative z-[60] flex flex-col items-center justify-center h-full text-center px-8"
+        className="relative z-60 flex flex-col items-center justify-center h-full text-center px-8"
         style={{
           y: textY,
           opacity: textOpacity,
@@ -124,8 +127,8 @@ export const VideoParallax = ({
       </motion.div>
 
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute inset-0 bg-gradient-to-r from-black/10 via-transparent to-black/10" />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/5 via-transparent to-black/20" />
+        <div className="absolute inset-0 bg-linear-to-r from-black/10 via-transparent to-black/10" />
+        <div className="absolute inset-0 bg-linear-to-b from-black/5 via-transparent to-black/20" />
       </div>
     </div>
   );

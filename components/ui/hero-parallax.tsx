@@ -2,7 +2,7 @@
 "use client";
 
 import React, { useEffect, useState, useRef, ReactNode } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, Easing } from "framer-motion";
 
 interface VideoSource {
   src: string;
@@ -106,7 +106,8 @@ const HeroParallax: React.FC<HeroParallaxProps> = ({
   }, [animationPhase]);
 
   // Custom easing function for smooth natural transitions
-  const customEasing = [0.25, 0.1, 0.25, 1]; // ease-in-out cubic-bezier
+  // Cast the array to Easing so TS knows it's valid
+  const customEasing: Easing = [0.25, 0.1, 0.25, 1]; // ease-in-out cubic-bezier
 
   // Animation variants for the videos
   const videoVariants = {
@@ -207,7 +208,7 @@ const HeroParallax: React.FC<HeroParallaxProps> = ({
                 <div className="text-red-400 text-sm">
                   Some videos failed to load, continuing anyway...
                 </div>
-                )}
+              )}
             </div>
           </motion.div>
         )}
@@ -232,7 +233,7 @@ const HeroParallax: React.FC<HeroParallaxProps> = ({
                 videoRefs.current[index] = el;
               }}
               className={`w-full h-full object-cover shadow-2xl ${
-                animationPhase === "complete" && index === 2 
+                animationPhase === "complete" && index === 2
                   ? "" // Remove rounded corners when scaling to full screen
                   : "rounded-lg"
               }`}
@@ -254,7 +255,7 @@ const HeroParallax: React.FC<HeroParallaxProps> = ({
             {/* Video overlay for depth and visual separation */}
             <motion.div
               className={`absolute inset-0 bg-black ${
-                animationPhase === "complete" && index === 2 
+                animationPhase === "complete" && index === 2
                   ? "" // Remove rounded corners when scaling to full screen
                   : "rounded-lg"
               }`}
@@ -264,8 +265,8 @@ const HeroParallax: React.FC<HeroParallaxProps> = ({
                   animationPhase === "complete" && index === 2
                     ? 0
                     : index === 2
-                    ? 0.1
-                    : 0.4,
+                      ? 0.1
+                      : 0.4,
               }}
               transition={{
                 duration: 0.8,
@@ -297,7 +298,7 @@ const HeroParallax: React.FC<HeroParallaxProps> = ({
 
       {/* Gradient Overlay for better text readability */}
       <motion.div
-        className="absolute inset-0 z-35 bg-gradient-to-b from-black/40 via-transparent to-black/60"
+        className="absolute inset-0 z-35 bg-linear-to-b from-black/40 via-transparent to-black/60"
         initial={{ opacity: 0 }}
         animate={{
           opacity:
