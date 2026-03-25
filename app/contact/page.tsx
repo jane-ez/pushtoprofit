@@ -9,7 +9,7 @@ const ContactPageRoute = () => {
           descriptionHeader="Let’s build a solid foundation for the next generation"
           title="Contact Us"
           description="Need to make an enquiry or simply want to know more about Push To Profit..? follow the form below to contact and we will respond adequately as soon as we can."
-          backgroundImage="https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283510/bg-image_vwbemw.jpg"
+          backgroundImage="https://res.cloudinary.com/dlfui2ojv/image/upload/v1774418498/bg-image_ersnzf.jpg"
           titleId="hero-title"
           descriptionId="hero-description"
         />
