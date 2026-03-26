@@ -33,8 +33,9 @@ const Contact = () => {
               </h1>
 
               <p className="text-lg text-amber-800 leading-relaxed max-w-lg">
-                Discover unparalleled business excellence with Push To Profit. Our expert team delivers tailored solutions that
-                transform your children into Future leaders.
+                Discover unparalleled business excellence with Push To Profit.
+                Our expert team delivers tailored solutions that transform your
+                ideas into new levels of freedom and growth.
               </p>
             </div>
 
@@ -55,12 +56,12 @@ const Contact = () => {
           <div className="relative">
             <div className="relative aspect-4/3 overflow-hidden">
               <Image
-  src="https://res.cloudinary.com/dl0krsagd/image/upload/v1762898386/29_d1mb7v.jpg"
-  alt="house2"
-  width={1920}   // set an appropriate width
-  height={1080}  // set an appropriate height
-  className="w-full h-full object-cover"
-/>
+                src="https://res.cloudinary.com/dl0krsagd/image/upload/v1762898386/29_d1mb7v.jpg"
+                alt="house2"
+                width={1920} // set an appropriate width
+                height={1080} // set an appropriate height
+                className="w-full h-full object-cover"
+              />
 
               {/*  overlay rectangles */}
               <div className="absolute inset-0">

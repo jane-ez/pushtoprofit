@@ -521,8 +521,8 @@ export default function About() {
                 <motion.h2
                   className="text-4xl md:text-5xl lg:text-6xl font-light text-white leading-tight"
                   variants={fadeInUp}
-                >
-                  Shaping Tomorrow&apos;s
+                > 
+                  Empowering Entrepreneurs for
                   <br />
                   <motion.span
                     className="bg-linear-to-r from-amber-700 to-amber-400 bg-clip-text text-transparent"
@@ -535,7 +535,7 @@ export default function About() {
                     transition={{ duration: 2, delay: 0.5 }}
                     style={{ backgroundSize: "200% 200%" }}
                   >
-                    World Leaders
+                    Global Success
                   </motion.span>
                 </motion.h2>
 
@@ -550,15 +550,12 @@ export default function About() {
                   className="text-xl text-white/90 font-light leading-relaxed max-w-3xl mx-auto"
                   variants={fadeInUp}
                 >
-                  At EGHS, we stand not only for knowledge but excellence in
-                  every aspect of student development. We deliver world-class
-                  education in a nurturing environment that fosters growth,
-                  leadership, and service to humanity.
+                  At Push To Profit, we stand not only for knowledge but for equipping small and medium‑sized business owners with the skills and confidence to thrive. Through intensive training, personalized mentorship, and dynamic group learning, we foster a culture of professionalism, innovation, and growth that prepares entrepreneurs to compete on a global scale.
                 </motion.p>
               </motion.div>
 
               <motion.div className="pt-8" variants={fadeInUp}>
-                <motion.button
+                <Link href="/services"><motion.button
                   className="px-10 py-4 bg-white/20 backdrop-blur-sm border border-white/30 text-white font-medium transition-all duration-300"
                   whileHover={{
                     scale: 1.05,
@@ -567,8 +564,8 @@ export default function About() {
                   }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  Discover Our Programs
-                </motion.button>
+                  Discover Our Services
+                </motion.button></Link>
               </motion.div>
             </motion.div>
           </div>

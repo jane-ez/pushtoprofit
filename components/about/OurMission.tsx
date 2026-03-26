@@ -51,7 +51,8 @@ export default function VisionSection(): JSX.Element {
         "At Push to Profit, our vision is to discover, define and design the untapped potential of small and medium sized business owners...",
       detail:
         "Empowering them to grow, innovate, and achieve sustainable success while maximizing profitability.",
-      image: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283489/IMG-20250402-WA0071_smkirp.jpg",
+      image:
+        "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283489/IMG-20250402-WA0071_smkirp.jpg",
       imageAlt: "At the 2025 conference",
     },
     {
@@ -62,7 +63,8 @@ export default function VisionSection(): JSX.Element {
         "Our mission is to equip small and medium-sized business owners with the knowledge, skills, and confidence to compete on a global scale.",
       detail:
         "We achieve this through intensive training, personalized one-on-one mentorship, and dynamic group learning experiences, fostering a culture of professionalism, innovation, and growth.",
-      image: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364211/IMG-20250402-WA0077_snfwsq.jpg",
+      image:
+        "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364211/IMG-20250402-WA0077_snfwsq.jpg",
       imageAlt: "Our mission pics",
     },
     {
@@ -211,14 +213,16 @@ export default function VisionSection(): JSX.Element {
                     />
 
                     <Image
-  src={item.image}
-  alt={item.imageAlt}
-  width={800}   // set an appropriate width
-  height={600}  // set an appropriate height
-  className={`w-full h-full object-cover transition-all duration-300 ${
-    isVisible ? "grayscale-0 scale-100" : "grayscale scale-110"
-  } group-hover:scale-105`}
-/>
+                      src={item.image}
+                      alt={item.imageAlt}
+                      width={800} // set an appropriate width
+                      height={600} // set an appropriate height
+                      className={`w-full h-full object-cover transition-all duration-300 ${
+                        isVisible
+                          ? "grayscale-0 scale-100"
+                          : "grayscale scale-110"
+                      } group-hover:scale-105`}
+                    />
 
                     {/* Subtle overlay */}
                     <div className="absolute inset-0 bg-linear-to-br from-amber-900/25 via-amber-900/15 to-amber-900/30 opacity-70 group-hover:opacity-50 transition-opacity duration-300" />
@@ -359,7 +363,9 @@ export default function VisionSection(): JSX.Element {
                         </li>
                         <li className="flex items-center space-x-2">
                           <div className="w-1.5 h-1.5 bg-amber-700 rounded-full" />
-                          <span>Fostering a culture of innovation and growth</span>
+                          <span>
+                            Fostering a culture of innovation and growth
+                          </span>
                         </li>
                       </ul>
                     </div>
@@ -376,24 +382,24 @@ export default function VisionSection(): JSX.Element {
                       }`}
                     >
                       <h4 className="text-sm font-semibold text-amber-700 mb-2">
-                        Musical Education:
+                       What you'll get:
                       </h4>
                       <div className="text-sm text-gray-600 grid grid-cols-2 gap-2">
                         <span className="flex items-center space-x-2">
                           <div className="w-1.5 h-1.5 bg-amber-800/80 rounded-full" />
-                          <span>Organ</span>
+                          <span>Result</span>
                         </span>
                         <span className="flex items-center space-x-2">
                           <div className="w-1.5 h-1.5 bg-amber-800/80 rounded-full" />
-                          <span>Violin</span>
+                          <span>Clarity</span>
                         </span>
                         <span className="flex items-center space-x-2">
                           <div className="w-1.5 h-1.5 bg-amber-800/80 rounded-full" />
-                          <span>Flutes</span>
+                          <span>Mentorship</span>
                         </span>
                         <span className="flex items-center space-x-2">
                           <div className="w-1.5 h-1.5 bg-amber-800/80 rounded-full" />
-                          <span>Drums</span>
+                          <span>Framework</span>
                         </span>
                       </div>
                     </div>
@@ -481,7 +487,7 @@ export default function VisionSection(): JSX.Element {
                 isVisible ? "opacity-100" : "opacity-0"
               }`}
             >
-              Excellence Through Education
+              Excellence Through Development
             </p>
           </div>
         </div>
@@ -494,11 +500,11 @@ export default function VisionSection(): JSX.Element {
         >
           <div className="bg-linear-to-r from-amber-800 to-amber-900 rounded p-8 text-white hover:scale-105 hover:-translate-y-1 transition-all duration-300">
             <h3 className="text-2xl font-light mb-4">
-              Ready to Join Our Educational Family?
+              Ready to Join Our Family?
             </h3>
             <p className="text-amber-200 mb-6 max-w-2xl mx-auto">
-              Experience world-class education in our nurturing environment.
-              Contact us to learn more about admission opportunities.
+              Experience world-class sustained and accelerated business and personal growth.
+              Contact us to learn more about the possibilities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-sm">
               <div className="flex items-center space-x-2">

@@ -18,6 +18,7 @@ import Image from "next/image";
 export default function Footer() {
   const footerRef = useRef<HTMLDivElement>(null);
   const [isFooterVisible, setIsFooterVisible] = useState(false);
+  const currYear = new Date().getFullYear();
 
   useEffect(() => {
     const footerObserver = new IntersectionObserver(
@@ -110,8 +111,8 @@ export default function Footer() {
 
           <p className="text-lg md:text-xl text-white/80 font-light leading-relaxed max-w-2xl mx-auto">
             Ready to embark on an educational journey that shapes
-            tomorrow&apos;s leaders? Connect with Push To Profit and
-            experience excellence in learning.
+            tomorrow&apos;s leaders? Connect with Push To Profit and experience
+            excellence in learning.
           </p>
         </div>
 
@@ -136,12 +137,12 @@ export default function Footer() {
 
               <div className="flex items-center space-x-4 mb-6">
                 <Image
-  src="/logo-trans.png"
-  alt="Push to Profit"
-  width={96}   // matches w-24 (24 * 4px = 96px)
-  height={96}  // matches h-24
-  className="w-24 max-w-full h-24 object-contain rounded-lg"
-/>
+                  src="/logo-trans.png"
+                  alt="Push to Profit"
+                  width={96} // matches w-24 (24 * 4px = 96px)
+                  height={96} // matches h-24
+                  className="w-24 max-w-full h-24 object-contain rounded-lg"
+                />
                 {/* <div className="flex flex-col">
                   <h3 className="text-xl font-light text-white">
                     Push to Profit
@@ -154,17 +155,20 @@ export default function Footer() {
 
               <div className="w-16 h-0.5 bg-linear-to-r from-amber-700 via-amber-600 to-amber-700" />
             </div>
-
             <p className="text-white/70 text-base leading-relaxed font-light">
-              Nurturing young minds with innovative teaching methods,
-              comprehensive curriculum, and a commitment to academic excellence
-              that prepares students for a successful future.
+              Empowering entrepreneurs with practical training, personalized
+              mentorship, and innovative strategies that build confidence, drive
+              growth, and prepare business owners to compete globally.
             </p>
 
             {/* Social Links */}
             <div className="flex space-x-4">
               {[
-                { icon: Facebook, name: "Facebook", link: "https://www.facebook.com/profile.php?id=61566952406223" },
+                {
+                  icon: Facebook,
+                  name: "Facebook",
+                  link: "https://www.facebook.com/profile.php?id=61566952406223",
+                },
                 { icon: Linkedin, name: "LinkedIn", link: "" },
                 {
                   icon: Instagram,
@@ -187,12 +191,12 @@ export default function Footer() {
                 className="group p-3 bg-white/5 border border-white/10 text-white/70 hover:border-amber-700/50 hover:bg-amber-700/10 transition-all duration-300 backdrop-blur-sm flex items-center justify-center"
               >
                 <Image
-  src="/whatsapp.svg"
-  alt="whatsapp"
-  width={16}   // size-4 in Tailwind = 1rem = 16px
-  height={16}
-  className="size-4"
-/>
+                  src="/whatsapp.svg"
+                  alt="whatsapp"
+                  width={16} // size-4 in Tailwind = 1rem = 16px
+                  height={16}
+                  className="size-4"
+                />
               </a>
             </div>
           </div>
@@ -210,12 +214,12 @@ export default function Footer() {
               <div className="flex items-center space-x-3">
                 <div className="w-8 h-0.5 bg-linear-to-r from-amber-700 via-amber-600 to-amber-700" />
                 <span className="text-xs font-medium text-amber-600 tracking-[0.2em] uppercase">
-                  Academics
+                  Services
                 </span>
               </div>
 
               <h3 className="text-2xl font-light text-white">
-                Learning Programs
+                Entrepreneur Programs
               </h3>
 
               <div className="w-16 h-0.5 bg-linear-to-r from-amber-700 via-amber-600 to-amber-700" />
@@ -223,21 +227,21 @@ export default function Footer() {
 
             <div className="space-y-4">
               {[
-                "Primary Education",
-                "Secondary Education",
-                "Science & Technology",
-                "Arts & Humanities",
-                "Sports & Recreation",
-                "Extracurricular Activities",
-              ].map((program) => (
+                "Business Workshops",
+                "Coaching & Mentorship",
+                "Networking & Collaboration",
+                "Innovation & Technology",
+                "Growth Strategies",
+                "Entrepreneur Support",
+              ].map((service) => (
                 <a
-                  key={program}
+                  key={service}
                   href="#"
                   className="group block text-white/70 hover:text-amber-600 transition-all duration-600 font-light"
                 >
                   <div className="flex items-center space-x-2">
                     <div className="w-1 h-1 bg-amber-700/70 rounded-full group-hover:w-2 group-hover:bg-amber-600 transition-all duration-600" />
-                    <span>{program}</span>
+                    <span>{service}</span>
                   </div>
                 </a>
               ))}
@@ -382,7 +386,8 @@ export default function Footer() {
 
             <div className="text-center">
               <p className="text-sm text-white/50 font-light">
-                Copyright © 2025 Push to Profit. All rights reserved.
+                Copyright © <span id="year">{currYear}</span> Push to Profit.
+                All rights reserved.
               </p>
             </div>
 

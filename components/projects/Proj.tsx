@@ -20,84 +20,84 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    category: "Girls' Accommodation",
-    title: "Girls' Boarding House",
-    subtitle: "Comfortable & Safe Living Spaces",
+    title: "Connection and Collaboration",
+    category: "Networking",
+    subtitle: "Meet the right people",
     description:
-      "Modern, comfortable bedrooms within our vertical boarding structure, designed to create a warm and friendly atmosphere for our female students.",
-    location: "Main Campus",
+      "Discover our world-class networking opportunities designed to connect you with elite entrepreneurs for growth.",
+    location: "Push To Profit",
     status: "as seen",
-    image: "/girls-dorm.jpg",
+    image: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364276/IMG-20250401-WA0176_cn931o.jpg",
     icon: Home,
     gradient: "from-slate-900 via-amber-900 to-black",
     accentColor: "slate",
   },
   {
     id: 2,
-    category: "Boys' Accommodation",
-    title: "Boys' Boarding House",
-    subtitle: "Modern Living for Young Gentlemen",
+    title: "Workshops",
+    category: "Skill Development",
+    subtitle: "Learn practical tools",
     description:
-      "Spacious and comfortable accommodation within our vertical boarding structure, providing a vibrant atmosphere that promotes friendship and academic excellence.",
-    location: "Main Campus",
+      "Quarterly workshops designed to sharpen entrepreneurial skills and strengthen your business strategies.",
+    location: "Push To Profit",
     status: "as seen",
-    image: "/boys-dorm.jpg",
+    image: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364272/IMG-20250401-WA0105_c34rrx.jpg",
     icon: Building,
     gradient: "from-gray-900 via-slate-800 to-black",
     accentColor: "gray",
   },
   {
     id: 3,
-    category: "Common Areas",
-    title: "Spacious Common Rooms",
-    subtitle: "Social & Entertainment Spaces",
+    title: "Coaching & Mentorship",
+    category: "Guidance",
+    subtitle: "Expert support",
     description:
-      "Two beautifully designed common rooms equipped with comfortable sofas, large screen TV, and DVD player, creating the perfect environment for relaxation and socializing.",
+      "Exclusive coaching and mentorship to help you accelerate growth with proven entrepreneurial insights.",
     location: "Both Houses",
     status: "as seen",
-    image: "/common-room.jpg",
+    image: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364212/IMG-20250401-WA0022_z8knms.jpg",
     icon: Users,
     gradient: "from-amber-950 via-slate-900 to-black",
     accentColor: "amber",
   },
   {
     id: 4,
-    category: "Entertainment",
-    title: "Media & Recreation Center",
-    subtitle: "Technology Meets Comfort",
+    title: "Explore Your Future",
+    category: "Opportunities",
+    subtitle: "Discover your path",
     description:
-      "State-of-the-art entertainment facilities featuring the latest audio-visual equipment for both educational and recreational purposes.",
+      "Uncover your next steps for growth with tailored discovery sessions to map your entrepreneurial journey.",
     location: "Central Building",
     status: "as seen",
-    image: "/media-center.jpg",
+    image: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364218/IMG-20250401-WA0118_v7uggp.jpg",
     icon: Hotel,
     gradient: "from-indigo-950 via-gray-900 to-black",
     accentColor: "indigo",
   },
   {
     id: 5,
-    category: "Study Facilities",
-    title: "Dedicated Study Areas",
-    subtitle: "Academic Excellence Spaces",
+    title: "Transform Your Thinking",
+    category: "Innovation",
+    subtitle: "Unlock fresh ideas",
     description:
-      "Quiet, well-lit study areas designed to promote focused learning and academic achievement for all our boarding students.",
+      "Learn new mindsets and tools that empower you to approach challenges with creativity and confidence.",
     location: "Both Houses",
     status: "as seen",
-    image: "/study-area.jpg",
+    image: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364238/IMG-20250401-WA0153_ecsmg0.jpg",
     icon: BookOpen,
     gradient: "from-slate-950 via-amber-900 to-black",
     accentColor: "slate",
   },
   {
     id: 6,
-    category: "Dining & Kitchen",
-    title: "Dining & Refreshment Areas",
-    subtitle: "Nourishment & Community",
+    title: "Accelerate Your Results",
+    category: "Performance",
+    subtitle: "Achieve faster growth",
     description:
-      "Modern dining facilities and kitchenette areas where students can enjoy meals together and prepare light snacks in a communal setting.",
+      "Apply simplified strategies to reach next-level success and achieve measurable business outcomes.",
     location: "Ground Floor",
     status: "as seen",
-    image: "/dining-area.jpg",
+    image: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364247/IMG-20250401-WA0179_zikex8.jpg",
     icon: Wrench,
     gradient: "from-gray-950 via-slate-800 to-black",
     accentColor: "gray",
@@ -204,16 +204,14 @@ const Facilities: React.FC = () => {
             </span>
             <br />
             <span className="inline-block bg-linear-to-r from-slate-900 via-black to-slate-900 bg-clip-text text-transparent font-light">
-              Facilities
+              Services
             </span>
           </h2>
 
           <div className="w-32 h-0.5 bg-linear-to-r from-slate-800 via-amber-900 to-slate-800 mx-auto mb-12" />
 
           <p className="text-lg md:text-xl text-gray-800 font-light leading-relaxed max-w-2xl mx-auto">
-            Discover our world-class boarding facilities designed to provide a
-            warm, safe, and nurturing environment for academic and personal
-            growth.
+            Discover our world‑class programs designed to provide a supportive, inspiring, and results‑driven environment for entrepreneurial and personal growth.
           </p>
         </div>
 

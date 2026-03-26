@@ -568,7 +568,7 @@ const Gallery: React.FC = () => {
               Capturing Our
               <br />
               <span className="bg-linear-to-r from-amber-700 via-amber-800 to-amber-900 bg-clip-text text-transparent">
-                Educational Journey
+                Business Journey
               </span>
             </h1>
 

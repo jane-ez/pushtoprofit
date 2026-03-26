@@ -66,12 +66,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             <div className="relative overflow-hidden bg-black/50 backdrop-blur-sm border border-amber-500/20">
               <div className="aspect-4/3 relative overflow-hidden">
                 <Image
-  src={project.image}
-  alt={project.title}
-  width={800}   // set an appropriate width
-  height={600}  // set an appropriate height
-  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000 ease-out"
-/>
+                  src={project.image}
+                  alt={project.title}
+                  width={800} // set an appropriate width
+                  height={600} // set an appropriate height
+                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000 ease-out"
+                />
 
                 {/* Dynamic Overlay */}
                 <div
@@ -130,9 +130,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           <div className="space-y-6">
             {/* Category */}
             <div className="flex items-center space-x-3">
-              <div
-                className={`w-8 h-0.5 bg-linear-to-r ${project.gradient}`}
-              />
+              <div className={`w-8 h-0.5 bg-linear-to-r ${project.gradient}`} />
               <span className="text-xs font-medium text-amber-700 tracking-[0.2em] uppercase">
                 {project.category}
               </span>
@@ -153,9 +151,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             </p>
 
             {/* Divider */}
-            <div
-              className={`w-16 h-0.5 bg-linear-to-r ${project.gradient}`}
-            />
+            <div className={`w-16 h-0.5 bg-linear-to-r ${project.gradient}`} />
           </div>
 
           {/* Description */}
