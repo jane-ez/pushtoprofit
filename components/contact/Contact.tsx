@@ -140,10 +140,9 @@ const ContactPage = () => {
               </h1>
 
               <p className="text-lg md:text-xl text-gray-900 font-light leading-relaxed max-w-3xl mx-auto">
-                At Push To Profit, we&apos;re committed to providing
-                quality education and nurturing young minds. Get in touch with
-                us for admissions, inquiries, or to learn more about our
-                programs.
+                At Push To Profit, we&apos;re committed to empowering
+                untapped potential of small and medium sized business owners. Get in touch with
+                us to achieve sustainable success while maximizing profitability.
               </p>
 
               <div className="w-32 h-0.5 bg-linear-to-r from-amber-700 via-amber-800 to-amber-700 mx-auto" />
@@ -175,8 +174,8 @@ const ContactPage = () => {
                     Push To Profit Inquiry Form
                   </h3>
                   <p className="text-gray-700 font-light leading-relaxed">
-                    We&apos;re here to help with any questions about admissions,
-                    our academic programs, or general inquiries. Please fill out
+                    We&apos;re here to help with any questions about ourstrategies,
+                    our mentorship, or general inquiries. Please fill out
                     the form below and we&apos;ll get back to you promptly.
                   </p>
                 </div>
@@ -246,17 +245,15 @@ const ContactPage = () => {
                       required
                     >
                       <option value="">Select inquiry type</option>
-                      <option value="admissions">Admissions Inquiry</option>
-                      <option value="academic">Academic Programs</option>
-                      <option value="fees">School Fees & Payment</option>
-                      <option value="facilities">School Facilities</option>
+                      <option value="admissions">Mentorship Inquiry</option>
+                      <option value="facilities">Our Services</option>
                       <option value="general">General Information</option>
                       <option value="other">Other</option>
                     </select>
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <label className="text-sm font-medium text-gray-900">
                       Student Class/Level
@@ -292,10 +289,10 @@ const ContactPage = () => {
                       <option value="email">Email</option>
                       <option value="phone">Phone Call</option>
                       <option value="whatsapp">WhatsApp</option>
-                      <option value="visit">School Visit</option>
+                      <option value="visit">Office Visit</option>
                     </select>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="space-y-2">
                   <label className="text-sm font-medium text-gray-900 flex items-center space-x-2">
@@ -419,12 +416,11 @@ const ContactPage = () => {
               <div className="bg-linear-to-br from-amber-50/50 to-white p-8 rounded-sm border border-amber-100/50">
                 <div className="space-y-4">
                   <h3 className="text-xl font-medium text-gray-900">
-                    Ready to Join Our School Community?
+                    Ready to Join Our Community?
                   </h3>
                   <p className="text-gray-700 font-light leading-relaxed">
                     Discover quality business at Push To Profit.
-                    Schedule a visit or call us to learn more about our academic
-                    programs and admission process.
+                    Schedule a visit or call us to learn how successful entrepreneurs scale smarter.
                   </p>
                   <button className="group relative px-6 py-3 bg-transparent border border-amber-800/30 text-amber-800 font-light hover:border-amber-800 transition-all duration-500 overflow-hidden">
                     <div className="absolute inset-0 bg-amber-800 scale-x-0 group-hover:scale-x-100 transition-transform duration-700 ease-out origin-left"></div>

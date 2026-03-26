@@ -243,7 +243,7 @@ export default function Hero() {
                   }}
                 >
                   <span className="block mb-1 text-white/85">
-                    Shaping Tomorrow&apos;s Leaders Today!
+                    Building business owners for maximum profit.
                   </span>
                 </h2>
               </div>
@@ -263,8 +263,7 @@ export default function Hero() {
                     lineHeight: "1.5",
                   }}
                 >
-                  Excellence in education, character development, and academic
-                  achievement for every student
+                  Power Your Business - Without The Burnout
                 </p>
               </div>
             </div>
@@ -288,18 +287,6 @@ export default function Hero() {
                 </span>
               </button>
 
-              {/* <button
-                className="group w-fit flex px-4 py-4 border border-white/40 text-white/90 font-light text-sm hover:bg-white/5 hover:border-white/60 transition-all duration-300 active:scale-95 backdrop-blur-sm touch-manipulation justify-center"
-                style={{
-                  fontWeight: "300",
-                  letterSpacing: "0.05em",
-                  minHeight: "48px", // Better touch target
-                }}
-              >
-                <span className="relative z-10 uppercase tracking-wider">
-                  Discover Facilities
-                </span>
-              </button> */}
             </div>
           </div>
         </div>
@@ -352,7 +339,6 @@ export default function Hero() {
                 }}
               >
                 Building business owners for maximum profit.
-                {/* <span className="block mt-1 text-white/80">Great Value</span> */}
               </h2>
             </div>
 
@@ -371,8 +357,7 @@ export default function Hero() {
                   lineHeight: "1.6",
                 }}
               >
-                Excellence in education, character development, and academic
-                achievement for every student
+                Power Your Business - Without The Burnout
               </p>
             </div>
 

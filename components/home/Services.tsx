@@ -15,40 +15,39 @@ import Link from "next/link";
 
 const facilities = [
   {
-    title: "Academic Excellence",
+    title: "Business Excellence",
     description:
-      "Modern classrooms and library with 21st century learning tools",
+      "World-class training programs with modern tools for entrepreneurs",
     number: "01",
-    highlights: ["Smart Classrooms", "Digital Library", "Study Halls"],
+    highlights: ["Workshops", "Digital Resources", "Growth Frameworks"],
     icon: BookOpen,
     gradient: "from-amber-800 to-amber-700",
     accentColor: "amber-800",
   },
   {
-    title: "Science & Technology",
-    description:
-      "State-of-the-art laboratories fostering scientific innovation",
+    title: "Innovation & Technology",
+    description: "Cutting-edge solutions fostering entrepreneurial innovation",
     number: "02",
-    highlights: ["Physics Lab", "Chemistry Lab", "ICT Center"],
+    highlights: ["Tech Tools", "Automation Systems", "Digital Platforms"],
     icon: Microscope,
     gradient: "from-purple-800 to-purple-700",
     accentColor: "purple-800",
   },
   {
-    title: "Sports & Recreation",
-    description: "Comprehensive facilities promoting physical wellness",
+    title: "Networking & Collaboration",
+    description: "Dynamic opportunities to connect and grow together",
     number: "03",
-    highlights: ["Football Field", "Basketball Court", "Swimming Pool"],
+    highlights: ["Global Community", "Partnership Programs", "Peer Learning"],
     icon: Gamepad2,
     gradient: "from-green-800 to-green-700",
     accentColor: "green-800",
   },
   {
-    title: "Boarding & Wellness",
+    title: "Mentorship & Support",
     description:
-      "Comfortable residential facilities with full support services",
+      "Personalized guidance with full entrepreneurial support services",
     number: "04",
-    highlights: ["Dormitories", "Dining Hall", "Health Center"],
+    highlights: ["One-on-One Coaching", "Group Mentorship", "Growth Advisory"],
     icon: Home,
     gradient: "from-orange-800 to-orange-700",
     accentColor: "orange-800",
@@ -56,9 +55,9 @@ const facilities = [
 ];
 
 const stats = [
-  { value: "2017", label: "Established", icon: BookOpen },
-  { value: "4", label: "Main Areas", icon: Users },
-  { value: "100%", label: "Boarding", icon: Home },
+  { value: "2023", label: "Founded", icon: BookOpen },
+  { value: "4", label: "Core Services", icon: Users },
+  { value: "100%", label: "Entrepreneur Focused", icon: Home },
 ];
 
 // Animation variants
@@ -217,9 +216,8 @@ export default function MinimalFacilities() {
               </h2>
 
               <p className="text-lg lg:text-xl text-slate-800 font-light max-w-3xl mx-auto">
-                World-class learning environments designed to inspire excellence
-                and foster holistic development through our 21st-century
-                approach
+                World‑class entrepreneurial environments designed to inspire
+                growth and foster innovation through our modern approach.
               </p>
             </div>
 
@@ -230,8 +228,8 @@ export default function MinimalFacilities() {
             >
               <blockquote className="text-slate-700 italic text-center">
                 <span className="text-lg font-light">
-                  &quot;Scientia Pro Excellentiae et Ministerio&quot; -
-                  Knowledge for Excellence and Service
+                  &quot;Cognitio Pro Innovatione et Crescitu&quot; - Knowledge
+                  for Innovation and Growth
                 </span>
               </blockquote>
             </motion.div>
@@ -294,24 +292,27 @@ export default function MinimalFacilities() {
         >
           <div className="space-y-4">
             <h3 className="text-2xl lg:text-3xl font-light text-slate-900">
-              Experience Our Campus
+              Experience Our Impact
             </h3>
             <p className="text-slate-800 max-w-2xl mx-auto">
-              Discover how our world-class facilities support academic
-              excellence and character development in our students
+              Discover how our world-class programs and services empower
+              entrepreneurs with the skills, mentorship, and opportunities to
+              achieve sustainable business growth.
             </p>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <motion.button
-              className="group inline-flex items-center px-6 py-3 bg-linear-to-r from-amber-800 to-emerald-800 text-white font-medium rounded shadow-lg hover:shadow-xl transition-shadow duration-300"
-              whileHover={{ scale: 1.02, y: -1 }}
-              whileTap={{ scale: 0.98 }}
-              transition={{ duration: 0.2 }}
-            >
-              <span>View All Facilities</span>
-              <ArrowUpRight className="w-4 h-4 ml-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200" />
-            </motion.button>
+            <Link href="/services">
+              <motion.button
+                className="group inline-flex items-center px-6 py-3 bg-linear-to-r from-amber-800 to-emerald-800 text-white font-medium rounded shadow-lg hover:shadow-xl transition-shadow duration-300"
+                whileHover={{ scale: 1.02, y: -1 }}
+                whileTap={{ scale: 0.98 }}
+                transition={{ duration: 0.2 }}
+              >
+                <span>View All Services</span>
+                <ArrowUpRight className="w-4 h-4 ml-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200" />
+              </motion.button>
+            </Link>
 
             <motion.button
               className="group inline-flex items-center px-6 py-3 border border-slate-300 text-slate-700 font-medium rounded hover:border-slate-400 hover:bg-slate-50 transition-colors duration-300"
@@ -331,7 +332,7 @@ export default function MinimalFacilities() {
             viewport={{ once: true }}
             transition={{ delay: 0.4, duration: 0.4 }}
           >
-            Schedule a visit to experience our facilities firsthand
+            Schedule a visit to experience our services firsthand
           </motion.p>
         </motion.div>
       </div>
