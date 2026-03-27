@@ -174,8 +174,8 @@ export default function Hero() {
             scrollY={scrollY}
             mediaItems={[
               {
-                type: "image",
-                src: "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364278/IMG-20250401-WA0013_mopioy.jpg",
+                type: "video",
+                src: "https://res.cloudinary.com/dlfui2ojv/video/upload/v1774600748/Benefitsattendingbc_s84mwd.mp4",
                 alt: "sky2",
               },
             ]}
