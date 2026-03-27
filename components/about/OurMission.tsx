@@ -48,9 +48,8 @@ export default function VisionSection(): JSX.Element {
       title: "Our Vision",
       subtitle: "Maximizing Profitability",
       description:
-        "At Push to Profit, our vision is to discover, define and design the untapped potential of small and medium sized business owners...",
-      detail:
-        "Empowering them to grow, innovate, and achieve sustainable success while maximizing profitability.",
+        "At Push to Profit, our vision is to discover, define and design the untapped potential of small and medium sized business owners, empowering them to grow, innovate, and achieve sustainable success while maximizing profitability.",
+      detail: "",
       image:
         "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774283489/IMG-20250402-WA0071_smkirp.jpg",
       imageAlt: "At the 2025 conference",
@@ -60,9 +59,8 @@ export default function VisionSection(): JSX.Element {
       title: "Our Mission",
       subtitle: "Holistic Development",
       description:
-        "Our mission is to equip small and medium-sized business owners with the knowledge, skills, and confidence to compete on a global scale.",
-      detail:
-        "We achieve this through intensive training, personalized one-on-one mentorship, and dynamic group learning experiences, fostering a culture of professionalism, innovation, and growth.",
+        "Our mission is to equip small and medium-sized business owners with the knowledge, skills, and confidence to compete on a global scale. We achieve this through intensive training, personalized one-on-one mentorship, and dynamic group learning experiences, fostering a culture of professionalism, innovation, and growth.",
+      detail: "",
       image:
         "https://res.cloudinary.com/dlfui2ojv/image/upload/v1774364211/IMG-20250402-WA0077_snfwsq.jpg",
       imageAlt: "Our mission pics",
@@ -324,17 +322,19 @@ export default function VisionSection(): JSX.Element {
                   </p>
 
                   {/* Detail text */}
-                  <p
-                    className={`text-base text-gray-700 leading-relaxed font-light border-l-2 border-gray-200 pl-6 group-hover:border-amber-400 transition-all duration-300 delay-${
-                      1200 + index * 200
-                    } ${
-                      isVisible
-                        ? "opacity-100 translate-y-0"
-                        : "opacity-0 translate-y-6"
-                    }`}
-                  >
-                    {item.detail}
-                  </p>
+                  {item.detail ? (
+                    <p
+                      className={`text-base text-gray-700 leading-relaxed font-light border-l-2 border-gray-200 pl-6 group-hover:border-amber-400 transition-all duration-300 delay-${
+                        1200 + index * 200
+                      } ${
+                        isVisible
+                          ? "opacity-100 translate-y-0"
+                          : "opacity-0 translate-y-6"
+                      }`}
+                    >
+                      {item.detail}
+                    </p>
+                  ) : null}
 
                   {/* Educational highlights for specific cards */}
                   {item.id === "mission" && (
@@ -382,7 +382,7 @@ export default function VisionSection(): JSX.Element {
                       }`}
                     >
                       <h4 className="text-sm font-semibold text-amber-700 mb-2">
-                       What you'll get:
+                        What you'll get:
                       </h4>
                       <div className="text-sm text-gray-600 grid grid-cols-2 gap-2">
                         <span className="flex items-center space-x-2">
@@ -503,8 +503,8 @@ export default function VisionSection(): JSX.Element {
               Ready to Join Our Family?
             </h3>
             <p className="text-amber-200 mb-6 max-w-2xl mx-auto">
-              Experience world-class sustained and accelerated business and personal growth.
-              Contact us to learn more about the possibilities.
+              Experience world-class sustained and accelerated business and
+              personal growth. Contact us to learn more about the possibilities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-sm">
               <div className="flex items-center space-x-2">
